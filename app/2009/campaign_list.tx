@@ -1,0 +1,369 @@
+%%    WRAPPER 'sp/layout.tx' WITH extend = {
+%%        css_list => [ static_file('css/compile/event_' _ econf.event_id _ '.css') ],
+%%        js_list => [
+%%            static_file('js/dist/lib/core-js/core.min.js'),
+%%            static_file('js/dist/lib/swf/pex.min.js'),
+%%            static_file('js/dist/lib/swf/screener.min.js'),
+%%            static_file('js/dist/lib/jquery/jquery.min.js'),
+%%            static_file('js/lib/TweenMax.min.js'),
+%%            static_file('js/lib/ScrollToPlugin.min.js'),
+%%            ],
+%%    };
+
+
+<div id="pagetop" class="anniversary_7th">
+
+	<h1>
+		<figure class="anniversary_7th__logo">
+			<img class="anniversary_7th__logo__banner_curtain"
+				 src="/smart/kaito/event/2009/campaign_list/head_banner.png">
+
+			<div id="battle_swf_container">
+				<div class="barrier-effect-container">
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+
+			<img class="anniversary_7th__logo__icon_scroll" src="/smart/kaito/event/2009/campaign_list/icon-scroll.png">
+
+		</figure>
+	</h1>
+
+	<section>
+
+		<figure class="anniversary_7th__avatar">
+			<div class="anniversary_7th__avatar__bg-1"></div>
+			<div class="anniversary_7th__avatar__avatar-1"></div>
+		</figure>
+
+		<div class="anniversary_7th__message">
+			<p class="anniversary_7th__message__text">
+				怪盗のみなさま、いつも怪盗ロワイヤルで遊んで頂きありがとうございます。<br>
+			</p>
+			<button class="anniversary_7th__message__btn modal-open">もっと見る</button>
+		</div>
+
+		<figure class="anniversary_7th__avatar">
+			<div class="anniversary_7th__avatar__bg-2"></div>
+			<div class="anniversary_7th__avatar__avatar-2"></div>
+		</figure>
+
+		<div class="anniversary_7th__campaign">
+			<ul class="anniversary_7th__campaign__list">
+				<li>
+					<p class="anniversary_7th__campaign__date">9/30 - 10/31開催</p>
+					[% IF econf.is_open %]
+						[%- IF has_entried -%]
+							<a href="_kaito_event?ei=2009">
+						[% ELSE %]
+							<a href="_kaito_event_intro?ei=2009">
+						[% END %]
+					[% END %]
+					<figure class="anniversary_7th__campaign__banner[% IF !econf.is_open %] is-disabled[% END %]">
+						<img src="/smart/kaito/event/2009/campaign_list/banner-partner.jpg">
+					</figure>
+					[% IF econf.is_open %]</a>[% END %]
+				</li>
+
+				<li>
+					<p class="anniversary_7th__campaign__date">10/5 - 10/11開催</p>
+					[% IF econf.is_avatar_campaign_open %]<a href="http://sp.mbga.jp/ava_contents/gold_cpn/kaito161005.html">[% END %]
+					<figure class="anniversary_7th__campaign__banner[% IF !econf.is_avatar_campaign_open && !econf.is_avatar_campaign_closed %] is-disabled[% ELSIF econf.is_avatar_campaign_closed %] is-closed[% END %]">
+						<img src="/smart/kaito/event/2009/campaign_list/banner-avatar.jpg">
+					</figure>
+					[% IF econf.is_avatar_campaign_open %]</a>[% END %]
+				</li>
+ 
+				<li>
+					<p class="anniversary_7th__campaign__date">10/10 - 10/17開催</p>
+					[% IF econf.is_rose_campaign_open %]<a href="_kaito_event?ei=2008">[% END %]
+					<figure class="anniversary_7th__campaign__banner is-rose[% IF !econf.is_rose_campaign_open && !econf.is_rose_campaign_closed %] is-disabled[% ELSIF econf.is_rose_campaign_closed %] is-closed[% END %]">
+						<img src="/smart/kaito/event/2009/campaign_list/banner-rose.jpg">
+					</figure>
+					[% IF econf.is_rose_campaign_open %]</a>[% END %]
+				</li>
+			</ul>
+
+			<figure class="anniversary_7th__campaign__bg_1"></figure>
+			<figure class="anniversary_7th__campaign__bg_2"></figure>
+			<figure class="anniversary_7th__campaign__bg_3"></figure>
+
+		</div>
+
+		<figure class="anniversary_7th__avatar">
+			<div class="anniversary_7th__avatar__bg-3"></div>
+			<div class="anniversary_7th__avatar__avatar-3"></div>
+		</figure>
+
+		<div class="anniversary_7th__footer_nav">
+			<figure>
+				<img src="/smart/kaito/event/2009/campaign_list/icon-arrow.png">
+			</figure>
+		</div>
+
+	</section>
+</div>
+
+<div id="modal">
+	<div class="modal-inner">
+		<button class="btn-modal-close btn-modal-close-1"></button>
+		
+			<p>
+				怪盗のみなさま、いつも「怪盗ロワイヤル」をプレイ頂きありがとうございます。<br>
+				「怪盗ロワイヤル」のプロデューサーです。<br>
+				<br>
+				いよいよ、2016年10月7日に「怪盗ロワイヤル」は7周年を迎えます。
+				こうして7周年を迎えることができたのも、日々「怪盗ロワイヤル」をプレイしてくださっている怪盗のみなさまのおかげです。本当にありがとうございます！<br>
+				<br>
+				さて、2009年にフィーチャーフォン向けサービスとして配信を開始した「怪盗ロワイヤル」ですが、
+				ここまでの道のりは、どうしたらみなさまに楽しんで頂けるかと頭を悩ます日々の連続でした。<br>
+				<br>
+				遅くまでゲームのために議論するプランナーがいたり、
+				こだわりをもって、時間の限り何度も何度も作り直すデザイナーが居たり、いつでも緊急時に備えて待機するエンジニアが居たり、
+				時にはみなさまの反応が思い描いていたものと違うこともありましたが、
+				みなさまからいただく「楽しい」「面白い」という応援のおかけで、ここまで頑張ることができました。<br>
+				<br>
+				現在も変わらず「怪盗ロワイヤル」を提供し続けていられるのも、
+				ひとえに、「怪盗ロワイヤル」を愛し、プレイし続けてくださっているみなさまの、
+				熱いご支援があってのことと、強く強く感じております。
+				スタッフを代表し、心より感謝申し上げます。<br>
+				<br>
+				まだまだ未熟な運営ではございますが、
+				怪盗の皆様と共に、これからも最高に楽しい「怪盗ロワイヤル」をご提供できるよう、
+				運営一同、精一杯努めて参りたいと思います。<br>
+				<br>
+				引き続き「怪盗ロワイヤル」をどうぞ宜しくお願いいたします！<br>
+			</p>
+		
+		<button class="btn-modal-close btn-modal-close-2"></button>
+	</div>
+</div>
+
+<script>
+	(function () {
+
+		window.changeBodySize    = changeBodySize;
+		window.hideKaitoAvatar   = hideKaitoAvatar;
+		window.inViewport        = inViewport;
+		window.scrollBackGround  = scrollBackGround;
+		window.scrollPageTop     = scrollPageTop;
+		window.showKaitoAvatar   = showKaitoAvatar;
+		window.toggleKaitoAvatar = toggleKaitoAvatar;
+
+		return;
+
+		/**
+		 *
+		 * @param $elm
+		 * @param pos
+		 * @requrie TweenMax.js
+		 */
+		function scrollBackGround(pos) {
+
+			if (!inViewport($('.anniversary_7th__campaign'))) {
+				return;
+			}
+
+			TweenMax.to($('.anniversary_7th__campaign__bg_1'), 0.21, {
+				y   : "-" + (pos / 2).toString() + "px",
+				ease: Power0.easeNone,
+			});
+
+			TweenMax.to($('.anniversary_7th__campaign__bg_2'), 0.21, {
+				y   : "-" + (pos).toString() + "px",
+				ease: Power0.easeNone,
+			});
+
+			TweenMax.to($('.anniversary_7th__campaign__bg_3'), 0.21, {
+				y   : "-" + (pos * 4).toString() + "px",
+				ease: Power0.easeNone,
+			});
+		}
+
+		/**
+		 *
+		 * @param num
+		 * @requrie TweenMax.js
+		 */
+		function showKaitoAvatar(num) {
+			var $elm = $('.anniversary_7th__avatar__avatar-' + num);
+			if ("0" !== $elm.css('opacity')) {
+				return;
+			}
+
+			TweenMax.to($elm, 1, {opacity: 0.3});
+		}
+
+		/**
+		 * hide kaito avatar
+		 *
+		 * @param num
+		 * @requrie TweenMax.js
+		 */
+		function hideKaitoAvatar(num) {
+			var $elm = $('.anniversary_7th__avatar__avatar-' + num);
+			if ("0" === $elm.css('opacity')) {
+				return;
+			}
+			TweenMax.to($elm, 1, {opacity: 0});
+		}
+
+		/**
+		 *
+		 * @param num
+		 */
+		function toggleKaitoAvatar(num) {
+			var $elm = $('.anniversary_7th__avatar__avatar-' + num);
+			if (inViewport($elm, 50)) {
+				showKaitoAvatar(num);
+			} else {
+				hideKaitoAvatar(num);
+			}
+		}
+
+		/**
+		 *
+		 * @param jQueryElementObject
+		 */
+		function inViewport($elm, y) {
+			var
+					y            = y || 0,
+					elmTop       = $elm.offset().top + y,
+					elmBottom    = elmTop + $elm.height(),
+					windowHeight = $(window).height();
+
+			if (elmTop > window.scrollY + windowHeight) {
+				return false;
+			}
+
+			if (elmBottom < window.scrollY) {
+				return false;
+			}
+
+			return true;
+		}
+
+		/**
+		 * scroll to page top
+		 * @requrie TweenMax.js
+		 * @requrie ScrollToPlugin.js
+		 */
+		function scrollPageTop() {
+			var animeOption = {
+				scrollTo: {y: 0, x: 0}
+			};
+			TweenMax.to(window, 0.3, animeOption);
+		}
+
+		/**
+		 *
+		 */
+		function changeBodySize() {
+			var zoomNum              = (window.innerWidth || 320) / 320;
+			document.body.style.zoom = zoomNum;
+		}
+
+	}());
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var
+				swf,
+				pex;
+
+		setTimeout(function () {
+			swf = '/smart/kaito/swf/event/2009/anniversary_7th.swf';
+			pex = new Pex(swf, canvas, {enableTouch: false, transparent: true});
+		}, 0);
+	}, false);
+</script>
+<script>
+	(function () {
+
+		window.addEventListener('DOMContentLoaded', function (event) {
+			var
+					pos,
+					resizeTimer     = false,
+					zoomNum         = window.zoomNum || (window.innerWidth || 320) / 320,
+					scrollEventFlag = false;
+
+			// kaito header分画面をscroll
+			setTimeout(function () {
+				TweenMax.to(window, 1, {
+					scrollTo: {
+						x: 0, y: 85,
+					}
+				}, 1);
+			}, 0);
+
+			// flsh再生終了後 scroll iconを表示
+			setTimeout(function () {
+				TweenMax.to('.anniversary_7th__logo__icon_scroll', 1, {opacity: 1});
+			}, 23.5 * 1000);
+
+			// scroll event
+			$(window).on('scroll', function () {
+				scrollEventFlag = setTimeout(function () {
+					pos = window.scrollY;
+
+					if (!scrollEventFlag) {
+						return;
+					}
+
+					// 怪盗アバター表示切り替え2
+					toggleKaitoAvatar(1);
+					toggleKaitoAvatar(2);
+					toggleKaitoAvatar(3);
+
+					// campign list背景アニメーション
+					scrollBackGround(pos);
+
+				}, 200);
+			});
+
+			// resize event
+			$(window).on('resize', function () {
+				var
+						delay_ms = 1000 / 60 * 10;
+
+				if (resizeTimer !== false) {
+					clearTimeout(resizeTimer);
+				}
+
+				resizeTimer = setTimeout(changeBodySize, delay_ms);
+			});
+
+
+			$('.anniversary_7th__footer_nav').on('click tap', scrollPageTop);
+		});
+	}());
+</script>
+<script>
+	(function () {
+		window.addEventListener('DOMContentLoaded', function (event) {
+
+			$(".modal-open").on('click tap', function () {
+				current_scrollY = $(window).scrollTop();
+				$("#pagetop").css({
+					position: 'fixed',
+					width   : '100%',
+					top     : -1 * current_scrollY
+				});
+
+				$("#pagetop").append('<div id="modal-bg"></div>');
+				$("#modal, #modal-bg").fadeIn("fast");
+			});
+
+			$(".btn-modal-close").on('click tap', function () {
+				$("#pagetop").attr({style: ''});
+				$('html, body').prop({scrollTop: current_scrollY});
+
+				$("#modal, #modal-bg").fadeOut("fast", function () {
+					$('#modal-bg').remove();
+				});
+			});
+		});
+	}());
+</script>
+
+%% END;

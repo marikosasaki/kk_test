@@ -1,0 +1,277 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$test-2009-arrow-name: 'test_2009-arrow';
+$test-2009-arrow-x: 1200px;
+$test-2009-arrow-y: 58px;
+$test-2009-arrow-offset-x: -1200px;
+$test-2009-arrow-offset-y: -58px;
+$test-2009-arrow-width: 36px;
+$test-2009-arrow-height: 38px;
+$test-2009-arrow-total-width: 1240px;
+$test-2009-arrow-total-height: 464px;
+$test-2009-arrow-image: '/images/sprites/test_2009.png';
+$test-2009-arrow: (1200px, 58px, -1200px, -58px, 36px, 38px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-arrow', );
+$test-2009-bg-info-name: 'test_2009-bg_info';
+$test-2009-bg-info-x: 0px;
+$test-2009-bg-info-y: 134px;
+$test-2009-bg-info-offset-x: 0px;
+$test-2009-bg-info-offset-y: -134px;
+$test-2009-bg-info-width: 600px;
+$test-2009-bg-info-height: 128px;
+$test-2009-bg-info-total-width: 1240px;
+$test-2009-bg-info-total-height: 464px;
+$test-2009-bg-info-image: '/images/sprites/test_2009.png';
+$test-2009-bg-info: (0px, 134px, 0px, -134px, 600px, 128px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-bg_info', );
+$test-2009-img-gun-name: 'test_2009-img_gun';
+$test-2009-img-gun-x: 0px;
+$test-2009-img-gun-y: 262px;
+$test-2009-img-gun-offset-x: 0px;
+$test-2009-img-gun-offset-y: -262px;
+$test-2009-img-gun-width: 200px;
+$test-2009-img-gun-height: 202px;
+$test-2009-img-gun-total-width: 1240px;
+$test-2009-img-gun-total-height: 464px;
+$test-2009-img-gun-image: '/images/sprites/test_2009.png';
+$test-2009-img-gun: (0px, 262px, 0px, -262px, 200px, 202px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-img_gun', );
+$test-2009-label-daily-name: 'test_2009-label_daily';
+$test-2009-label-daily-x: 600px;
+$test-2009-label-daily-y: 420px;
+$test-2009-label-daily-offset-x: -600px;
+$test-2009-label-daily-offset-y: -420px;
+$test-2009-label-daily-width: 166px;
+$test-2009-label-daily-height: 40px;
+$test-2009-label-daily-total-width: 1240px;
+$test-2009-label-daily-total-height: 464px;
+$test-2009-label-daily-image: '/images/sprites/test_2009.png';
+$test-2009-label-daily: (600px, 420px, -600px, -420px, 166px, 40px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-label_daily', );
+$test-2009-label-daily-off-name: 'test_2009-label_daily_off';
+$test-2009-label-daily-off-x: 952px;
+$test-2009-label-daily-off-y: 328px;
+$test-2009-label-daily-off-offset-x: -952px;
+$test-2009-label-daily-off-offset-y: -328px;
+$test-2009-label-daily-off-width: 166px;
+$test-2009-label-daily-off-height: 40px;
+$test-2009-label-daily-off-total-width: 1240px;
+$test-2009-label-daily-off-total-height: 464px;
+$test-2009-label-daily-off-image: '/images/sprites/test_2009.png';
+$test-2009-label-daily-off: (952px, 328px, -952px, -328px, 166px, 40px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-label_daily_off', );
+$test-2009-label-extra-name: 'test_2009-label_extra';
+$test-2009-label-extra-x: 1066px;
+$test-2009-label-extra-y: 224px;
+$test-2009-label-extra-offset-x: -1066px;
+$test-2009-label-extra-offset-y: -224px;
+$test-2009-label-extra-width: 166px;
+$test-2009-label-extra-height: 40px;
+$test-2009-label-extra-total-width: 1240px;
+$test-2009-label-extra-total-height: 464px;
+$test-2009-label-extra-image: '/images/sprites/test_2009.png';
+$test-2009-label-extra: (1066px, 224px, -1066px, -224px, 166px, 40px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-label_extra', );
+$test-2009-label-extra-off-name: 'test_2009-label_extra_off';
+$test-2009-label-extra-off-x: 900px;
+$test-2009-label-extra-off-y: 224px;
+$test-2009-label-extra-off-offset-x: -900px;
+$test-2009-label-extra-off-offset-y: -224px;
+$test-2009-label-extra-off-width: 166px;
+$test-2009-label-extra-off-height: 40px;
+$test-2009-label-extra-off-total-width: 1240px;
+$test-2009-label-extra-off-total-height: 464px;
+$test-2009-label-extra-off-image: '/images/sprites/test_2009.png';
+$test-2009-label-extra-off: (900px, 224px, -900px, -224px, 166px, 40px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-label_extra_off', );
+$test-2009-logo-01-name: 'test_2009-logo_01';
+$test-2009-logo-01-x: 900px;
+$test-2009-logo-01-y: 58px;
+$test-2009-logo-01-offset-x: -900px;
+$test-2009-logo-01-offset-y: -58px;
+$test-2009-logo-01-width: 300px;
+$test-2009-logo-01-height: 108px;
+$test-2009-logo-01-total-width: 1240px;
+$test-2009-logo-01-total-height: 464px;
+$test-2009-logo-01-image: '/images/sprites/test_2009.png';
+$test-2009-logo-01: (900px, 58px, -900px, -58px, 300px, 108px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-logo_01', );
+$test-2009-logo-02-name: 'test_2009-logo_02';
+$test-2009-logo-02-x: 600px;
+$test-2009-logo-02-y: 166px;
+$test-2009-logo-02-offset-x: -600px;
+$test-2009-logo-02-offset-y: -166px;
+$test-2009-logo-02-width: 300px;
+$test-2009-logo-02-height: 108px;
+$test-2009-logo-02-total-width: 1240px;
+$test-2009-logo-02-total-height: 464px;
+$test-2009-logo-02-image: '/images/sprites/test_2009.png';
+$test-2009-logo-02: (600px, 166px, -600px, -166px, 300px, 108px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-logo_02', );
+$test-2009-logo-03-name: 'test_2009-logo_03';
+$test-2009-logo-03-x: 600px;
+$test-2009-logo-03-y: 58px;
+$test-2009-logo-03-offset-x: -600px;
+$test-2009-logo-03-offset-y: -58px;
+$test-2009-logo-03-width: 300px;
+$test-2009-logo-03-height: 108px;
+$test-2009-logo-03-total-width: 1240px;
+$test-2009-logo-03-total-height: 464px;
+$test-2009-logo-03-image: '/images/sprites/test_2009.png';
+$test-2009-logo-03: (600px, 58px, -600px, -58px, 300px, 108px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-logo_03', );
+$test-2009-medal-name: 'test_2009-medal';
+$test-2009-medal-x: 1118px;
+$test-2009-medal-y: 166px;
+$test-2009-medal-offset-x: -1118px;
+$test-2009-medal-offset-y: -166px;
+$test-2009-medal-width: 50px;
+$test-2009-medal-height: 42px;
+$test-2009-medal-total-width: 1240px;
+$test-2009-medal-total-height: 464px;
+$test-2009-medal-image: '/images/sprites/test_2009.png';
+$test-2009-medal: (1118px, 166px, -1118px, -166px, 50px, 42px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-medal', );
+$test-2009-mission-end-name: 'test_2009-mission_end';
+$test-2009-mission-end-x: 0px;
+$test-2009-mission-end-y: 0px;
+$test-2009-mission-end-offset-x: 0px;
+$test-2009-mission-end-offset-y: 0px;
+$test-2009-mission-end-width: 600px;
+$test-2009-mission-end-height: 134px;
+$test-2009-mission-end-total-width: 1240px;
+$test-2009-mission-end-total-height: 464px;
+$test-2009-mission-end-image: '/images/sprites/test_2009.png';
+$test-2009-mission-end: (0px, 0px, 0px, 0px, 600px, 134px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-mission_end', );
+$test-2009-reward-img-off-name: 'test_2009-reward-img-off';
+$test-2009-reward-img-off-x: 600px;
+$test-2009-reward-img-off-y: 328px;
+$test-2009-reward-img-off-offset-x: -600px;
+$test-2009-reward-img-off-offset-y: -328px;
+$test-2009-reward-img-off-width: 112px;
+$test-2009-reward-img-off-height: 92px;
+$test-2009-reward-img-off-total-width: 1240px;
+$test-2009-reward-img-off-total-height: 464px;
+$test-2009-reward-img-off-image: '/images/sprites/test_2009.png';
+$test-2009-reward-img-off: (600px, 328px, -600px, -328px, 112px, 92px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-reward-img-off', );
+$test-2009-reward-img-name: 'test_2009-reward-img';
+$test-2009-reward-img-x: 712px;
+$test-2009-reward-img-y: 328px;
+$test-2009-reward-img-offset-x: -712px;
+$test-2009-reward-img-offset-y: -328px;
+$test-2009-reward-img-width: 112px;
+$test-2009-reward-img-height: 92px;
+$test-2009-reward-img-total-width: 1240px;
+$test-2009-reward-img-total-height: 464px;
+$test-2009-reward-img-image: '/images/sprites/test_2009.png';
+$test-2009-reward-img: (712px, 328px, -712px, -328px, 112px, 92px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-reward-img', );
+$test-2009-title-big-name: 'test_2009-title_big';
+$test-2009-title-big-x: 600px;
+$test-2009-title-big-y: 0px;
+$test-2009-title-big-offset-x: -600px;
+$test-2009-title-big-offset-y: 0px;
+$test-2009-title-big-width: 640px;
+$test-2009-title-big-height: 58px;
+$test-2009-title-big-total-width: 1240px;
+$test-2009-title-big-total-height: 464px;
+$test-2009-title-big-image: '/images/sprites/test_2009.png';
+$test-2009-title-big: (600px, 0px, -600px, 0px, 640px, 58px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-title_big', );
+$test-2009-title-small-name: 'test_2009-title_small';
+$test-2009-title-small-x: 600px;
+$test-2009-title-small-y: 274px;
+$test-2009-title-small-offset-x: -600px;
+$test-2009-title-small-offset-y: -274px;
+$test-2009-title-small-width: 590px;
+$test-2009-title-small-height: 54px;
+$test-2009-title-small-total-width: 1240px;
+$test-2009-title-small-total-height: 464px;
+$test-2009-title-small-image: '/images/sprites/test_2009.png';
+$test-2009-title-small: (600px, 274px, -600px, -274px, 590px, 54px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-title_small', );
+$test-2009-txt-clear-name: 'test_2009-txt_clear';
+$test-2009-txt-clear-x: 824px;
+$test-2009-txt-clear-y: 328px;
+$test-2009-txt-clear-offset-x: -824px;
+$test-2009-txt-clear-offset-y: -328px;
+$test-2009-txt-clear-width: 128px;
+$test-2009-txt-clear-height: 58px;
+$test-2009-txt-clear-total-width: 1240px;
+$test-2009-txt-clear-total-height: 464px;
+$test-2009-txt-clear-image: '/images/sprites/test_2009.png';
+$test-2009-txt-clear: (824px, 328px, -824px, -328px, 128px, 58px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-txt_clear', );
+$test-2009-txt-complete-name: 'test_2009-txt_complete';
+$test-2009-txt-complete-x: 900px;
+$test-2009-txt-complete-y: 166px;
+$test-2009-txt-complete-offset-x: -900px;
+$test-2009-txt-complete-offset-y: -166px;
+$test-2009-txt-complete-width: 218px;
+$test-2009-txt-complete-height: 58px;
+$test-2009-txt-complete-total-width: 1240px;
+$test-2009-txt-complete-total-height: 464px;
+$test-2009-txt-complete-image: '/images/sprites/test_2009.png';
+$test-2009-txt-complete: (900px, 166px, -900px, -166px, 218px, 58px, 1240px, 464px, '/images/sprites/test_2009.png', 'test_2009-txt_complete', );
+$spritesheet-width: 1240px;
+$spritesheet-height: 464px;
+$spritesheet-image: '/images/sprites/test_2009.png';
+$spritesheet-sprites: ($test-2009-arrow, $test-2009-bg-info, $test-2009-img-gun, $test-2009-label-daily, $test-2009-label-daily-off, $test-2009-label-extra, $test-2009-label-extra-off, $test-2009-logo-01, $test-2009-logo-02, $test-2009-logo-03, $test-2009-medal, $test-2009-mission-end, $test-2009-reward-img-off, $test-2009-reward-img, $test-2009-title-big, $test-2009-title-small, $test-2009-txt-clear, $test-2009-txt-complete, );
+$spritesheet: (1240px, 464px, '/images/sprites/test_2009.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

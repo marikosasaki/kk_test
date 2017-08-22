@@ -1,0 +1,17 @@
+%%	WRAPPER 'sp/layout.tx' WITH extend = {
+%%		css_list => [ static_file('css/compile/event_' _ econf.event_id _ '.css') ],
+%%	};
+
+<div class="event-2009 help">
+	<h3 class="title-small">[% content.title | h2z %]</h3>
+
+	<div class="box mt10 ml10 mr10">
+		<img src="[% static_file('chara/jouhouya.png') %]" width="60" height="60" alt="情報屋">
+		<div class="flex ml10 line-height18">[% content.content | h2z | raw %]</div>
+	</div>
+	<div class="mt15">
+		[% INCLUDE 'sp/event/' _ econf.event_id _ '/inc/footer.inc' WITH page = 'help' %]
+	</div>
+</div>
+
+%% END;

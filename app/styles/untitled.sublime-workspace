@@ -1,0 +1,917 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"su",
+				"submit\t.submit()"
+			],
+			[
+				"todo",
+				"todoForm〔variable〕"
+			],
+			[
+				"te",
+				"test\tQUnit test"
+			],
+			[
+				"cre",
+				"createElement〔function〕"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"b",
+				"blink"
+			],
+			[
+				"acti",
+				"active_user"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"_",
+				"_snippet"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"ff",
+				"ffcccc"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"magi",
+				"margin-right"
+			],
+			[
+				"chance-",
+				"chance-gauge"
+			],
+			[
+				"mb",
+				"mb20"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ee",
+				"e5e5e5"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"EN",
+				"END"
+			],
+			[
+				"ston",
+				"stone_id_name"
+			],
+			[
+				"can_",
+				"can_challenge_next_hall"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"EL",
+				"ELSE"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"els",
+				"ELSE"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ff000",
+				"FF0000"
+			],
+			[
+				"stone",
+				"stone_piece"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"get",
+				"get_num"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"cha",
+				"chara2"
+			],
+			[
+				"al",
+				"align"
+			],
+			[
+				"belongin",
+				"belonging_to_top"
+			],
+			[
+				"botto",
+				"bottom"
+			],
+			[
+				"for",
+				"forward〔function〕"
+			],
+			[
+				"cu",
+				"cullent"
+			],
+			[
+				"cle",
+				"clearInterval〔function〕"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"prize",
+				"prize-list-container"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"r",
+				"repeat-x"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"A",
+				"auto"
+			],
+			[
+				"MA",
+				"margin"
+			],
+			[
+				"BO",
+				"border"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"new",
+				"newShape〔function〕"
+			],
+			[
+				"va",
+				"valid"
+			],
+			[
+				"ty",
+				"typeof"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"of",
+				"offset\t.offset()"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"inpu",
+				"input\tinput - checkbox"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"l",
+				"link\tlink - stylesheet"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "con",
+		"selected_items":
+		[
+			[
+				"con",
+				"ConvertJaZenHan: Convert to Hankaku in Selection"
+			],
+			[
+				"",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret\n",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"CSS",
+				"CSS3: Convert RGB Color To Hex"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: SCSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import Aurllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mariko.sasaki/web-starter-kit"
+	],
+	"file_history":
+	[
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/event_2009.scss",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/282/round_result.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/round_result.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/282/_snippet/top/banner_top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/282/top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/_snippet/top/banner_top.tx",
+		"/Users/mariko.sasaki/web-starter-kit/app/2009/inc/header.inc",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/2009/_top.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/2009/_common.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/index.html",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/2009/_campaign_list.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/2009/_index-before-mach.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/sprites/_2009.scss",
+		"/Users/mariko.sasaki/web-starter-kit/gulpfile.babel.js",
+		"/Users/mariko.sasaki/lab/testtest/testtest/src/index.html",
+		"/Users/mariko.sasaki/lab/testtest/testtest/src/app/app.module.ts",
+		"/Users/mariko.sasaki/lab/testtest/testtest/src/app/app.component.html",
+		"/Users/mariko.sasaki/lab/testtest/testtest/src/app/app.component.ts",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/282/_snippet/pre_top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/_snippet/pre_top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/entry_top.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/partials/event/brigade/_top.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/manifest.json",
+		"/Users/mariko.sasaki/web-starter-kit/app/manifest.webapp",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/_sprite_mixin.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/_base.scss",
+		"/Users/mariko.sasaki/web-starter-kit/app/2009/index.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/event_brigade.scss",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/2009/index.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/event/282/deck_confirm.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/282/deck_confirm.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/event/282/ja_sp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/dress_effect.scss",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_2.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_3.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_6.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_8.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_9.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/lot/ja_fp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/lot/ja.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/lot/ja_sp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/material_box/ja_fp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/material_box/ja_sp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/material_box/ja.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/mini_box/ja_fp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/mini_box/ja_sp.yaml",
+		"/Volumes/game-temp_hostname/git/sg-kaito/conf/kaito/locales/gacha/event/282/mini_box/ja.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/gacha/event/1251/lot/ja_fp.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/gacha/event/1251/lot/ja_sp.yaml",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/event_brigade.scss",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/partials/_sprite_mixin.scss",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/brigade/_top.scss",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/brigade/_sprite/_sprite-boss-info-btn-full-attack-prize.scss",
+		"/Users/mariko.sasaki/Desktop/frontend/test0417.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/base.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/top/bonus_battle.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/top/open.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/top.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/fan/condition.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/fan/index.html",
+		"/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1249/_intro.scss",
+		"/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1249/_prize.scss",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/prize.html",
+		"/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1249/_battle_matching.scss",
+		"/Volumes/game/git/sg-kaito/spa/dist/views/event/1249/prize.html",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/279/deck_confirm.tx",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/top/normal_battle.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/navi.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/parts/notice_text.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/ranking.html",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/barrier.html",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/1249/ja_sp.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/1249/ja.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/1249/ja_fp.yaml",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/guild_members.html",
+		"/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1249/_fan.scss",
+		"/Volumes/game/git/sg-kaito/spa/app/views/event/1249/fan/confirm.html",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/xslate/kaito/sp/user/_snippet/effect/motion_6.tx",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/dress_effect.scss",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/profile_event.scss",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/conf/kaito/locales/event/279/ja_sp.yaml",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/conf/kaito/locales/event/279/ja_fp.yaml",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/partials/event/279/_sprites.scss",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/partials/event/279/_common.scss",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/partials/event/279/_sprite/_sprite-common.scss",
+		"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/partials/skill/_common.scss",
+		"/Volumes/game/git/sg-kaito/dev/sass/partials/skill/_deck.scss",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/skill/deck/select.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/partials/skill/_deck.scss",
+		"/Volumes/game-temp_hostname-1/git/sg-kaito/dev/sass/skill.scss",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill/_snippet/slot.tx",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/sp/skill/_snippet/slot.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill/deck/select.tx",
+		"/Volumes/game-2/git/sg-kaito/xslate/kaito/fp/announcement/include/2017032702/footer.inc",
+		"/Volumes/game-2/git/sg-kaito/xslate/kaito/fp/inc/prize.inc",
+		"/Volumes/game-temp_hostname/git/sg-kaito/xslate/kaito/fp/event/1244/introduction/index.tx",
+		"/Users/mariko.sasaki/Downloads/6419352-77b4f2683dc3c49295bf46d690269027b978075d 2/Preferences.sublime-settings",
+		"/Users/mariko.sasaki/Desktop/frontend/todo.js",
+		"/Users/mariko.sasaki/Desktop/frontend/todo.html",
+		"/Users/mariko.sasaki/Desktop/npm-webpack-jquery-sass/src/scss/style.scss",
+		"/Volumes/game/xslate/kaito/fp/gacha/event/1158/global_box/index.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill/_snippet/skill_combination_modal.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/fp/skill/_snippet/slot.tx",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/partials/regular/guild_outrage/_rival_list.scss",
+		"/Volumes/game-1/git/sg-kaito/dev/sass/skill.scss",
+		"/Volumes/game-2/git/sg-kaito/dev/sass/partials/skill/_slot.scss",
+		"/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1231/_battle.scss",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/270/_snippet/treasure_shot_banner.tx",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/ja_sp.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/ja_fp.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/ja.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/270/ja.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/270/ja_sp.yaml",
+		"/Volumes/game/git/sg-kaito/conf/kaito/locales/event/270/ja_fp.yaml",
+		"/Volumes/game-1/git/sg-kaito/xslate/kaito/sp/inc/daily_prize.inc",
+		"/Volumes/game-1/git/sg-kaito/xslate/kaito/sp/inc/prize のコピー.inc",
+		"/Volumes/game-gwdev7251/git/sg-kaito/xslate/kaito/sp/skill/evolve/base_select.tx",
+		"/Volumes/game-gwdev7251/git/sg-kaito/xslate/kaito/fp/skill/evolve/base_select.tx",
+		"/Users/mariko.sasaki/Desktop/workshop-in-akiba/05-01/gulpfile.js",
+		"/Users/mariko.sasaki/Desktop/workshop-in-akiba/05-01/gulpfile_bk.js",
+		"/Users/mariko.sasaki/Desktop/workshop-in-akiba/05-01/app/css/style.css",
+		"/Users/mariko.sasaki/git/workshop-in-akiba/04-01/src/scss/style.scss",
+		"/Users/mariko.sasaki/git/workshop-in-akiba/04-01/app/css/style.css",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1319/guild/members.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1319/guild/members.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1128/_snippet/banner_area.tx",
+		"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1129/api/sub_template/parent_event_banner.inc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/mariko.sasaki/web-starter-kit/app/styles/partials/2009",
+			"/Volumes/game/git/sg-kaito/spa/app/views/event/1249",
+			"/Volumes/game/git/sg-kaito/spa/app/views/event/1249,/Volumes/game/git/sg-kaito/spa/app/styles/sass/partials/event/1249",
+			"/Volumes/game/git/sg-kaito/spa/app/views/event/1249",
+			"/Volumes/game-temp_hostname/git/sg-kaito/dev/sass/partials/skill",
+			"/Volumes/game/xslate/kaito/fp/gacha/event/1158",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/gacha/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha/event/1118/box",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha/event/1118/box",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha/event/1118/box",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1118",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1118",
+			"",
+			"*.txt",
+			"",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1307",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1307",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1307/index",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1307",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1307",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1112,/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1116",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1112",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1116",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1305",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1114",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1114/guild_battle",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1116",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/gacha/event/1305/box",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1305",
+			"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/1305,/Volumes/game-2/git/sg-kaito/dev/sass/partials/event/1305",
+			"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/1305",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1114/prize",
+			"",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill",
+			"",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill/enhance",
+			"/Volumes/game-gwdev5697/git/sg-kaito/xslate/kaito/sp/event/1303/_snippet",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1303",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1112",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1301/guild_battle",
+			"",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill/_snippet",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/,/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1301",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/skill",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/skill/_snippet",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/event/1301/guild_battle",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/skill",
+			"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/1103",
+			"/Volumes/game-1/git/sg-kaito/dev/sass/partials/event/1107",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1301",
+			"/Volumes/game/git/sg-kaito/dev/sass/partials/event/1301",
+			"",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/sp/event/1109",
+			"/Volumes/game/git/sg-kaito/xslate/kaito/fp/gacha/event/1109/box",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5e6d00",
+			"campaign_list",
+			"quest-list-area",
+			"readFile",
+			"fs",
+			"task",
+			"@include",
+			"$fellow",
+			".fellow",
+			"ng-click-active",
+			"notice",
+			"skill-memory-parts-bg",
+			">\n",
+			"prize-list-text",
+			"傘下",
+			"UJP",
+			"UNDER JAPAN",
+			"bg_condition",
+			"fan-condition",
+			"property-2",
+			"switch-mode-active",
+			"slot-area-wrap",
+			"[% IF can_equip_now && !selected %]",
+			"include",
+			"[% guri_for('kaito_gacha_evolve_confirm') %]",
+			"補充",
+			"data-mbgaui-modaltriggers",
+			"269",
+			"268",
+			"<p class=\"banner-bottom-story\">STORY[% gacha_info.opened_story_talk_num %]公開!</p>",
+			"Lv.MAX",
+			"LvMAX",
+			"MAX",
+			"10.8",
+			"※特効切れ後は、",
+			"evbtn-boss",
+			"position: absolute;",
+			"-webkit-box;",
+			"t-red_white",
+			"position",
+			"status_title_text",
+			"navi_chara",
+			"input_deco",
+			"head_ss_bg center",
+			"_snippet/slot.tx",
+			"normal",
+			"rarity",
+			"normal",
+			".destroyed",
+			"destroyed-wrap",
+			"battle-btn-bottom-container",
+			"stun_score",
+			"拠点",
+			"stun_score",
+			"intro-chara",
+			"gacha-title",
+			"ball",
+			"残数",
+			"stone-companyinfo_area",
+			"notification-link",
+			".rest_num .acquisition-status-list .skill-list .skill-list-inner .skill_icon_img img",
+			"<img src=\"[% static_file('event/' _ econf.event_id _ '/common/alert.gif') %]\" width=\"10px\" >",
+			"name",
+			"blink",
+			"sprite-chara-parts",
+			"btn-gacha",
+			"chara-parts",
+			"sprite",
+			"chara-parts",
+			"@for",
+			"for",
+			"//キャラ",
+			"intro-chara",
+			"rarity",
+			"rare2",
+			"\nrare02\n\n",
+			"\nrare01\n\n",
+			"est_num",
+			".skill_icon_img",
+			".rest_num",
+			"frame-target",
+			"parts",
+			"parts-",
+			"first-dd ",
+			"sprite-league",
+			".company",
+			"1116",
+			"comment",
+			"detail_wrap",
+			"own_team_guild",
+			"target_team_guild",
+			"own_team_guild",
+			"/a>",
+			"<a ",
+			"/a>",
+			"<a",
+			"adjust",
+			"er.get",
+			"er.get('class_name' , guild.grade + 1",
+			"<<<<<<< HEAD",
+			"for ",
+			"$",
+			"fight_remain_rate",
+			"user_skill.cost",
+			"hp",
+			"use_link_by_num",
+			"防御要員数",
+			"0121",
+			"battle-btn-container",
+			"include",
+			"assist-info-area",
+			"※",
+			"米",
+			"本日",
+			"本日ﾉﾁｰﾑ",
+			"本日の",
+			"guild.is_accept_assist",
+			"help",
+			"assist",
+			"help",
+			"fbtn-cheer",
+			"my_den_appear",
+			">\t",
+			"=\"\"></",
+			"battle-btn-bottom-container",
+			"destroyed",
+			"destroy-return-time-container",
+			"recovery-item-container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//@include",
+			"prize-container__text",
+			"UNDER WORLD",
+			"270",
+			"sprite",
+			"sprite-parts",
+			"1118",
+			"guild",
+			"target_guild",
+			"guild",
+			"1306",
+			"1307",
+			"1116",
+			"1115",
+			"1116",
+			"1305",
+			"1304",
+			"1305",
+			"1304",
+			"1305",
+			"1114",
+			"",
+			"1112",
+			"1301",
+			"1109",
+			"1107",
+			"1103",
+			"1101"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/mariko.sasaki/web-starter-kit"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 23.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.tx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

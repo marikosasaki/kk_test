@@ -1,0 +1,76 @@
+.event-2009 {
+
+	//ペア結成前ページ
+	&.index-befor-mach {
+		.segment {
+			//a用
+			.entry-comment-a {
+				@include text-shadow(#000 0 0 4px, #000 0 0 2px, #000 0 0 2px);
+				@include box-sizing(border-box);
+				font-weight: bold;
+				color: #ffff00;
+				width: 95%;
+				margin: 0 auto 10px;
+				padding: 5px;
+				font-size: 12px;
+				border-radius: 6px;
+				border: 1px solid #fff000;
+				box-shadow: 0 0 2px 2px #fff000;
+			}
+
+			//b用
+			.entry-comment-b {
+				@include text-shadow(#000 0 0 4px, #000 0 0 2px, #000 0 0 2px);
+
+				font-weight: bold;
+				width: 320px;
+				margin: 10px 0 10px;
+				background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+				color: #ffff00;
+				font-size: 14px;
+				line-height: 30px;
+				text-align: center;
+			}
+
+			.first-command-wrap {
+				.bg-first-command {
+					@include background(image-url('event/2009/first_order.png'));
+					@include background-size(260px auto);
+					@include hide-text;
+
+					width: 260px;
+					height: 139px;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+
+	//相棒選ぶ画面ライトユーザのみ
+	&.partner-list {
+		//3党派リスト
+		.user-list-wrap {
+			
+			h3 {
+				a {
+					display: block;
+					color: #ffffff;
+
+					strong {
+						color: #fff13e;
+						font-weight: bold;
+					}
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 10px;
+			}
+
+			ul {
+				margin-bottom: 0px;
+			}
+		}
+	}
+
+}

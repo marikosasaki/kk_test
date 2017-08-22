@@ -1,0 +1,48 @@
+%%	WRAPPER 'sp/layout.tx' WITH extend = {
+%%		css_list => [ static_file('css/compile/event_' _ econf.event_id _ '.css') ],
+%%	};
+
+<div class="event-2006">
+	<h2 class="title-sub" style="background-color: #870500;">エラー</h2>
+		
+	<div class="ml10 mr10 mt5">
+		[% SWITCH(exception) %]
+			[% CASE '404' %]
+				ページが見つかりません。<br />
+			[% CASE 'invalid_token' %]
+				不正なパラメータが使用されました。<br />
+			[% CASE 'is_closed' %]
+				イベント期間外です。<br />
+			[% CASE 'not_enough_mission_rank' %]
+				まずは見習いキャット以上になろう。<br />
+			[% CASE 'not_prize' %]
+				報酬が定義されていません。<br />
+			[% CASE 'has_received' %]
+				すでに報酬は受け取っています。<br />
+			[% CASE 'unable_to_match' %]
+				この怪盗と相棒を組むことができませんでした｡<br />
+				もう一度相棒選択ページから他の怪盗を選んでください｡<br />
+			[% CASE 'black_list_user' %]
+				この怪盗と相棒を組むことができませんでした。<br />
+				別の怪盗と相棒を組んでください。<br />
+			[% CASE DEFAULT %]
+				何らかの問題が発生しました。<br />
+				キャンペーンページに戻ってください。<br />
+		[% END %]
+	</div>
+
+	[% IF econf.is_open %]
+		<ul class="list-information footer-link mt15">
+			<li><a href="[% euri_for('event') %]" data-mbgaui-anchors="">[% er.get('title') %] TOP</a></li> 
+		</ul>
+	[% END %]
+
+	%% IF const.TEST
+		<div>
+			DEBUG:<br />
+			file: [% __FILE__ %]<br />
+			exception: [% exception %]<br />
+		</div>
+	%% END;
+</div>
+%% END;

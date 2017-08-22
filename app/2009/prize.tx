@@ -1,0 +1,33 @@
+%%	WRAPPER 'sp/layout.tx' WITH extend = {
+%%		css_list => [ static_file('css/compile/event_' _ econf.event_id _ '.css') ],
+%%	};
+
+<div class="event-2009 prize">
+	<h2 class="title-small mb5">
+		[% er.get('title') %]報酬一覧
+	</h2>
+
+	[% IF prize_list %]
+		<p class="prize-comment">
+			[% er.get('title') %]にて二人の獲得ptの合計に応じて獲得できます。
+		</p>
+
+		<div class="prize-conteiner">
+			[% FOREACH prize IN prize_list %]
+				%% prize_id = prize.id;
+				<h3 class="prize-title">[% need_point_map.$prize_id %]pt</h3>
+				[% FOREACH content IN prize.contents %]
+					<div class="box ml10 mr10">[% INCLUDE 'sp/inc/prize.inc' WITH prize = prize content = content %]</div>
+				[% END %]
+			[% END %]
+		</div>
+	[% ELSE %]
+		<div class="prize-conteiner">
+			すべての報酬を獲得済みです。
+		</div>	
+	[% END %]	
+
+	[% INCLUDE 'sp/event/' _ econf.event_id _ '/inc/footer.inc' WITH page ='prize' %]
+
+</div>	
+[% END %]

@@ -1,0 +1,255 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$2009-arrow-name: '2009-arrow';
+$2009-arrow-x: 1880px;
+$2009-arrow-y: 604px;
+$2009-arrow-offset-x: -1880px;
+$2009-arrow-offset-y: -604px;
+$2009-arrow-width: 36px;
+$2009-arrow-height: 38px;
+$2009-arrow-total-width: 1920px;
+$2009-arrow-total-height: 1252px;
+$2009-arrow-image: '/images/sprites/2009.png';
+$2009-arrow: (1880px, 604px, -1880px, -604px, 36px, 38px, 1920px, 1252px, '/images/sprites/2009.png', '2009-arrow', );
+$2009-arrow-left-name: '2009-arrow_left';
+$2009-arrow-left-x: 1818px;
+$2009-arrow-left-y: 444px;
+$2009-arrow-left-offset-x: -1818px;
+$2009-arrow-left-offset-y: -444px;
+$2009-arrow-left-width: 74px;
+$2009-arrow-left-height: 72px;
+$2009-arrow-left-total-width: 1920px;
+$2009-arrow-left-total-height: 1252px;
+$2009-arrow-left-image: '/images/sprites/2009.png';
+$2009-arrow-left: (1818px, 444px, -1818px, -444px, 74px, 72px, 1920px, 1252px, '/images/sprites/2009.png', '2009-arrow_left', );
+$2009-arrow-right-name: '2009-arrow_right';
+$2009-arrow-right-x: 1818px;
+$2009-arrow-right-y: 516px;
+$2009-arrow-right-offset-x: -1818px;
+$2009-arrow-right-offset-y: -516px;
+$2009-arrow-right-width: 74px;
+$2009-arrow-right-height: 72px;
+$2009-arrow-right-total-width: 1920px;
+$2009-arrow-right-total-height: 1252px;
+$2009-arrow-right-image: '/images/sprites/2009.png';
+$2009-arrow-right: (1818px, 516px, -1818px, -516px, 74px, 72px, 1920px, 1252px, '/images/sprites/2009.png', '2009-arrow_right', );
+$2009-bg-index-name: '2009-bg-index';
+$2009-bg-index-x: 640px;
+$2009-bg-index-y: 0px;
+$2009-bg-index-offset-x: -640px;
+$2009-bg-index-offset-y: 0px;
+$2009-bg-index-width: 640px;
+$2009-bg-index-height: 990px;
+$2009-bg-index-total-width: 1920px;
+$2009-bg-index-total-height: 1252px;
+$2009-bg-index-image: '/images/sprites/2009.png';
+$2009-bg-index: (640px, 0px, -640px, 0px, 640px, 990px, 1920px, 1252px, '/images/sprites/2009.png', '2009-bg-index', );
+$2009-bg-info-name: '2009-bg_info';
+$2009-bg-info-x: 1280px;
+$2009-bg-info-y: 604px;
+$2009-bg-info-offset-x: -1280px;
+$2009-bg-info-offset-y: -604px;
+$2009-bg-info-width: 600px;
+$2009-bg-info-height: 128px;
+$2009-bg-info-total-width: 1920px;
+$2009-bg-info-total-height: 1252px;
+$2009-bg-info-image: '/images/sprites/2009.png';
+$2009-bg-info: (1280px, 604px, -1280px, -604px, 600px, 128px, 1920px, 1252px, '/images/sprites/2009.png', '2009-bg_info', );
+$2009-btn-play-name: '2009-btn-play';
+$2009-btn-play-x: 1280px;
+$2009-btn-play-y: 732px;
+$2009-btn-play-offset-x: -1280px;
+$2009-btn-play-offset-y: -732px;
+$2009-btn-play-width: 448px;
+$2009-btn-play-height: 126px;
+$2009-btn-play-total-width: 1920px;
+$2009-btn-play-total-height: 1252px;
+$2009-btn-play-image: '/images/sprites/2009.png';
+$2009-btn-play: (1280px, 732px, -1280px, -732px, 448px, 126px, 1920px, 1252px, '/images/sprites/2009.png', '2009-btn-play', );
+$2009-btn-prize-name: '2009-btn-prize';
+$2009-btn-prize-x: 1280px;
+$2009-btn-prize-y: 444px;
+$2009-btn-prize-offset-x: -1280px;
+$2009-btn-prize-offset-y: -444px;
+$2009-btn-prize-width: 538px;
+$2009-btn-prize-height: 160px;
+$2009-btn-prize-total-width: 1920px;
+$2009-btn-prize-total-height: 1252px;
+$2009-btn-prize-image: '/images/sprites/2009.png';
+$2009-btn-prize: (1280px, 444px, -1280px, -444px, 538px, 160px, 1920px, 1252px, '/images/sprites/2009.png', '2009-btn-prize', );
+$2009-done-crown-g-name: '2009-done-crown-g';
+$2009-done-crown-g-x: 1786px;
+$2009-done-crown-g-y: 732px;
+$2009-done-crown-g-offset-x: -1786px;
+$2009-done-crown-g-offset-y: -732px;
+$2009-done-crown-g-width: 58px;
+$2009-done-crown-g-height: 56px;
+$2009-done-crown-g-total-width: 1920px;
+$2009-done-crown-g-total-height: 1252px;
+$2009-done-crown-g-image: '/images/sprites/2009.png';
+$2009-done-crown-g: (1786px, 732px, -1786px, -732px, 58px, 56px, 1920px, 1252px, '/images/sprites/2009.png', '2009-done-crown-g', );
+$2009-done-crown-s-name: '2009-done-crown-s';
+$2009-done-crown-s-x: 1844px;
+$2009-done-crown-s-y: 732px;
+$2009-done-crown-s-offset-x: -1844px;
+$2009-done-crown-s-offset-y: -732px;
+$2009-done-crown-s-width: 50px;
+$2009-done-crown-s-height: 50px;
+$2009-done-crown-s-total-width: 1920px;
+$2009-done-crown-s-total-height: 1252px;
+$2009-done-crown-s-image: '/images/sprites/2009.png';
+$2009-done-crown-s: (1844px, 732px, -1844px, -732px, 50px, 50px, 1920px, 1252px, '/images/sprites/2009.png', '2009-done-crown-s', );
+$2009-icon-crown-g-name: '2009-icon_crown_g';
+$2009-icon-crown-g-x: 1728px;
+$2009-icon-crown-g-y: 732px;
+$2009-icon-crown-g-offset-x: -1728px;
+$2009-icon-crown-g-offset-y: -732px;
+$2009-icon-crown-g-width: 58px;
+$2009-icon-crown-g-height: 56px;
+$2009-icon-crown-g-total-width: 1920px;
+$2009-icon-crown-g-total-height: 1252px;
+$2009-icon-crown-g-image: '/images/sprites/2009.png';
+$2009-icon-crown-g: (1728px, 732px, -1728px, -732px, 58px, 56px, 1920px, 1252px, '/images/sprites/2009.png', '2009-icon_crown_g', );
+$2009-icon-crown-s-name: '2009-icon_crown_s';
+$2009-icon-crown-s-x: 1728px;
+$2009-icon-crown-s-y: 788px;
+$2009-icon-crown-s-offset-x: -1728px;
+$2009-icon-crown-s-offset-y: -788px;
+$2009-icon-crown-s-width: 50px;
+$2009-icon-crown-s-height: 50px;
+$2009-icon-crown-s-total-width: 1920px;
+$2009-icon-crown-s-total-height: 1252px;
+$2009-icon-crown-s-image: '/images/sprites/2009.png';
+$2009-icon-crown-s: (1728px, 788px, -1728px, -788px, 50px, 50px, 1920px, 1252px, '/images/sprites/2009.png', '2009-icon_crown_s', );
+$2009-img-get-item-name: '2009-img-get-item';
+$2009-img-get-item-x: 1280px;
+$2009-img-get-item-y: 0px;
+$2009-img-get-item-offset-x: -1280px;
+$2009-img-get-item-offset-y: 0px;
+$2009-img-get-item-width: 640px;
+$2009-img-get-item-height: 444px;
+$2009-img-get-item-total-width: 1920px;
+$2009-img-get-item-total-height: 1252px;
+$2009-img-get-item-image: '/images/sprites/2009.png';
+$2009-img-get-item: (1280px, 0px, -1280px, 0px, 640px, 444px, 1920px, 1252px, '/images/sprites/2009.png', '2009-img-get-item', );
+$2009-img-intro-name: '2009-img-intro';
+$2009-img-intro-x: 0px;
+$2009-img-intro-y: 0px;
+$2009-img-intro-offset-x: 0px;
+$2009-img-intro-offset-y: 0px;
+$2009-img-intro-width: 640px;
+$2009-img-intro-height: 1050px;
+$2009-img-intro-total-width: 1920px;
+$2009-img-intro-total-height: 1252px;
+$2009-img-intro-image: '/images/sprites/2009.png';
+$2009-img-intro: (0px, 0px, 0px, 0px, 640px, 1050px, 1920px, 1252px, '/images/sprites/2009.png', '2009-img-intro', );
+$2009-img-gun-name: '2009-img_gun';
+$2009-img-gun-x: 0px;
+$2009-img-gun-y: 1050px;
+$2009-img-gun-offset-x: 0px;
+$2009-img-gun-offset-y: -1050px;
+$2009-img-gun-width: 200px;
+$2009-img-gun-height: 202px;
+$2009-img-gun-total-width: 1920px;
+$2009-img-gun-total-height: 1252px;
+$2009-img-gun-image: '/images/sprites/2009.png';
+$2009-img-gun: (0px, 1050px, 0px, -1050px, 200px, 202px, 1920px, 1252px, '/images/sprites/2009.png', '2009-img_gun', );
+$2009-title-big-name: '2009-title_big';
+$2009-title-big-x: 1280px;
+$2009-title-big-y: 858px;
+$2009-title-big-offset-x: -1280px;
+$2009-title-big-offset-y: -858px;
+$2009-title-big-width: 640px;
+$2009-title-big-height: 58px;
+$2009-title-big-total-width: 1920px;
+$2009-title-big-total-height: 1252px;
+$2009-title-big-image: '/images/sprites/2009.png';
+$2009-title-big: (1280px, 858px, -1280px, -858px, 640px, 58px, 1920px, 1252px, '/images/sprites/2009.png', '2009-title_big', );
+$2009-title-small-name: '2009-title_small';
+$2009-title-small-x: 1280px;
+$2009-title-small-y: 916px;
+$2009-title-small-offset-x: -1280px;
+$2009-title-small-offset-y: -916px;
+$2009-title-small-width: 590px;
+$2009-title-small-height: 54px;
+$2009-title-small-total-width: 1920px;
+$2009-title-small-total-height: 1252px;
+$2009-title-small-image: '/images/sprites/2009.png';
+$2009-title-small: (1280px, 916px, -1280px, -916px, 590px, 54px, 1920px, 1252px, '/images/sprites/2009.png', '2009-title_small', );
+$spritesheet-width: 1920px;
+$spritesheet-height: 1252px;
+$spritesheet-image: '/images/sprites/2009.png';
+$spritesheet-sprites: ($2009-arrow, $2009-arrow-left, $2009-arrow-right, $2009-bg-index, $2009-bg-info, $2009-btn-play, $2009-btn-prize, $2009-done-crown-g, $2009-done-crown-s, $2009-icon-crown-g, $2009-icon-crown-s, $2009-img-get-item, $2009-img-intro, $2009-img-gun, $2009-title-big, $2009-title-small, );
+$spritesheet: (1920px, 1252px, '/images/sprites/2009.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

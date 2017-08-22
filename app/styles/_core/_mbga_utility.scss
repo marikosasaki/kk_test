@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+$random: random(1000);
+$unique: unique_id();
+
+//blink animation
+@mixin anim-blink {
+	@keyframes anim-blink {
+		0% {opacity: 1;}
+		39% {opacity: 1}
+		40% {opacity: 0;}
+		60% {opacity: 0;}
+		61% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+}
+//position
+@mixin position($pos:relative, $top:"false", $left:"false", $right:"false", $bottom:"false", $z-index:"false", $index: "false") {
+	position: $pos;
+	@if $top 		!= "false" {top 	: $top};
+	@if $left 		!= "false" {left 	: $left};
+	@if $right 		!= "false" {right 	: $right};
+	@if $bottom 	!= "false" {bottom 	: $bottom};
+	@if $z-index 	!= "false" {z-index	: $z-index}
+		@else if $index != "false" {z-index	: $index}
+}
+
+//font-size
+@mixin font-size($size : "false") {
+	@if $size != "false" {font-size : $size/10 + rem}
+		@else {font-size: 100%};
+	letter-spacing: -0.001em;
+}
+
+//background-size
+@mixin background-size($width: null, $height: null) {
+	background-size: $width $height;
+}
+
+//replace text inside images
+@mixin replace-image($img, $width, $height){
+	padding-top: $height;
+	width: $width;
+	height: 0;
+	background : url(#{$img}) no-repeat;
+	@include background-size(100%);
+	overflow: hidden;
+	display: inline-block;
+}
+
+//background Closure Stylesheets minify measures;
+@mixin background($background-1, $background-2: false, $background-3: false, $background-4: false, $background-5: false, $background-6: false, $background-7: false, $background-8: false, $background-9: false, $background-10: false) {
+  $backgrounds: compact($background-1, $background-2, $background-3, $background-4, $background-5, $background-6, $background-7, $background-8, $background-9, $background-10);
+  $mult-bgs: -compass-list-size($backgrounds) > 1;
+  $add-pie-bg: prefixed(-pie, $backgrounds) or $mult-bgs;
+  @if $experimental-support-for-svg and prefixed(-svg, $backgrounds) {
+    /* @alternate */ background: -svg($backgrounds); }
+  @if $support-for-original-webkit-gradients and prefixed(-owg, $backgrounds) {
+    /* @alternate */ background: -owg($backgrounds); }
+  @if $experimental-support-for-webkit and prefixed(-webkit, $backgrounds) {
+    /* @alternate */ background: -webkit($backgrounds); }
+  @if $experimental-support-for-mozilla and prefixed(-moz, $backgrounds) {
+    /* @alternate */ background: -moz($backgrounds); }
+  @if $experimental-support-for-opera and prefixed(-o, $backgrounds) {
+    /* @alternate */ background: -o($backgrounds); }
+  @if $experimental-support-for-pie and $add-pie-bg {
+    /* @alternate */ -pie-background: -pie($backgrounds); }
+  /* @alternate */ background: $backgrounds; }

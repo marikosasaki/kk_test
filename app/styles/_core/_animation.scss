@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import "../vendor/bower_components/animatewithsass/properties";
+
+// direction    Whether an animation should play in reverse direction or in alternate cycles. Default normal
+
+$animation-directionDefault: normal !default;
+
+@mixin direction($animation-direction){
+  -webkit-animation-direction: $animation-direction;
+     -moz-animation-direction: $animation-direction;
+      -ms-animation-direction: $animation-direction;
+       -o-animation-direction: $animation-direction;
+          animation-direction: $animation-direction;
+}

@@ -1,0 +1,32 @@
+.event-2009 {
+	&.prize {
+		padding: 10px 0;
+
+		.prize-comment {
+			margin-bottom: 10px;
+			padding: 0 5px;
+			font-size: 11px;
+		}
+
+		.prize-conteiner {
+			margin-bottom: 10px;
+			padding: 10px 10px;
+			border-top: 1px solid #dec535;
+			border-bottom: 1px solid #dec535;
+			background-color: #000;
+
+			.prize-title {
+				background-image: linear-gradient(to right, rgba(#431010, 0) 0%, rgba(#431010, 1) 20%, rgba(#431010, 1) 80%, rgba(#431010, 0) 100%);
+				text-align: center;
+				margin-bottom: 5px;
+			}
+
+			.prize-box {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px 0;
+			}
+		}
+	}
+}

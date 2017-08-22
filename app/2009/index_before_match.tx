@@ -1,0 +1,40 @@
+%%	WRAPPER 'sp/layout.tx' WITH extend = {
+%%		css_list => [ static_file('css/compile/event_' _ econf.event_id _ '.css') ],
+%%	};
+
+
+	<div class="event-2009 index-befor-mach">
+
+		[% INCLUDE 'sp/event/' _ econf.event_id _ '/inc/header.inc' %]
+
+		[% IF user.is_senior_group #Aセグメント %]
+
+			<div class="segment">
+				<div class="entry-comment-a luster">
+					相棒として指名されるか、10/10 1:00になると相棒が組まれます。しばらくお待ちください。
+				</div>
+				[% INCLUDE 'sp/event/' _ econf.event_id _ '/inc/pre_top.inc' %]
+			</div>
+
+		[% ELSE %]
+			<div class="segment">
+				<div class="entry-comment-b">
+					参加登録を受け付けました。
+				</div>
+				[% IF user.is_junior_group && !user.is_matched %]
+					<div class="first-command-wrap">
+						<div class="bg-first-command">
+							まずは第一の指令「タッグを組め」に挑戦だ。
+						</div>
+						<a href="[% euri_for('event_partner_list') %]" class="btn-main sprite-common-pe mt10 mb15" data-mbgaui-anchors="">相棒を探す</a>
+					</div>
+				[% END %]			
+			</div>
+		[% END %]
+
+		[% INCLUDE 'sp/event/' _ econf.event_id _ '/inc/footer.inc' %]
+
+	</div>
+
+
+[% END %]
