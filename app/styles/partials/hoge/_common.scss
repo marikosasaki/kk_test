@@ -1,14 +1,16 @@
 body {
+
+	min-height: 5000px;
   //background: hsl(90, 10%, 14%);
 
 	header {
 		opacity: 0;
+		width: 100%;
+		position: fixed;
 		//
 		//position: fixed;
-
 		nav {
-			position: fixed;
-
+			
 		}
 	}  
 

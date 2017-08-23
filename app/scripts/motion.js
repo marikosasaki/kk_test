@@ -7,7 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
 			$("nav").css({
 			});
 
-			TweenMax.to('header', .5, {opacity: 1});
+			TweenMax.to('header', 1, {opacity: 1});
+		}
+		else if (value == 0) {
+
+			TweenMax.to('header', 1, {opacity: 0});
 		}
 
 		$('#scrollValue').text(value);
