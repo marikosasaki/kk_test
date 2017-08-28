@@ -5,6 +5,21 @@ body {
 		background-color: #f7f7f7;
 	}
 
+	a {
+		tap-highlight-color:rgba(0,0,0,0);
+		cursor:pointer;
+	}
+
+
+
+
+
+	.brand-logo {
+		a {
+
+		}
+	}
+
 	header {
 		opacity: 0;
 		width: 100%;
@@ -18,7 +33,30 @@ body {
 	//
 	.container--list__item {
 		position: relative;
-	}
+		overflow: hidden;
+
+		&.container--list__item:hover+span {
+			bottom: -36px;
+			opacity: 1;
+		}
+
+		.cover {
+			position: absolute;
+			bottom: -20px;
+			left: 0;
+			z-index: -1;
+			display: block;
+			width: inherit;
+			margin: 0;
+			padding: 0;
+			color: #444;
+			text-decoration: none;
+			text-align: center;
+			-webkit-transition: .3s ease-in-out;
+			transition: .3s ease-in-out;
+			opacity: 0;		
+		}
+	}	
 
 }
 
