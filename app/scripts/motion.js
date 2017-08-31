@@ -3,18 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
 		var value = $(this).scrollTop(); //スクロールの値を取得
 
 		if (value > 100) {
+			//$("nav").addClass('fade');
+			//console.log('hoge');	
 
-			//$("nav").css('visibility','visible');
-			console.log('hoge');	
-
-			//TweenMax.to('header', 1, {opacity: 1});
+			TweenMax.to('header', 1, {opacity: 1});
+			$("header").css('background-color','#fffde7');
 		}
+
+
 		else if (value == 0) {
 
 			//$("nav").css('visibility','hidden');	
-			console.log('hoge');	
+			//$("nav").removeClass('fade');
 
-			//TweenMax.to('header', 1, {opacity: 0});
+			TweenMax.to('header', 1, {opacity: 0});
 		}
 
 		$('#scrollValue').text(value);
