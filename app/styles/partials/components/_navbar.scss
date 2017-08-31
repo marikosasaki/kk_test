@@ -1,9 +1,21 @@
 nav {
+  @extend .z-depth-1;
+  color: $navbar-font-color;
+  //background-color: $primary-color;
+  width: 100%;
+  height: $t-mobile;
+  line-height: $navbar-line-height-mobile;
+  //visibility: hidden;
+
+  .brand-logo {
+    //@extend .z-depth-1
+  } 
+
   &.nav-extended {
     height: auto;
 
     .nav-wrapper {
-      min-height: $navbar-height-mobile;
+      min-height: $t-mobile;
       height: auto;
     }
 
@@ -13,13 +25,6 @@ nav {
     }
   }
 
-  color: $navbar-font-color;
-  @extend .z-depth-1;
-  background-color: $primary-color;
-  width: 100%;
-  height: $navbar-height-mobile;
-  line-height: $navbar-line-height-mobile;
-
   a { color: $navbar-font-color; }
 
   i,
@@ -27,7 +32,7 @@ nav {
   i.material-icons {
     display: block;
     font-size: 24px;
-    height: $navbar-height-mobile;
+    height: $t-mobile;
     line-height: $navbar-line-height-mobile;
   }
 
@@ -46,11 +51,11 @@ nav {
     float: left;
     position: relative;
     z-index: 1;
-    height: $navbar-height-mobile;
+    height: $t-mobile;
     margin: 0 18px;
 
     i {
-      height: $navbar-height-mobile;
+      height: $t-mobile;
       line-height: $navbar-line-height-mobile;
     }
   }
@@ -187,7 +192,7 @@ nav {
 // Fixed Navbar
 .navbar-fixed {
   position: relative;
-  height: $navbar-height-mobile;
+  height: $t-mobile;
   z-index: 997;
 
   nav {
@@ -196,13 +201,14 @@ nav {
 }
 @media #{$medium-and-up} {
   nav.nav-extended .nav-wrapper {
-    min-height: $navbar-height;
+    min-height: $t;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: $navbar-height;
+    height: $t;
     line-height: $navbar-line-height;
   }
   .navbar-fixed {
-    height: $navbar-height;
+    height: $t;
   }
 }
+

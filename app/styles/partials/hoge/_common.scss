@@ -5,15 +5,6 @@ body {
 		background-color: #f7f7f7;
 	}
 
-	a {
-		tap-highlight-color:rgba(0,0,0,0);
-		cursor:pointer;
-	}
-
-
-
-
-
 	.brand-logo {
 		a {
 
@@ -21,13 +12,9 @@ body {
 	}
 
 	header {
-		opacity: 0;
 		width: 100%;
 		position: fixed;
 		z-index: 10;
-		nav {
-			
-		}
 	}  
 
 	//
@@ -57,7 +44,15 @@ body {
 			opacity: 0;		
 		}
 	}	
+}
 
+.fade{
+	animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 

@@ -4,14 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		if (value > 100) {
 
-			$("nav").css({
-			});
+			//$("nav").css('visibility','visible');
+			console.log('hoge');	
 
-			TweenMax.to('header', 1, {opacity: 1});
+			//TweenMax.to('header', 1, {opacity: 1});
 		}
 		else if (value == 0) {
 
-			TweenMax.to('header', 1, {opacity: 0});
+			//$("nav").css('visibility','hidden');	
+			console.log('hoge');	
+
+			//TweenMax.to('header', 1, {opacity: 0});
 		}
 
 		$('#scrollValue').text(value);
