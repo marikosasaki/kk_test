@@ -5,17 +5,17 @@ body {
 		background-color: #f7f7f7;
 	}
 
-	.brand-logo {
-		a {
-
-		}
-	}
-
 	header {
 		width: 100%;
 		position: fixed;
 		z-index: 3;
-	}  
+	} 
+	
+	.container--flat {
+		padding: 30px 0;
+	}
+
+
 
 	//
 	.container--list__item {
