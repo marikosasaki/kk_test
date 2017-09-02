@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
 }
 
+.headline_Level2 {
+    letter-spacing: -0.03em;
+    text-align: center;
+    font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+}
+
 .heading_Level3 {
     text-align: left;
     margin: 0 0 23px 0;
@@ -56,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: $h1-fontsize; line-height: 110%; margin: 0 0 ($h1-fontsize / 3) 0; font-weight: bold;}
 h2 { font-size: $h2-fontsize; line-height: 110%; margin: 0 0 ($h2-fontsize / 3) 0; font-weight: bold;}
-h3 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0; font-weight: 500;}
+h3 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0; font-weight: bold;}
 h4 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
 h5 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
 h6 { font-size: $h6-fontsize; line-height: 110%; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0;}
