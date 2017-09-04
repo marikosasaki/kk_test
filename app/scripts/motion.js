@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			//console.log('hoge');	
 
 			TweenMax.to('header', 1, {opacity: 1});
-			$("header").css('background-color','#fffde7');
+			$("header").css('background-color','#ffffff');
 		}
 
 
