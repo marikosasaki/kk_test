@@ -28,8 +28,9 @@
 	<!-- Your styles -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="styles/animate.css">
-	<link rel="stylesheet" href="styles/hoge.css">
-	<link rel="stylesheet" href="styles/materialize.css">
+	<link rel="stylesheet" href="styles/fixed-positioning.css">
+	<link rel="stylesheet" href="/styles/hoge.css">
+	<link rel="stylesheet" href="/styles/materialize.css">
 	<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
 	<!--
 	<link rel="canonical" href="http://www.example.com/">
@@ -37,31 +38,25 @@
 </head>
 
 <body>
-	<article class="index">
+	<article class="company-index">
 		<header>
-			<nav class="">
+			<nav class="blue-grey lighten-5">
 				<div class="container">
 					<div class="nav-wrapper">
 						<a href="index.html" class="brand-logo left"><img src="/images/common/logo.gif" class="responsive-img" alt=""></a>
 
 						<ul class="right hide-on-small-only hide-on-med-only">
 							<li>
-								<a href="/company/index.html">会社概要</a>
+								会社概要
 							</li>
-							<li>
-								<a href="/company/index.html">サービス案内</a>
-							</li>							
 							<li>
 								<a href="/company/index.html">制作事例</a>
 							</li>
 							<li>
-								<a href="/company/index.html">採用情報</a>
-							</li>							
-							<li>
-								<a href="/company/index.html">アイプランニング</a>
+								<a href="/company/index.html">営業品目</a>
 							</li>
 							<li>
-								<a href="/company/index.html" class="btn yellow accent-3"><i class="Small material-icons left">email</i>お問合せ</a>
+								<a href="/company/index.html" class="btn yellow"><i class="Small material-icons left">email</i>お問合せ</a>
 							</li>																				
 						</ul>
 
@@ -86,10 +81,7 @@
 			</nav>
 		</header>
 
-		<div class="main parallax-container">
-			<div class="slide">
-				あああああ
-			</div>
+		<div class="parallax-container">
 			<div class="movie parallax">
 				<img src="/images/index/sample.jpg" alt="">
 <!-- 				<video id="Player" class="player" autoPlay>
@@ -98,80 +90,128 @@
 			</div>
 		</div>
 
-		<section class="effect bg-reration">
+		<section class="bg-reration">
 			<div class="container container--flat">
-				<h3 class="headline-gothic heading_Level3">
-					お知らせ
-				</h3>
-
-				<dl>
-					<dt>2017年11月30日</dt>
-					<dd>サイトのリニューアルをしました。</dd>
-				</dl>
-			</div>
-		</section>	
-
-		<section class="effect">
-			<div class="container container--list">
 				<h2 class="headline_Level1">
-					WORKS
-					<p class="heading_small">制作実績</p>
+					COMPANY
 				</h2>
-				<div class="row">
-
-    			    <div class="container--list__item col s6 m6 l4">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>
-    			    </div>
-
-				   <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>
-				    </div>
-				    <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                     
-				    </div> 
-                    <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                      
-                    </div> 
-                    <div class="container--list__item col s6 m6 l4">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                      
-                    </div> 
-				   <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                      
-				    </div> 
-				   <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                       
-				    </div>
-				    <div class="container--list__item col s6 m6 l2">
-                        <a href="" class="">
-	    			    	<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-                        </a>                      
-				    </div> 	    	    
+				<div class="lead center">
+					<strong>
+						当社は、アクシアル リテイリング株式会社（東証一部上場）のグループ会社として、チラシ等の商業印刷を主力とした印刷とデザイン、制作、企画、広告代理業を主な業務としております。<br>
+						お客様を第一とし、事業を通じて地域社会に貢献する企業を目指してまいります。<br>
+					</strong>
 				</div>
 			</div>
 		</section>
 
-		<section class="effect">
+		<section>
+			<div class="container">
+				<h3 class="headline_Level2">
+					会社概要
+				</h3>
+
+				<table>
+					<tr>
+						<th>商　　　号</th>
+						<td>高速印刷株式会社</td>
+					</tr>
+					<tr>
+						<th>事　業　所</th>
+						<td>本社･工場</td>
+					</tr>
+					<tr>
+						<th>事　業　所</th>
+						<td>本社･工場
+							〒940-0871　新潟県長岡市北陽1丁目53番地41<br>
+							TEL.0258-21-2350　FAX.0258-21-2351<br>
+							メディア事業部／アイプランニング<br>
+							TEL.0258-21-2842　FAX.0258-21-2847<br>
+							新潟営業部<br>
+							〒950-0973　新潟県新潟市中央区上近江4丁目2番20号 日生第2ビル3F<br>
+							TEL.025-280-9802　FAX.025-280-9803						
+						</td>
+					</tr>
+					<tr>
+						<th>設　　　立</th>
+						<td>昭和57年4月</td>
+					</tr>
+					<tr>
+						<th>資　本　金</th>
+						<td>1,400万円</td>
+					</tr>
+					<tr>
+						<th>従 業 員 数</th>
+						<td>43名（平成24年3月5日現在　役員・パートタイマーを含む）</td>
+					</tr>
+					<tr>
+						<th>事 業 内 容</th>
+						<td>印刷全般に関する業務<br>
+							各種広告代理店業務<br>
+							動画・ARに関する企画、制作業務<br>
+							LINE@販売代理店業務
+						</td>
+					</tr>
+					<tr>
+						<th>役　　　員</th>
+						<td>代表取締役社長　米山 秀彦
+						</td>
+					</tr>
+				</table>			
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h3 class="headline_Level2">
+					沿革
+				</h3>
+
+				<table>
+					<tr>
+						<th>商　　　号</th>
+						<td>高速印刷株式会社</td>
+					</tr>
+
+					<tr>
+						<th>設　　　立</th>
+						<td>昭和57年4月</td>
+					</tr>
+					<tr>
+						<th>資　本　金</th>
+						<td>1,400万円</td>
+					</tr>
+					<tr>
+						<th>従 業 員 数</th>
+						<td>43名（平成24年3月5日現在　役員・パートタイマーを含む）</td>
+					</tr>
+					<tr>
+						<th>事 業 内 容</th>
+						<td>印刷全般に関する業務<br>
+							各種広告代理店業務<br>
+							動画・ARに関する企画、制作業務<br>
+							LINE@販売代理店業務
+						</td>
+					</tr>
+					<tr>
+						<th>役　　　員</th>
+						<td>代表取締役社長　米山 秀彦
+						</td>
+					</tr>
+				</table>			
+			</div>
+		</section>
+
+
+
+
+		<section>
 			<div class="container">
 				<h2 class="headline_Level1">
 					SERVICE
 					<p class="heading_small">提供サービス</p>
 				</h2>
 				<div class="row">
-					<div class="col l3 s6">
+					<div class="col l4 s6">
 						<div class="card">
 							<div class="card-image">
 								<img src="/images/index/pexels-photo.jpg">
@@ -186,7 +226,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col l3 s6">
+					<div class="col l4 s6">
 						<div class="card">
 							<div class="card-image">
 								<img src="/images/index/pexels-photo.jpg">
@@ -201,7 +241,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col l3 s6">
+					<div class="col l4 s6">
 						<div class="card">
 							<div class="card-image">
 								<img src="/images/index/pexels-photo.jpg">
@@ -215,49 +255,10 @@
 								<a href="#">This is a link</a>
 							</div>
 						</div>
-					</div>
-					<div class="col l3 s6">
-						<div class="card">
-							<div class="card-image">
-								<img src="/images/index/pexels-photo.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>												
+					</div>							
 				</div>
 			</div>
 		</section>
-
-		<section class="bg-reration">
-			<div class="container container--flat">
-				<h2 class="headline_Level1">
-					CONTACT
-					<p class="heading_small">お問合わせ</p>
-				</h2>
-				<div class="row">
-					<div class="col l6 s12 center">
-						<dl>
-							<dt>お気軽にお問い合わせください。</dt>
-							<dd>各種お見積もり承ります。</dd>
-						</dl>
-						<a class="waves-effect waves-light btn-large yellow accent-3"><i class="material-icons left">cloud</i>お問い合わせはこちら</a>
-					</div>
-					<div class="col l6 s12 center">
-						<div>
-							<p>お電話でのお問い合わせ</p>
-							000-0000-0000(営業時間　10:00~20:00)
-						</div>
-					</div>																
-				</div>
-			</div>
-		</section>		
 
 
 
@@ -288,7 +289,7 @@
 
 		<p class="num">スクロールの値 | <span id="scrollValue">0</span></p>
 
-	    <footer class="page-footer blue-grey">
+	    <footer class="page-footer blue-grey lighten-5">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col l6 s12">
@@ -316,10 +317,10 @@
 	 </article>  
 	 
 
-	<script src="scripts/main.js"></script>
+	<script src="/scripts/main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="scripts/lib/TweenMax.min.js"></script>
-	<script src="scripts/motion.js"></script>
+	<script src="/scripts/lib/TweenMax.min.js"></script>
+	<script src="/scripts/motion.js"></script>
     <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
     </script>	
     <script type="text/javascript" src="scripts/lib/bin/materialize.min.js"></script>
