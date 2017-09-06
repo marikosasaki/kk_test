@@ -1,5 +1,5 @@
 body {
-	min-height: 5000px;
+	position: relative;
 
 	.bg-reration {
 		background-color: #f7f7f7;
@@ -7,6 +7,17 @@ body {
 
 	section{
 		margin-bottom: 50px;
+	}
+
+	//フェードインさせる
+	.effect {
+		h2,h3 {
+			transition: .8s;
+		}
+		div {
+			transition: .8s;
+			transition-delay: .8s;
+		}
 	}
 
 	header {
@@ -29,44 +40,16 @@ body {
 	}
 
 
-
-	//
 	.container--list__item {
 		position: relative;
 		overflow: hidden;
+	}
 
-		&.container--list__item:hover+span {
-			bottom: -36px;
-			opacity: 1;
-		}
+	.page-footer {
 
-		.cover {
-			position: absolute;
-			bottom: -20px;
-			left: 0;
-			z-index: -1;
-			display: block;
-			width: inherit;
-			margin: 0;
-			padding: 0;
-			color: #444;
-			text-decoration: none;
-			text-align: center;
-			-webkit-transition: .3s ease-in-out;
-			transition: .3s ease-in-out;
-			opacity: 0;		
-		}
 	}	
 }
 
-.fade{
-	animation: fadeIn 2s ease 0s 1 normal;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
 
 
 
