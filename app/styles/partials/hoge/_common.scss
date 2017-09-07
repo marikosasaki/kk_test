@@ -12,11 +12,12 @@ body {
 	//フェードインさせる
 	.effect {
 		h2,h3 {
-			transition: .8s;
+			transition: .5s;
 		}
+
 		div {
-			transition: .8s;
-			transition-delay: .8s;
+			transition: .5s;
+			transition-delay: .5s;
 		}
 	}
 
