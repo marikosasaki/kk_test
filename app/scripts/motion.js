@@ -4,11 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	$(".main").css("height", hsize + "px");	
 
-	$('.effect div, .effect i ,header').css("opacity","0");
+	$('.effect div, .effect i ,header ,.main-massage').css("opacity","0");
 
-	TweenMax.to('.slide', 1, {
-		x: 100,
-		y: 500,
+	TweenMax.to('.main-massage', 2, {
+		opacity: 1,
 	});
 
 	$(window).scroll(function() {
