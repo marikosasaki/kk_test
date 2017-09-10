@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	TweenMax.to('.main-massage', 2, {
 		opacity: 1,
+		y: -20
 	});
 
 	$(window).scroll(function() {

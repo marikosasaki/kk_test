@@ -28,7 +28,7 @@
 
   position: relative;
   overflow-x: auto;
-  overflow-y: hidden;
+  //overflow-y: hidden;
   height: 48px;
   width: 100%;
   background-color: $tabs-bg-color;
@@ -83,7 +83,7 @@
     display: flex;
 
     .tab {
-      flex-grow: 1;
+      //flex-grow: 1;
 
       a {
         padding: 0 12px;
