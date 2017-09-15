@@ -1,12 +1,13 @@
 body {
 	position: relative;
 
-	.bg-reration {
-		background-color: #f7f7f7;
-	}
-
 	section{
 		margin-bottom: 50px;
+		padding: 20px 0;
+	}
+
+	.bg-reration {
+		background-color: #f7f7f7;
 	}
 
 	.bottom-border {
@@ -61,7 +62,8 @@ body {
 			position: absolute;
 			overflow: hidden;
 			top: 0;
-			left: 0			
+			left: 0	;
+			display: block;		
 		}
 
 		img {
@@ -91,16 +93,16 @@ body {
 			text-align: center
 		}
 
-		a {
-			display: inline-block;
-			text-decoration: none;
-			padding: 7px 14px;
-			background: #000;
-			color: #fff;
-			font-family: Raleway, serif;
-			text-transform: uppercase;
-			box-shadow: 0 0 1px #000;
-		}
+		// a {
+		// 	display: inline-block;
+		// 	text-decoration: none;
+		// 	padding: 7px 14px;
+		// 	background: #000;
+		// 	color: #fff;
+		// 	font-family: Raleway, serif;
+		// 	text-transform: uppercase;
+		// 	box-shadow: 0 0 1px #000;
+		// }
 
 		a:hover{
 			box-shadow: 0 0 5px #000;
@@ -118,8 +120,9 @@ body {
 
 .view-first .mask {
   opacity: 0;
-  background-color: rgba(#deba29, 0.44);
+  background-color: rgba(#deba29, 0.7);
   transition: all 0.4s ease-in-out;
+  display: block;		
 }
 
 .view-first h5 {
