@@ -27,9 +27,9 @@
 	<meta name="theme-color" content="#2F3BA2">
 	<!-- Your styles -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="styles/animate.css">
-	<link rel="stylesheet" href="styles/materialize.css">
-	<link rel="stylesheet" href="styles/hoge.css">
+	<link rel="stylesheet" href="/styles/animate.css">
+	<link rel="stylesheet" href="/styles/materialize.css">
+	<link rel="stylesheet" href="/styles/hoge.css">
 	<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
 	<!--
 	<link rel="canonical" href="http://www.example.com/">
@@ -37,7 +37,7 @@
 </head>
 
 <body>
-	<article class="index">
+	<article class="work index">
 		<header>
 			<nav class="">
 				<div class="container">
@@ -55,11 +55,11 @@
 								<a href="/work/index.html">制作事例</a>
 							</li>
 							<li>
-								<a href="/company/index.html">アイプランニング</a>
-							</li>							
-							<li>
 								<a href="/company/index.html">採用情報</a>
 							</li>							
+							<li>
+								<a href="/company/index.html">アイプランニング</a>
+							</li>
 							<li>
 								<a href="/company/index.html" class="btn yellow accent-3"><i class="Small material-icons left">email</i>お問合せ</a>
 							</li>																				
@@ -87,9 +87,9 @@
 		</header>
 
 		<div class="main parallax-container">
-			<div class="main-massage ">
-				<h2 class="scroll_bg01">コミュニケーションで地域を創造する</h2>
-				<p class="sub-massage scroll_bg02">aaaaaaaaa</p>
+			<div class="main-massage">
+				<h2>制作事例のキャッチコピー</h2>
+				<p class="sub-massage">aaaaaaaaa</p>
 			</div>
 			<div class="movie parallax">
 				<img src="/images/index/sample.jpg" alt="">
@@ -101,23 +101,18 @@
 
 		<section class="effect">
 			<div class="container container--flat">
-				<h3 class="headline-gothic heading_Level3">
-					お知らせ
-				</h3>
-
-				<dl>
-					<dt>2017年11月30日</dt>
-					<dd>サイトのリニューアルをしました。</dd>
-				</dl>
-			</div>
-		</section>	
-
-		<section class="effect bg-reration">
-			<div class="container container--list">
 				<h2 class="headline_Level1">
 					WORKS
-					<p class="heading_small">制作事例</p>
+					<p class="heading_small">事例</p>
 				</h2>
+
+			<ul class="tabs row">
+				<li class="tab col s4 l3"><a class="active" href="#test1">Test 1</a></li>
+				<li class="tab col s4 l3"><a href="#test2">Test 2</a></li>
+				<li class="tab col s4 l3"><a href="#test4">Test 4</a></li>
+				<li class="tab col s4 l3"><a href="#test4">Test 4</a></li>
+			</ul>
+			<div id="test1" class="col s12">
 				<div class="row">
     			    <div class="col s6 m6 l3">
     			    	<div class="container--list__item view-first">
@@ -206,84 +201,77 @@
     			    </div>	    	    
 				</div>
 			</div>
-
-			<div class="col center btn-area">
-				<a href="" class="waves-effect waves-light btn-large yellow base center">SEE ALL WORKS</a>
-			</div>
-		</section>
-
-		<section class="effect">
-			<div class="container">
-				<h2 class="headline_Level1">
-					SERVICE
-					<p class="heading_small">提供サービス</p>
-				</h2>
+			<div id="test2" class="col s12">
 				<div class="row">
-					<div class="col l3 s6 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="/images/index/pexels-photo.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
-					<div class="col l3 s6 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="/images/index/pexels-photo.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
-					<div class="col l3 s6 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="/images/index/pexels-photo.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
-					<div class="col l3 s6 m6">
-						<div class="card">
-							<div class="card-image">
-								<img src="/images/index/pexels-photo.jpg">
-								<span class="card-title">Card Title</span>
-							</div>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-							<div class="card-action">
-								<a href="#">This is a link</a>
-							</div>
-						</div>
-					</div>
-				</div>
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<a href=""  class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <span class="info">もっと見る</span>
+    			    		</a>
+                       </div>
+    			    </div>
+
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<div class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <a href="" class="info">もっと見る</a>
+    			    		</div>
+                       </div>
+    			    </div>
+
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<div class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <a href="" class="info">もっと見る</a>
+    			    		</div>
+                       </div>
+    			    </div>
+
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<div class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <a href="" class="info">もっと見る</a>
+    			    		</div>
+                       </div>
+    			    </div>
+
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<div class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <a href="" class="info">もっと見る</a>
+    			    		</div>
+                       </div>
+    			    </div>
+
+    			    <div class="col s6 m6 l3">
+    			    	<div class="container--list__item view-first">
+    			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
+    			    		<div class="mask">
+    			    			<h5>作品タイトル</h5>
+    			    			<p>詳細詳ああああああああ</p>
+    			    			 <a href="" class="info">もっと見る</a>
+    			    		</div>
+                       </div>
+    			    </div>
+				 </div>
 			</div>
-			<div class="col center btn-area">
-				<a href="" class="waves-effect waves-light btn-large yellow base center">SEE ALL SERVICE</a>
-			</div>			
+			<div id="test3" class="col s12">Test 3</div>
+			<div id="test4" class="col s12">Test 4</div>
 		</section>
 
 		<section class="bg-reration">
@@ -309,26 +297,6 @@
 				</div>
 			</div>
 		</section>
-
-		<section class="">
-			<div class="container container--flat">
-				<div class="row">
-					<div class="col l4 m4 s12 center">
-						<a href=""></a>
-					</div>
-					<div class="col l4 m4 s12 center">
-						<a href=""></a>
-					</div>
-					<div class="col l4 m4 s12 center">
-						<a href=""></a>
-					</div>																					
-				</div>
-			</div>
-		</section>		
-
-
-
-	
 		<p class="num">スクロールの値 | <span id="scrollValue">0</span></p>
 
 	    <footer class="page-footer grey">
@@ -359,13 +327,13 @@
 	 </article>  
 	 
 
-	<script src="scripts/main.js"></script>
+	<script src="/scripts/main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="scripts/lib/TweenMax.min.js"></script>
-	<script src="scripts/motion.js"></script>
+	<script src="/scripts/lib/TweenMax.min.js"></script>
+	<script src="/scripts/motion.js"></script>
     <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
     </script>	
-    <script type="text/javascript" src="scripts/lib/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="/scripts/lib/bin/materialize.min.js"></script>
 
 <!-- 
 	<script src="scripts/lib/skrollr.js"></script>

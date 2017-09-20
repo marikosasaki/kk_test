@@ -1,4 +1,12 @@
 // shared styles
+
+.btn-area {
+  margin: 20px 0;
+  .btn {
+    width: 70%;
+  }
+}
+
 .btn,
 .btn-flat {
   border: $button-border;
