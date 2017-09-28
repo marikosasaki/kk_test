@@ -1,0 +1,11 @@
+[BASIC認証@kousoku]
+Crb4qaZCNRGh / mVJj8XpN5suM
+
+[高速印刷HP用ユーザー]
+kousoku / 8qppA98YCbuD
+
+[管理者]
+sysadmin / Ur3HbuE5p4Mb
+
+[root]
+34fXkJyK7aPL
