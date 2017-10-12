@@ -1,12 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 
 a {
   text-decoration: none;
 }
 
+body {
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 html{
   line-height: 1.5;
-  font-family: YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
-
 
   @media only screen and (min-width: 0) {
     font-size: 14px;
@@ -32,18 +37,18 @@ h1, h2, h3, h4, h5, h6 {
 .headline_Level1 {
     letter-spacing: -0.03em;
     text-align: center;
-    font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+    //font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
     margin-bottom: 30px;
 }
 
 .headline_Level2 {
     letter-spacing: -0.03em;
     text-align: center;
-    font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+    //font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .heading_Level3 {
-    text-align: left;
+    text-align: center;
     margin: 0 0 23px 0;
     padding: 0 0 8px 0;
     font-weight: normal;
