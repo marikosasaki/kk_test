@@ -1,0 +1,335 @@
+/* タブスライダー */
+.slider-wrapper{
+	position: relative;
+	width: 100%;
+	height: 42px;
+	overflow: hidden;
+}
+.slider{
+	display: block;
+	/*width: 200%;*/
+	width: 400%;
+	position: absolute;
+	z-index: 0;
+}
+.slider.tab01{
+	left: 0;
+}
+.slider.tab02{
+	left: -100%;
+}
+.slider.tab03{
+	left: -200%;
+}
+.slider.tab04{
+	left: -300%;
+}
+/*
+.slider.on{
+	left: 0;
+	-webkit-animation: anim-slide-on 0.7s;
+}
+.slider.off{
+	left: -100%;
+	-webkit-animation: anim-slide-off 0.7s;
+}
+*/
+.slider.next1{
+	left: 0;
+	-webkit-animation: anim-slide-next1 0.7s;
+}
+.slider.prev1{
+	left: -100%;
+	-webkit-animation: anim-slide-prev1 0.7s;
+}
+.slider.next2{
+	left: -100%;
+	-webkit-animation: anim-slide-next2 0.7s;
+}
+.slider.prev2{
+	left: -200%;
+	-webkit-animation: anim-slide-prev2 0.7s;
+}
+.slider.next3{
+	left: -200%;
+	-webkit-animation: anim-slide-next3 0.7s;
+}
+.slider.prev3{
+	left: -300%;
+	-webkit-animation: anim-slide-prev3 0.7s;
+}
+.slider.next4{
+	left: -300%;
+	-webkit-animation: anim-slide-next4 0.7s;
+}
+.slider.prev4{
+	left: -400%;
+	-webkit-animation: anim-slide-prev4 0.7s;
+}
+
+.unit {
+	/* width: 50%; */
+	width: 25%;
+	display: block;
+	float: left;
+}
+/*
+@-webkit-keyframes anim-slide-on {
+	0% {
+		left: -100%;
+	}
+	99.9%,to {
+		left: 0;
+	}
+}
+@-webkit-keyframes anim-slide-off {
+	0% {
+		left: 0;
+	}
+	99.9%,to {
+		left: -100%;
+	}
+}
+*/
+@-webkit-keyframes anim-slide-next1 {
+	0% {
+		left: -100%;
+	}
+	99.9%,to {
+		left: 0;
+	}
+}
+@-webkit-keyframes anim-slide-prev1 {
+	0% {
+		left: 0;
+	}
+	99.9%,to {
+		left: -100%;
+	}
+}
+@-webkit-keyframes anim-slide-next2 {
+	0% {
+		left: -200%;
+	}
+	99.9%,to {
+		left: -100%;
+	}
+}
+@-webkit-keyframes anim-slide-prev2 {
+	0% {
+		left: -100%;
+	}
+	99.9%,to {
+		left: -200%;
+	}
+}
+@-webkit-keyframes anim-slide-next3 {
+	0% {
+		left: -300%;
+	}
+	99.9%,to {
+		left: -200%;
+	}
+}
+@-webkit-keyframes anim-slide-prev3 {
+	0% {
+		left: -200%;
+	}
+	99.9%,to {
+		left: -300%;
+	}
+}
+@-webkit-keyframes anim-slide-next4 {
+	0% {
+		left: -400%;
+	}
+	99.9%,to {
+		left: -300%;
+	}
+}
+@-webkit-keyframes anim-slide-prev4 {
+	0% {
+		left: -300%;
+	}
+	99.9%,to {
+		left: -400%;
+	}
+}
+
+
+
+<div class="slider-wrapper">
+	<ul class="slider[% IF tab_type == 2 %] tab02[% ELSIF tab_type == 3 %] tab03[% ELSIF tab_type == 4 %] tab04[% ELSE %] tab01[% END %]" id="slider">
+		<li id="tab01" class="unit[% IF tab_type == 1 %] on[% ELSE %] off[% END %]">
+			<ul class="<!-- tab-second tab -->tab-green">
+				[% IF categ == 'all' || !categ %]
+				<li class="selected"><span>全て</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=all#content-top"><span>全て</span></a></li>
+				[% END %]
+				[% IF categ == 'crop' %]
+				<li class="selected"><span>作物</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=crop#content-top"><span>作物</span></a></li>
+				[% END %]
+				[% IF categ == 'stage' %]
+				<li class="selected"><span>牧場</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=stage#content-top"><span>牧場</span></a></li>
+				[% END %]
+				[% IF categ == 'dog' %]
+				<li class="selected"><span>番犬</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=dog#content-top"><span>番犬</span></a></li>
+				[% END %]
+			 	<li class="arrow-right enable" style="background-color: #47bc00;min-width:34px;margin-left:5px;margin-bottom:2px;">
+			 		<a href="javascript:void(0);" class="" id="tabnext" onClick="tab_slide('slider','tab01','tab02')"><span class="font-white" style="visibility: hidden;display:block">→</span></a>
+			 	</li>
+			</ul>
+		</li>
+		<li id="tab02" class="unit[% IF tab_type == 2 %] on[% ELSE %] off[% END %]">
+			<ul class="tab-green">
+				<li class="arrow-left enable" style="background-color: #47bc00;min-width:34px;margin-right:5px;margin-bottom:2px;">
+					<a href="javascript:void(0);" class="" id="tabprev" onClick="tab_slide('slider','tab01','tab02')"><span class="font-white" style="visibility: hidden;display:block">←</span></a>
+				</li>
+				[% IF categ == 'fence' %]
+				<li class="selected"><span>柵</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=fence#content-top"><span>柵</span></a></li>
+				[% END %]
+				[% IF categ == 'wallpaper' %]
+				<li class="selected"><span>背景</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=wallpaper#content-top"><span>背景</span></a></li>
+				[% END %]
+				[% IF categ == 'field' %]
+				<li class="selected"><span>ﾌｨｰﾙﾄﾞ</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=field#content-top"><span>ﾌｨｰﾙﾄﾞ</span></a></li>
+				[% END %]
+			 	<li class="arrow-right enable" style="background-color: #47bc00;min-width:34px;margin-left:5px;margin-bottom:2px;">
+			 		<a href="javascript:void(0);" class="" id="tabnext" onClick="tab_slide('slider','tab02','tab03')"><span class="font-white" style="visibility: hidden;display:block">→</span></a>
+			 	</li>
+			</ul>
+		</li>
+		<li id="tab03" class="unit[% IF tab_type == 3 %] on[% ELSE %] off[% END %]">
+			<ul class="tab-green">
+				<li class="arrow-left enable" style="background-color: #47bc00;min-width:34px;margin-right:5px;margin-bottom:2px;">
+					<a href="javascript:void(0);" class="" id="tabprev" onClick="tab_slide('slider','tab02','tab03')"><span class="font-white" style="visibility: hidden;display:block">←</span></a>
+				</li>
+				[% IF categ == 'clod' %]
+				<li class="selected"><span>畑</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=clod#content-top"><span>畑</span></a></li>
+				[% END %]
+				[% IF categ == 'my_change' %]
+				<li class="selected"><span>着せかえ</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=my_change#content-top"><span>着せかえ</span></a></li>
+				[% END %]
+				[% IF categ == 'stage_deco' %]
+				<li class="selected"><span>牧場ﾃﾞｺ</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=stage_deco#content-top"><span>牧場ﾃﾞｺ</span></a></li>
+				[% END %]
+				[% IF categ == 'cat_deco' %]
+				<li class="selected"><span>お手伝い</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=cat_deco#content-top"><span>お手伝い</span></a></li>
+				[% END %]
+			 	<li class="arrow-right enable" style="background-color: #47bc00;min-width:34px;margin-left:5px;margin-bottom:2px;">
+			 		<a href="javascript:void(0);" class="" id="tabnext" onClick="tab_slide('slider','tab03','tab04')"><span class="font-white" style="visibility: hidden;display:block">→</span></a>
+			 	</li>
+			</ul>
+		</li>
+		<li id="tab04" class="unit[% IF tab_type == 4 %] on[% ELSE %] off[% END %]">
+			<ul class="tab-green">
+				<li class="arrow-left enable" style="background-color: #47bc00;min-width:34px;margin-right:5px;margin-bottom:2px;">
+					<a href="javascript:void(0);" class="" id="tabprev" onClick="tab_slide('slider','tab03','tab04')"><span class="font-white" style="visibility: hidden;display:block">←</span></a>
+				</li>
+				[% IF categ == 'spray' %]
+				<li class="selected"><span>ｽﾌﾟﾚｰ</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=spray#content-top"><span>ｽﾌﾟﾚｰ</span></a></li>
+				[% END %]
+				[% IF categ == 'food' %]
+				<li class="selected"><span>食料</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=food#content-top"><span>食料</span></a></li>
+				[% END %]
+				[% IF categ == 'item' %]
+				<li class="selected"><span>道具</span></li>
+				[% ELSE %]
+				<li><a href="[% url_exc_tab_2_1 %]&categ=item#content-top"><span>道具</span></a></li>
+				[% END %]
+			</ul>
+		</li>
+	</ul>
+</div>
+[% #<!-- サブタブ --> %]
+[% IF categ == 'crop' %]
+	<ul class="<!-- tab-third tab -->tab-green">
+		[% IF !sub_categ || sub_categ == 'all' %]
+		<li class="selected"><span>全て</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=crop&sub_categ=all#content-top"><span>全て</span></a></li>
+		[% END %]
+		[% IF sub_categ == 'vegitable' %]
+		<li class="selected"><span>野菜</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=crop&sub_categ=vegitable#content-top"><span>野菜</span></a></li>
+		[% END %]
+		[% IF sub_categ == 'flower' %]
+		<li class="selected"><span>花</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=crop&sub_categ=flower#content-top"><span>花</span></a></li>
+		[% END %]
+	</ul>
+[% END %]
+[% IF categ == 'stage' %]
+	<ul class="<!-- tab-third tab -->tab-green">
+		[% IF !sub_categ || sub_categ == 'all' %]
+		<li class="selected"><span>全て</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=stage&sub_categ=all#content-top"><span>全て</span></a></li>
+		[% END %]
+		[% IF sub_categ == 'animal' %]
+		<li class="selected"><span>動物ﾍﾞｲﾋﾞｰ</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=stage&sub_categ=animal#content-top"><span>動物ﾍﾞｲﾋﾞｰ</span></a></li>
+		[% END %]
+		[% IF sub_categ == 'tree' %]
+		<li class="selected"><span>果樹の苗</span></li>
+		[% ELSE %]
+		<li><a href="[% url_exc_tab_2_1 %]&categ=stage&sub_categ=tree#content-top"><span>果樹の苗</span></a></li>
+		[% END %]
+	</ul>
+[% END %]
+[% #<!-- //サブタブ --> %]
+
+
+<script>
+function tab_slide(slider,tab_first,tab_second) {
+/*
+	var btn_tabprev = document.getElementById(tabprev);
+	var btn_tabnext = document.getElementById(tabnext);
+*/
+	var slider = document.getElementById(slider);
+	var tab_first = document.getElementById(tab_first);
+	var tab_second = document.getElementById(tab_second);
+
+	console.log(tab_first.id.slice(-1));
+	var teb_num = tab_first.id.slice(-1);
+
+	if (tab_first.className === 'unit off') {
+		slider.className = 'slider next'+teb_num;
+		tab_first.className = 'unit on'; 
+		tab_second.className = 'unit off';
+	} else {
+		slider.className = 'slider prev'+teb_num;
+		tab_first.className = 'unit off'; 
+		tab_second.className = 'unit on';
+	}
+}
+
+</script>
