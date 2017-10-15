@@ -16,22 +16,84 @@ body {
 		border-bottom: 1px solid #deba29;
 	}
 
+	//contact section
+
+	.contact-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-top: 30px;
+
+		.contact-list__item {
+			width: 48%;
+			height: 90px;
+			
+			text-align: center;
+
+			&.contact-mail {
+				border: 5px solid #deba29;
+			}
+			&.contact-phone {
+				border-bottom: 5px solid #deba29;
+			}
+
+			&:first-child {
+				margin: 0 4% 0 0;
+			}
+			.inner {
+				display: flex;
+				position: relative;
+				padding: 13px 10px;
+				color: #000000;
+				align-items: center;
+
+				p {
+					margin: 0;	
+					align-items: center;
+				}
+			}
+			a.inner {
+				&:hover {
+					background-color: #deba29;
+				}
+			}
+			.font-2 {
+				font-size: 2rem;
+				//margin-left: 10%;
+				width: 100%;
+				text-align: center;
+				display: block;
+				line-height: 1.5rem;
+			}
+			.font-1 {
+				font-size: 1rem;
+			}
+
+			i {
+				font-size: 4rem;
+				margin-left: 10px;
+			}
+
+		}
+	}
+
 	//フェードインさせる
 	.effect {
 		h2,h3 {
-			transition: .5s;
+			transition: .8s;
 		}
 
 		div {
-			transition: .5s;
-			transition-delay: .5s;
+			transition: .8s;
+			transition-delay: .8s;
 		}
 	}
 
 	header {
 		width: 100%;
 		position: fixed;
-		z-index: 3;
+		z-index: 10;
 	} 
 	
 	.container--flat,
@@ -46,6 +108,8 @@ body {
 	.info-table {
 		width: 70%;
 		margin: 0 auto;
+
+
 	}
 
 	.container--list__item {
@@ -176,8 +240,9 @@ body {
 	
 	//インデックスの画面
 	.main {
-
+	
 		.main-massage {
+			width: 80%;
 			text-align: center;
 			position: absolute;
 			top: 50%;

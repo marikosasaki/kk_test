@@ -89,12 +89,20 @@ gulp.task('free-space-copy', () =>
 // Compile and automatically prefix stylesheets
 gulp.task('styles', () => {
   const AUTOPREFIXER_BROWSERS = [
-    'ie >= 11',
-    'ff >= 30',
-    'chrome >= 34',
-    'safari >= 7',
-    'ios >= 7',
-    'android >= 4.4'
+    // 'ie >= 11',
+    // 'ff >= 30',
+    // 'chrome >= 34',
+    // 'safari >= 7',
+    // 'ios >= 7',
+    // 'android >= 4.4'
+      "ie >= 11",
+      "last 2 Edge versions",
+      "last 2 Firefox versions",
+      "last 2 Chrome versions",
+      "last 2 Safari versions",
+      "last 2 Opera versions",
+      "last 2 iOS versions",
+      "last 2 ChromeAndroid versions"
   ];
 
   // For best performance, don't add Sass partials to `gulp.src`
