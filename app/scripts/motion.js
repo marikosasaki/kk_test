@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	TweenMax.to('.main-massage', 2, {
 		opacity: 1,
-		y: -20
+		y: -100
 	});
 
 	$(window).scroll(function() {
@@ -37,16 +37,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			if (scroll > imgPos - windowHeight + windowHeight/5){
 				$("h2 ,.container",this).css("opacity","1" );
-				$("i",this).css({
-				 // "font-size": "100px",
-				 // "padding": "0 20px 40px"
-				});
+
 			} else {
 				$("h2 ,.container",this).css("opacity","0" );
-				$("i",this).css({
-				 // "font-size": "20px",
-				//  "padding": "20px"
-				});
 			}
 
 		});

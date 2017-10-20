@@ -248,6 +248,16 @@ video.responsive-video {
       transform: translate3d(0,0,0);
       transform: translateX(-50%);
     }
+
+    video {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate3d(0,0,0);
+      transform: translateX(-50%);
+    }    
   }
 }
 
