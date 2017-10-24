@@ -13,7 +13,7 @@
 
 .link-box {
 	display: block;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 
 	.img {
@@ -21,3 +21,23 @@
 		margin: 0 auto;
 	}
 }
+
+.list-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+
+	.list-item {
+		 width: 33.33%;
+		 text-align: center;
+		 margin-right: 5%;
+
+		 &:last-child {
+		 	margin-right: 0;
+		 }
+	}
+}
+
+

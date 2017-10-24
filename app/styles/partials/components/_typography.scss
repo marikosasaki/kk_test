@@ -18,11 +18,11 @@ html{
   }
 
   @media only screen and (min-width: $medium-screen) {
-    font-size: 14.5px;
+    font-size: 13px;
   }
 
   @media only screen and (min-width: $large-screen) {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   font-weight: normal;
@@ -37,14 +37,12 @@ h1, h2, h3, h4, h5, h6 {
 .headline_Level1 {
     letter-spacing: -0.03em;
     text-align: center;
-    //font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
     margin-bottom: 30px;
 }
 
 .headline_Level2 {
     letter-spacing: -0.03em;
     text-align: center;
-    //font-family: "ゴシックMB101 DB", "Gothic MB101 DemiBold", YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .heading_Level3 {
@@ -53,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 0 8px 0;
     font-weight: normal;
     color: #333333;
-    border-bottom: 2px solid color("yellow", "base");   
+    //border-bottom: 4px solid color("red", "darken-4");
+    border-bottom: 4px solid color("yellow", "base");   
 }
 
 .heading_small {
