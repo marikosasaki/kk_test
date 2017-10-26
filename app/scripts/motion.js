@@ -35,13 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
 			var scroll = $(window).scrollTop();
 			var windowHeight = $(window).height();
 
-			if (scroll > imgPos - windowHeight + windowHeight/5){
+			if (scroll > imgPos - windowHeight){
 				$("h2 ,.container",this).css("opacity","1" );
 
 			} else {
 				$("h2 ,.container",this).css("opacity","0" );
 			}
 
+			if (scroll > imgPos - windowHeight + windowHeight/4){
+				TweenMax.staggerTo(".box", 0.5, {rotation:360, x:100}, 0.5);
+			} else {
+				TweenMax.set(".box", {x:-100});
+			}			
 		});
 
 		$('#scrollValue').text(value);
