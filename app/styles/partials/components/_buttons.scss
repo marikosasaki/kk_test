@@ -291,6 +291,10 @@ button.btn-floating {
   i {
     font-size: $button-large-icon-font-size;
   }
+  &:hover {
+    color: $secondary-color;
+  }
+
 }
 
 // Block button

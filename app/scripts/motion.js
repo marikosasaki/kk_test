@@ -39,13 +39,13 @@ document.addEventListener('DOMContentLoaded', function() {
 				$("h2 ,.container",this).css("opacity","1" );
 
 			} else {
-				$("h2 ,.container",this).css("opacity","0" );
+				$("h2 ,.container ,.box",this).css("opacity","0" );
 			}
 
 			if (scroll > imgPos - windowHeight + windowHeight/4){
-				TweenMax.staggerTo(".box", 0.5, {rotation:360, x:100}, 0.5);
+				TweenMax.staggerTo(".box", 0.5, {opacity:1}, 0.2);
 			} else {
-				TweenMax.set(".box", {x:-100});
+				
 			}			
 		});
 

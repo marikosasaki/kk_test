@@ -1,3 +1,9 @@
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+} 
+
 body {
 	position: relative;
 
@@ -90,12 +96,6 @@ body {
 		}
 	}
 
-	header {
-		width: 100%;
-		position: fixed;
-		z-index: 10;
-	} 
-	
 	.container--flat,
 	.container--list{
 		padding: 40px 0;
