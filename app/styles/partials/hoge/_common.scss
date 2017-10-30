@@ -38,10 +38,10 @@ body {
 			text-align: center;
 
 			&.contact-mail {
-				border: 5px solid #deba29;
+				border: 5px solid #000000;
 			}
 			&.contact-phone {
-				border-bottom: 5px solid #deba29;
+				border-bottom: 5px solid #000000;
 			}
 
 			&:first-child {
@@ -61,7 +61,7 @@ body {
 			}
 			a.inner {
 				&:hover {
-					background-color: #deba29;
+					background-color: #000000;
 				}
 			}
 			.font-2 {
@@ -185,7 +185,7 @@ body {
 
 .view-first .mask {
   opacity: 0;
-  background-color: rgba(#deba29, 0.7);
+  background-color: rgba(#000000, .7);
   transition: all 0.4s ease-in-out;
   display: block;		
 }
