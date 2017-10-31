@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		y: -100
 	});
 
+
 	$(window).scroll(function() {
 
 		var value = $(this).scrollTop(); //スクロールの値を取得

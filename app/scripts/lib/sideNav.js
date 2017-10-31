@@ -84,7 +84,7 @@
           menu.on("click.itemclick", "a:not(.collapsible-header)", function(){
             if (!(window.innerWidth > 992 && menu.hasClass('fixed'))){
               removeMenu();
-            }
+            }            
           });
         }
 
@@ -179,7 +179,7 @@
               var oldWidth = $body.innerWidth();
               $body.css('overflow', 'hidden');
               $body.width(oldWidth);
-
+             
               // If overlay does not exist, create one and if it is clicked, close menu
               if ($overlay.length === 0) {
                 $overlay = $('<div id="sidenav-overlay"></div>');
@@ -375,6 +375,7 @@
             // Callback
             if (typeof(options.onOpen) === 'function') {
               options.onOpen.call(this, menu);
+
             }
           }
 
@@ -391,12 +392,16 @@
       $dragTarget.remove();
       $(this).off('click');
       $overlay.remove();
+      //$('header').removeClass('fixed');
+     
     },
     show : function() {
       this.trigger('click');
+      //$('header').removeClass('fixed');
     },
     hide : function() {
       $('#sidenav-overlay').trigger('click');
+      //$('header').appendClass('fixed');
     }
   };
 
