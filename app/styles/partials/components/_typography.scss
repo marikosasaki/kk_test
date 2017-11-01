@@ -14,7 +14,7 @@ html{
   line-height: 1.5;
 
   @media only screen and (min-width: 0) {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   @media only screen and (min-width: $medium-screen) {
@@ -37,12 +37,13 @@ h1, h2, h3, h4, h5, h6 {
 .headline_Level1 {
     letter-spacing: -0.03em;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
 }
 
 .headline_Level2 {
     letter-spacing: -0.03em;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 .heading_Level3 {

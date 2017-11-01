@@ -1,9 +1,10 @@
 header {
 	width: 100%;
 	z-index: 10;
+	position: fixed;
 
 	&.fixed {
-		position: fixed;
+		
 	}
 
 } 
@@ -11,7 +12,8 @@ header {
 body {
 	position: relative;
 
-	section{
+	section,
+	.section{
 		margin-bottom: 50px;
 		padding: 20px 0;
 	}
@@ -54,9 +56,11 @@ body {
 			.inner {
 				display: flex;
 				position: relative;
-				padding: 13px 10px;
+				//padding: 13px 10px;
 				color: #000000;
 				align-items: center;
+				height: 80px;
+				line-height: 80px;
 
 				p {
 					margin: 0;	
@@ -66,6 +70,7 @@ body {
 			a.inner {
 				&:hover {
 					background-color: #000000;
+					color: #d50000;
 				}
 			}
 			.font-2 {
@@ -102,11 +107,11 @@ body {
 
 	.container--flat,
 	.container--list{
-		padding: 40px 0;
+		padding: 6% 0;
 	}
 
 	.lead {
-		padding: 60px 0;
+		padding: 6% 0;
 	}
 
 	.info-table {
@@ -252,7 +257,6 @@ body {
 			transform: translate(-50%, -50%);
 			color: #fff;
 		}
-
 	}
 
 	//
