@@ -42,9 +42,9 @@
 			<nav class="">
 				<div class="container">
 					<div class="nav-wrapper">
-						<a href="index.html" class="brand-logo left"><img src="/images/common/kousoku.png" class="responsive-img" alt="" width="200px"></a>
+						<a href="index.html" class="brand-logo left"><img src="/images/common/kousoku.png" class="responsive-img" alt="" width="30%"></a>
 
-						<ul class="right hide-on-small-only hide-on-med-only">
+						<ul class="right hide-on-med-and-down">
 							<li>
 								<a href="/company/index.html">企業情報</a>
 							</li>
@@ -82,7 +82,7 @@
 								<a href="/company/index.html">採用情報</a>
 							</li>							
 							<li>
-								<a href="/company/index.html" class="btn black">お問い合わせ</a>
+								<a href="/company/index.html" class="waves-effect waves-light black base center btn">お問い合わせ</a>
 							</li>
 						</ul>
 						 <a href="#" data-activates="slide-out" class="button-collapse right menu-icon"><i class="material-icons">menu</i></a>
@@ -92,8 +92,8 @@
 		</header>
 
 		<div class="main parallax-container">
-			<div class="main-massage ">
-				<h2 class="scroll_bg01">コミュニケーションで地域を創造する</h2>
+			<div class="main-massage">
+				<h2>コミュニケーションで地域を創造する</h2>
 				<p class="">aaaaaaaaa</p>
 			</div>
 			<div class="movie parallax">
@@ -312,7 +312,7 @@
 				<div class="center">
 					<p>お気軽にお問い合わせください。各種お見積もり承ります。</p>
 				</div>
-				<ul class="contact-list">
+				<ul class="contact-list hide-on-small-only">
 					<li class="contact-list__item contact-mail">
 						<a class="inner waves-effect waves-light">
 							<i class="material-icons">mail</i>
@@ -327,6 +327,17 @@
 						</div>	
 					</li>																
 				</ul>
+
+				<div class="hide-on-med-and-up">
+					<div class="col center btn-area">
+						<a href="" class="waves-effect waves-light btn-large black base center">お問い合わせ</a>
+					</div>
+					<div class="contact-phone">
+						<i class="material-icons">phone</i>
+						<div class="font-2">000-0000-0000<br><span class="font-1">(営業時間　10:00~20:00)</span>	
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -397,8 +408,8 @@
 
     $(document).ready(function(){
       $('.parallax').parallax();
-
     });
+    
     $(".menu-icon").sideNav();
 
 

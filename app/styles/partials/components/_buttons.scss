@@ -21,6 +21,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+
 // Disabled shared style
 .btn.disabled,
 .btn-floating.disabled,
@@ -50,7 +51,8 @@
 .btn,
 .btn-floating,
 .btn-large,
-.btn-flat {
+.btn-flat 
+.btn-{
   font-size: $button-font-size;
   outline: 0;
 
@@ -287,7 +289,6 @@ button.btn-floating {
   @extend .btn;
   height: $button-large-height;
   line-height: $button-large-height;
-
   i {
     font-size: $button-large-icon-font-size;
   }
@@ -300,4 +301,16 @@ button.btn-floating {
 // Block button
 .btn-block {
   display: block;
+}
+
+.btn-main {
+  background-color: #ffffff;
+  color: #000000;
+  border: 5px solid #000000;
+
+  &:hover {
+    background-color: #000000;
+    color: #d50000;
+  }
+
 }

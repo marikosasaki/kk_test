@@ -36,62 +36,64 @@ body {
 		align-items: center;
 		width: 100%;
 		margin-top: 30px;
-
-		.contact-list__item {
-			width: 48%;
-			height: 90px;
-			
-			text-align: center;
-
-			&.contact-mail {
-				border: 5px solid #000000;
-			}
-			&.contact-phone {
-				border-bottom: 5px solid #000000;
-			}
-
-			&:first-child {
-				margin: 0 4% 0 0;
-			}
-			.inner {
-				display: flex;
-				position: relative;
-				//padding: 13px 10px;
-				color: #000000;
-				align-items: center;
-				height: 80px;
-				line-height: 80px;
-
-				p {
-					margin: 0;	
-					align-items: center;
-				}
-			}
-			a.inner {
-				&:hover {
-					background-color: #000000;
-					color: #d50000;
-				}
-			}
-			.font-2 {
-				font-size: 2rem;
-				//margin-left: 10%;
-				width: 100%;
-				text-align: center;
-				display: block;
-				line-height: 1.5rem;
-			}
-			.font-1 {
-				font-size: 1rem;
-			}
-
-			i {
-				font-size: 4rem;
-				margin-left: 10px;
-			}
-
-		}
 	}
+	.contact-list__item {
+		width: 48%;
+		height: 90px;
+		
+		text-align: center;
+
+		&.contact-mail {
+			border: 5px solid #000000;
+		}
+		&.contact-phone {
+			border-bottom: 5px solid #000000;
+		}
+
+		&:first-child {
+			margin: 0 4% 0 0;
+		}
+
+		a.inner {
+			&:hover {
+				background-color: #000000;
+				color: #d50000;
+			}
+		}
+		.font-2 {
+			font-size: 2rem;
+			//margin-left: 10%;
+			width: 100%;
+			text-align: center;
+			display: block;
+			line-height: 1.5rem;
+		}
+		.font-1 {
+			font-size: 1rem;
+		}
+
+		i {
+			font-size: 4rem;
+			margin-left: 10px;
+		}
+
+	}
+
+	.inner {
+		display: flex;
+		position: relative;
+		//padding: 13px 10px;
+		color: #000000;
+		align-items: center;
+		height: 80px;
+		line-height: 80px;
+
+		p {
+			margin: 0;	
+			align-items: center;
+		}
+	}	
+
 
 	//フェードインさせる
 	.effect {
@@ -249,6 +251,7 @@ body {
 	.main {
 	
 		.main-massage {
+			z-index: 2;
 			width: 80%;
 			text-align: center;
 			position: absolute;
