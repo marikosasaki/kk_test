@@ -38,49 +38,54 @@
 
 <body>
 	<article class="work index">
-		<header>
+		<header style="z-index:10;" class="fixed">
 			<nav class="">
 				<div class="container">
 					<div class="nav-wrapper">
-						<a href="index.html" class="brand-logo left"><img src="/images/common/logo.gif" class="responsive-img" alt=""></a>
+						<a href="index.html" class="brand-logo left"><img src="/images/common/kousoku.png" class="responsive-img" alt="" width="30%"></a>
 
-						<ul class="right hide-on-small-only hide-on-med-only">
+						<ul class="right hide-on-med-and-down">
 							<li>
 								<a href="/company/index.html">企業情報</a>
 							</li>
 							<li>
-								<a href="/company/index.html">サービス案内</a>
+								<a href="/service/index.html">サービス案内</a>
 							</li>							
 							<li>
 								<a href="/work/index.html">制作事例</a>
 							</li>
 							<li>
+								<a href="/company/index.html">アイプランニング</a>
+							</li>							
+							<li>
 								<a href="/company/index.html">採用情報</a>
 							</li>							
 							<li>
-								<a href="/company/index.html">アイプランニング</a>
-							</li>
-							<li>
-								<a href="/company/index.html" class="btn yellow accent-3"><i class="Small material-icons left">email</i>お問合せ</a>
+								<a href="/company/index.html" class="btn black">お問い合わせ</a>
 							</li>																				
 						</ul>
 
 						<ul id="slide-out" class="side-nav">
 							<li>
-								<div class="user-view">
-									<div class="background"><img src="images/office.jpg"></div>
-									<a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-									<a href="#!name"><span class="white-text name">John Doe</span></a>
-									<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-								</div>
+								<a href="/company/index.html">企業情報</a>
 							</li>
-							<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-							<li><a href="#!">Second Link</a></li>
-							<li><div class="divider"></div></li>
-							<li><a class="subheader">Subheader</a></li>
-							<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+							<li>
+								<a href="/service/index.html">サービス案内</a>
+							</li>							
+							<li>
+								<a href="/work/index.html">制作事例</a>
+							</li>
+							<li>
+								<a href="/company/index.html">アイプランニング</a>
+							</li>							
+							<li>
+								<a href="/company/index.html">採用情報</a>
+							</li>							
+							<li>
+								<a href="/company/index.html" class="waves-effect waves-light black base center btn">お問い合わせ</a>
+							</li>
 						</ul>
-						  <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons">menu</i></a>
+						 <a href="#" data-activates="slide-out" class="button-collapse right menu-icon"><i class="material-icons">menu</i></a>
 					</div>
 				</div>
 			</nav>
@@ -272,13 +277,11 @@
 				<h4>Modal Header</h4>
 				<p>あああああああああ</p>
 				<div class="row">
-					<div class="col s12 m12 l6">
-						<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-					</div>
-					<div class="col s12 m12 l6">
-						<img src="/images/index/pexels-photo.jpg" class="responsive-img col s12 m12 l6" alt="">
-						<img src="/images/index/pexels-photo.jpg" class="responsive-img col s12 m12 l6" alt="">
-					</div>
+					  <div class="carousel carousel-slider">
+					    <a class="carousel-item" href="#one!"><img src="/images/index/pexels-photo.jpg" alt=""></a>
+					    <a class="carousel-item" href="#two!"><img src="/images/index/pexels-photo.jpg" alt=""></a>
+					    <a class="carousel-item" href="#three!"><img src="/images/index/pexels-photo.jpg" class="responsive-img" alt=""></a>
+					  </div>
 				</div>
 			</div>
 			<div class="modal-footer">
@@ -292,28 +295,42 @@
 			<div class="container container--flat">
 				<h2 class="headline_Level1">
 					CONTACT
-					<p class="heading_small">お問合わせ</p>
+					<p class="heading_small">お問い合わせ</p>
 				</h2>
-				<div class="row">
-					<div class="col l6 s12 center">
-						
-						<p>お気軽にお問い合わせください。
-						各種お見積もり承ります。</p>
-						
-						<a class="waves-effect waves-light btn-large yellow base"><i class="material-icons left">mail</i>お問い合わせはこちら</a>
+				<div class="center">
+					<p>お気軽にお問い合わせください。各種お見積もり承ります。</p>
+				</div>
+				<ul class="contact-list hide-on-small-only">
+					<li class="contact-list__item contact-mail">
+						<a class="inner waves-effect waves-light">
+							<i class="material-icons">mail</i>
+							<span class="font-2">お問い合わせ</span>
+						</a>
+					</li>
+					<li class="contact-list__item contact-phone">
+						<div class="inner">
+							<i class="material-icons">phone</i>
+							<div class="font-2">000-0000-0000<br><span class="font-1">(営業時間　10:00~20:00)</span>	
+							</div>
+						</div>	
+					</li>																
+				</ul>
+
+				<div class="hide-on-med-and-up">
+					<div class="col center btn-area">
+						<a href="" class="waves-effect waves-light btn-large black base center">お問い合わせ</a>
 					</div>
-					<div class="col l6 s12 center">
-						<div>
-							<p>お電話でのお問い合わせ</p>
-							<p class="bottom-border">000-0000-0000(営業時間　10:00~20:00)</p>
+					<div class="contact-phone">
+						<i class="material-icons">phone</i>
+						<div class="font-2">000-0000-0000<br><span class="font-1">(営業時間　10:00~20:00)</span>	
 						</div>
-					</div>																
+					</div>
 				</div>
 			</div>
 		</section>
 		<p class="num">スクロールの値 | <span id="scrollValue">0</span></p>
 
-	    <footer class="page-footer grey">
+	    <footer class="page-footer black">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col l6 s12">
@@ -362,6 +379,11 @@
       $('.parallax').parallax();
 
     });
+
+    $(document).ready(function(){
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+    });
+
     $(".button-collapse").sideNav();
 
       $(document).ready(function(){
