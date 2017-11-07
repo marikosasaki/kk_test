@@ -64,6 +64,9 @@
   &.large {
     height: 500px;
   }
+  &.small {
+    height: 300px;
+  } 
 
   // Horizontal Cards
   &.horizontal {
@@ -100,6 +103,21 @@
         flex-grow: 1;
       }
     }
+  }
+  
+  &.card-style1 {
+    .card-image {
+      width: 50%;
+      img {
+        border-radius: 2px 0 0 2px;
+        max-width: 100%;
+      }
+    }
+    .card-content {
+      width: 50%;
+      flex: 1;
+    }
+
   }
 
   // Sticky Action Section
