@@ -4,13 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	$(".main").css("height", hsize + "px");	
 
-	$('.effect>.container, .effect i ,header ,.main-massage').css("opacity","0");
+	$('.effect>.container, .effect i ,header ,.massage-inner, .arrow-icon').css("opacity","0");
 
-	TweenMax.to('.main-massage', 2, {
+	TweenMax.to('.massage-inner', 2, {
 		opacity: 1,
 		y: -100
 	});
 
+	TweenMax.to('.arrow-icon', 3, {
+		opacity: 1,
+		y: 50
+	});
 
 	$(window).scroll(function() {
 
