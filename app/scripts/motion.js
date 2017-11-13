@@ -41,17 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			var windowHeight = $(window).height();
 
 			if (scroll > imgPos - windowHeight){
-				$("h2 ,.container",this).css("opacity","1" );
+				$("h2 ,.container, i",this).css("opacity","1" );
 
 			} else {
-				$("h2 ,.container ,.box",this).css("opacity","0" );
+				$("h2 ,.container i",this).css("opacity","0" );
 			}
 
-			if (scroll > imgPos - windowHeight + windowHeight/4){
-				TweenMax.staggerTo(".box", 0.5, {opacity:1}, 0.2);
-			} else {
-				
-			}			
 		});
 
 		$('#scrollValue').text(value);
