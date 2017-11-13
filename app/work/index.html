@@ -29,7 +29,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="/styles/animate.css">
 	<link rel="stylesheet" href="/styles/materialize.css">
-	<link rel="stylesheet" href="/styles/hoge.css">
+	<link rel="stylesheet" href="/styles/kousoku.css">
 	<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
 	<!--
 	<link rel="canonical" href="http://www.example.com/">
@@ -276,12 +276,15 @@
 			<div class="modal-content">
 				<h4>Modal Header</h4>
 				<p>あああああああああ</p>
-				<div class="row">
-					  <div class="carousel carousel-slider">
-					    <a class="carousel-item" href="#one!"><img src="/images/index/pexels-photo.jpg" alt=""></a>
-					    <a class="carousel-item" href="#two!"><img src="/images/index/pexels-photo.jpg" alt=""></a>
-					    <a class="carousel-item" href="#three!"><img src="/images/index/pexels-photo.jpg" class="responsive-img" alt=""></a>
-					  </div>
+				<div class="row image-container">
+					<div id="main" class="col s12 center">
+						<img src="/images/index/pexels-photo.jpg" width='70%' alt="">
+					</div>
+					<div id="navi" class="col s12 center">
+						<a class="carousel-item" href="/images/index/pexels-photo2.jpg"><img src="/images/index/pexels-photo2.jpg" width="25%" alt=""></a>
+						<a class="carousel-item" href="/images/index/sample-list.jpg"><img src="/images/index/sample-list.jpg" width="25%" alt=""></a>
+						<a class="carousel-item" href="/images/index/sample.jpg"><img src="/images/index/sample.jpg" width="25%" alt=""></a>
+					</div>
 				</div>
 			</div>
 			<div class="modal-footer">
@@ -328,7 +331,6 @@
 				</div>
 			</div>
 		</section>
-		<p class="num">スクロールの値 | <span id="scrollValue">0</span></p>
 
 	    <footer class="page-footer black">
 	      <div class="container">
@@ -362,13 +364,15 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="/scripts/lib/TweenMax.min.js"></script>
 	<script src="/scripts/motion.js"></script>
+	<script src="/scripts/modal-slider.js"></script>	
     <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
     </script>	
     <script type="text/javascript" src="/scripts/lib/bin/materialize.min.js"></script>
 
 <!-- 
 	<script src="scripts/lib/skrollr.js"></script>
-	<script src="scripts/motion.js"></script>	
+	<script src="scripts/motion.js"></script>
+	<script src="scripts/modal-slider.js"></script>	
 	<script src="scripts/lib/TweenMax.min.js"></script>
 	<script src="scripts/lib/ScrollToPlugin.min.js"></script>
  -->
