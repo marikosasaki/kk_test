@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 
 		else if (value == 0) {
-
 			TweenMax.to('header', 1, {opacity: 0});
 		}
 

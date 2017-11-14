@@ -11,6 +11,28 @@
 	text-align: center;
 }
 
+//ニュースページ固有
+.news-wrap {
+	padding-top: 10%;
+}
+
+.news-list {
+	width: 80%;
+	margin: 0 auto;
+
+	.news-list-item {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+	}
+
+	.news-list-date {
+		width: 30%;
+		font-weight: bold;
+
+	}	
+}
+
 .link-box {
 	display: block;
 	width: 100%;
