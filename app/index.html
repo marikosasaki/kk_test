@@ -136,7 +136,7 @@
     			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
     			    		<a href="#modal1"  class="mask mask-video modal-trigger">
     			    			<h5>作品タイトル</h5>
-    			    			<p class="play-icon"><i class="material-icons">navigate_next</i></p>
+    			    			<p class="movie"><i class="material-icons">video_call</i></p>
     			    		</a>
                        </div>
     			    </div>
@@ -144,7 +144,7 @@
     			    <div class="col s6 m6 l3 box">
     			    	<div class="container--list__item view-first">
     			    		<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-    			    		<a href="#modal1"  class="mask modal-trigger">
+    			    		<a href="#modal2"  class="mask modal-trigger">
     			    			<h5>作品タイトル</h5>
     			    			<p>詳細詳ああああああああ</p>
     			    		</a>
@@ -213,21 +213,40 @@
 			<div id="modal1" class="modal">
 				<div class="modal-content">
 					<h4>Modal Header</h4>
-					<p>あああああああああ</p>
+					<p>modal-movie</p>
 					<div class="row">
-						<div class="col s12 m12 l6">
-							<img src="/images/index/pexels-photo.jpg" class="responsive-img" alt="">
-						</div>
-						<div class="col s12 m12 l6">
-							<img src="/images/index/pexels-photo.jpg" class="responsive-img col s12 m12 l6" alt="">
-							<img src="/images/index/pexels-photo.jpg" class="responsive-img col s12 m12 l6" alt="">
-						</div>
+				      <div class="video-container">
+				        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+				      </div>
 					</div>
 				</div>
 				<div class="modal-footer">
 					<a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">back</a>
 				</div>
 			</div>
+			<div id="modal2" class="modal">
+				<div class="modal-content">
+					<h4>Modal Header</h4>
+					<p>あああああああああ</p>
+					<div class="row image-container">
+						<div id="main" class="col s12 l6 m6 center">
+							<div class="main-inner">
+								<img src="/images/index/pexels-photo2.jpg" width='500px' alt="">
+							</div>
+						</div>
+						<div id="navi" class="col s12 l6 m6  center">
+							<a class="carousel-item" href="/images/index/pexels-photo2.jpg"><img src="/images/index/pexels-photo2.jpg" width="25%" alt=""></a>
+							<a class="carousel-item" href="/images/index/sample-list.jpg"><img src="/images/index/sample-list.jpg" width="25%" alt=""></a>
+							<a class="carousel-item" href="/images/index/sample.jpg"><img src="/images/index/sample.jpg" width="25%" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#!" class="modal-action modal-close waves-effect waves-black btn-flat">back</a>
+				</div>
+			</div>
+
+
 
 			<div class="col center btn-area">
 				<a href="" class="waves-effect waves-light btn-large black base center">SEE ALL WORKS</a>
@@ -396,6 +415,7 @@
 	<script src="/scripts/main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="/scripts/lib/TweenMax.min.js"></script>
+	<script src="/scripts/modal-slider.js"></script>	
 	<script src="/scripts/motion.js"></script>
     <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
     </script>
