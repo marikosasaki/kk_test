@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+	//動画を画面サイズいっぱいにしたい。
 	hsize = $(window).height();
-
 	$(".main").css("height", hsize + "px");	
 
+	//要素を時間差で表示させたいから一旦非表示
 	$('.effect>.container, .effect i ,header ,.massage-inner, .arrow-icon').css("opacity","0");
+
 
 	TweenMax.to('.massage-inner', 2, {
 		opacity: 1,
@@ -16,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		y: 50
 	});
 
+
+	//スクロールごとの表示
 	$(window).scroll(function() {
 
 		var value = $(this).scrollTop(); //スクロールの値を取得
@@ -27,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (value > 100) {	
 			TweenMax.to('header', 1, {opacity: 1});
 			$("header").css('background-color','#ffffff');
-
 		}
 
 		else if (value == 0) {
@@ -39,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			var scroll = $(window).scrollTop();
 			var windowHeight = $(window).height();
 
-			if (scroll > imgPos - windowHeight){
+			if (scroll >= imgPos - windowHeight){
 				$("h2 ,.container, i",this).css("opacity","1" );
 
 			} else {
