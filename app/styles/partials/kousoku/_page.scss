@@ -33,17 +33,7 @@
 	}	
 }
 
-.link-box {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
 
-	.img {
-		display: block;
-		margin: 0 auto;
-	}
-}
 
 //段落
 .paragraph-container {
@@ -63,7 +53,29 @@
 	}
 }
 
+.link-box {
+	color: #999999;
+	border: 2px solid #999999;
+	display: block;
+	width: 100%;
+	padding: 24px;
+	height: auto;
+	margin: .5rem 0 1rem;
+	transform: rotateY( 0deg ) ;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 
+	&:hover {
+		transform: rotateY(360deg);
+		border: 2px solid #000000;
+		color: #000000;
+	}
+
+	.img {
+		display: block;
+		margin: 0 auto;
+	}
+}
 
 @media #{$small-and-down} {
 	.list-wrapper {
