@@ -18,11 +18,32 @@ header {
 	z-index: 10;
 	position: fixed;
 
+	&.secondary-header {
+		background-color: #ffffff;
+	}
+
 	&.fixed {
 		
 	}
-
 } 
+
+// Responsive Videos
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+    iframe, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}
+
+
 
 body {
 	position: relative;
@@ -43,6 +64,14 @@ body {
 		border-bottom: 1px solid #deba29;
 	}
 
+	.mb30 {
+		margin-bottom: 30px;
+	}
+
+	.color-red{
+		color: #d50000;
+	}
+
 	//contact section
 	.contact-list {
 		display: flex;
@@ -51,6 +80,8 @@ body {
 		width: 100%;
 		margin-top: 30px;
 	}
+
+	//コンタクトセット
 	.contact-list__item {
 		width: 48%;
 		height: 90px;
@@ -136,10 +167,11 @@ body {
 
 
 	}
-
+	
+	//横並びimgリスト
 	.container--list__item {
 		margin: 10px;
-		border: 10px solid #fff;
+		//border: 10px solid #fff;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -158,7 +190,9 @@ body {
 
 		img {
 			display: block;
-			position: relative;
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
 		}
 
 		h5 {
@@ -197,14 +231,33 @@ body {
 		}	
 	}
 
+	@media #{$small-and-down} {
+		.container--list__item {
+			height: 150px; 
+		}
+
+	}
+
+	@media #{$medium-and-up} {
+		.container--list__item {
+			height: 200px;
+		}		
+	}
+
+	@media #{$large-and-up} {
+		.container--list__item {
+			height: 150px;
+		}
+	}
+
+
+
 	/*hover*/
 
 	.view-first img,
 	.view-first video{
 	  /*1*/
 	  transition: all 0.2s linear;
-	  width: 100%;
-	  height: 100%;
 	}
 
 	.view-first .mask {
@@ -217,7 +270,6 @@ body {
 	.view-first h5 {
 	  transform: translateY(-100px);
 	  opacity: 0;
-	  font-family: Raleway, serif;
 	  transition: all 0.2s ease-in-out;
 	}
 
@@ -311,6 +363,14 @@ body {
 	}	
 }
 
+
+.secondary-conteinar {
+	padding: 100px 0 30px;
+}
+
+.secondary-conteinar-box {
+	margin-bottom: 6%;
+}
 
 .passing {
   animation: passing_157 1s linear;

@@ -1,6 +1,4 @@
 .page-title {
-
-
 }
 
 .page-title--company {
@@ -55,27 +53,38 @@
 
 .link-box {
 	color: #999999;
-	border: 2px solid #999999;
 	display: block;
-	width: 100%;
-	padding: 24px;
-	height: auto;
-	margin: .5rem 0 1rem;
-	transform: rotateY( 0deg ) ;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
 
-	&:hover {
-		transform: rotateY(360deg);
-		border: 2px solid #000000;
+
+	img {
+		display: block;
+		margin: 0 auto;
+		transition: all 0.2s ease-out;
+	}
+
+	p,span {
+		transition: all 0.2s ease-in-out;
+	}
+
+	&:hover,
+	&:focus {
 		color: #000000;
 	}
 
-	.img {
-		display: block;
-		margin: 0 auto;
+	&:hover p,
+	&:hover span {
+		//transform: rotateY(360deg);
+		color: #000000;
+	}
+
+	&:hover img {
+		transform: scale(1.2);
+		//filter: grayscale(0%);
 	}
 }
+
 
 @media #{$small-and-down} {
 	.list-wrapper {
@@ -108,23 +117,19 @@
 @media #{$medium-and-up} {
 	.list-wrapper {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 		margin: 0 auto;
 
 		.list-item {
-			 width: 33.33%;
+			 width: 30%;
 			 text-align: center;
-			 margin-right: 5%;
+			 margin-right: 3%;
 
 			 &:last-child {
 			 	margin-right: 0;
-			 }
-
-			 img {
-			 	width: 30%;
-			 	height: auto;
 			 }			 
 		}
 	}
@@ -133,24 +138,21 @@
 @media #{$large-and-up} {
 	.list-wrapper {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 		margin: 0 auto;
 
 		.list-item {
-			 width: 33.33%;
+			 width: 30%;
 			 text-align: center;
-			 margin-right: 5%;
+			 margin-right: 3%;
 
 			 &:last-child {
 			 	margin-right: 0;
 			 }
-
-			 img {
-			 	width: 30%;
-			 	height: auto;
-			 }			 
+		 
 		}
 	}	
 }

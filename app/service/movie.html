@@ -27,9 +27,7 @@
 	<meta name="theme-color" content="#2F3BA2">
 	<!-- Your styles -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="styles/animate.css">
-	<link rel="stylesheet" href="styles/fixed-positioning.css">
-	<link rel="stylesheet" href="styles/kousoku.css">
+	<link rel="stylesheet" href="/styles/kousoku.css">
 	<link rel="stylesheet" href="/styles/materialize.css">
 	<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
 	<!--
@@ -38,7 +36,7 @@
 </head>
 
 <body>
-	<article class="service-index">
+	<article class="movie">
 		<header>
 			<nav class="">
 				<div class="container">
@@ -89,13 +87,14 @@
 
 		<div class="page-title parallax-container">
 			<div class="parallax">
-				<img src="/images/index/sample-list.jpg" class="responsive-img" alt="">
+				<img src="/images/movie/1.jpg" class="responsive-img" alt="">
 			</div>
 			<div class="page-massage">
 				<h2 class="scroll_bg01">販促×映像</h2>
 				<p class="">成果をあげる映像制作。　ライトプラン 1分動画〜</p>
 			</div>
 		</div>
+
 
 		<div class="container container--flat">
 			<div class="lead center">
@@ -128,7 +127,7 @@
 				</h3>
 				<div class="parallax-container">
 					<div class="parallax">
-						<img src="/images/index/sample-list.jpg" class="responsive-img" alt="">
+						<img src="/images/movie/2.jpg" class="responsive-img" alt="">
 					</div>				
 				</div>
 			</div>
@@ -138,7 +137,7 @@
 				</h3>
 				<div class="parallax-container">
 					<div class="parallax">
-						<img src="/images/index/sample-list.jpg" class="responsive-img" alt="">
+						<img src="/images/movie/3.jpg" class="responsive-img" alt="">
 					</div>				
 				</div>				
 
@@ -150,12 +149,14 @@
 					</p>
 				</div>
 			</div>
+		</section>
 
+		<div class="center">
+			<p>Youtubeへのアカウント解説や動画のアップロードも代行いたします！詳しくはお問い合わせください。</p>
+		</div>
 
+		<section class="bg-reration">
 			<div class="container container--flat">
-				<div class="center">
-					<p>Youtubeへのアカウント解説や動画のアップロードも代行いたします！詳しくはお問い合わせください。</p>
-				</div>
 				<ul class="contact-list">
 					<li class="contact-list__item contact-mail">
 						<a class="inner waves-effect waves-light">
@@ -172,9 +173,7 @@
 					</li>																
 				</ul>
 			</div>
-
 		</section>
-
 
 		<section class="bg-reration">
 			<div class="container container--flat">
@@ -274,18 +273,14 @@ ID:whg8225p　　（QR）
 
     $(document).ready(function(){
       $('.parallax').parallax();
-
     });
     $(".button-collapse").sideNav();
 
-      $(document).ready(function(){
-        $('.scrollspy').scrollSpy();
-      });
 
-  $(document).ready(function(){
-    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
-  });
+	  $(document).ready(function(){
+	    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+	    $('.modal').modal();
+	  });
 
 
 	</script>

@@ -54,8 +54,19 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: #333333;
     //border-bottom: 4px solid color("red", "darken-4");
-    border-bottom: 4px solid color("shades" ,"black");   
+    border-bottom: 2px solid color("shades" ,"black");   
 }
+
+.heading_Level4 {
+    margin: 0 0 23px 0;
+    padding: 0 0 8px 0;
+    font-weight: normal;
+    color: #333333;
+    //border-bottom: 4px solid color("red", "darken-4");
+    border-bottom: 2px solid color("shades" ,"black");  
+}
+
+
 
 
 .headline_Level4 {

@@ -23,7 +23,7 @@
 
 
   .card-title {
-    font-size: 24px;
+    font-size:  19px;
     font-weight: 300;
     &.activator {
       cursor: pointer;
@@ -31,7 +31,7 @@
   }
 
   // Card Sizes
-  &.small, &.medium, &.large {
+  &.s-small, &.small, &.medium, &.large {
     position: relative;
 
     .card-image {
@@ -51,6 +51,10 @@
       left: 0;
       right: 0;
     }
+  }
+
+  &.s-small {
+    height: 200px;
   }
 
   &.small {
@@ -115,6 +119,7 @@
     }
     .card-content {
       width: 50%;
+      min-height: 250px;
       flex: 1;
     }
 
