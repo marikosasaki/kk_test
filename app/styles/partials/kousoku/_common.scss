@@ -171,6 +171,7 @@ body {
 	//横並びimgリスト
 	.container--list__item {
 		margin: 10px;
+		height: 150px;
 		//border: 10px solid #fff;
 		overflow: hidden;
 		position: relative;
@@ -190,8 +191,8 @@ body {
 
 		img {
 			display: block;
-			width: 100%;
-			height: auto;
+			width: auto;
+			height: 100%;
 			margin: 0 auto;
 		}
 
@@ -240,13 +241,13 @@ body {
 
 	@media #{$medium-and-up} {
 		.container--list__item {
-			height: 200px;
+			height: 150px; 
 		}		
 	}
 
 	@media #{$large-and-up} {
 		.container--list__item {
-			height: 150px;
+			height: 150px; 
 		}
 	}
 
