@@ -154,19 +154,29 @@ body {
 
 	.container--flat,
 	.container--list{
-		padding: 6% 0;
+		padding: 3% 0;
 	}
 
 	.lead {
 		padding: 6% 0;
 	}
 
-	.info-table {
-		width: 70%;
-		margin: 0 auto;
-
-
+	.table-container {
 	}
+
+
+	.info-table {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	@media #{$small-and-down} {
+		.info-table {
+			width: 90%;
+			margin: 0 auto;
+		}
+
+	}	
 	
 	//横並びimgリスト
 	.container--list__item {
@@ -364,7 +374,25 @@ body {
 	}	
 }
 
+//段落
+.paragraph-container {
+	margin: 20px auto 20px;
+	width: 80%;
 
+
+	.paragraph-title {
+		text-align: center;
+		font-weight: bold;
+		margin: 0 0 10px 0;
+	} 
+
+	.paragraph-text {
+		margin: 0 0 30px 0;
+		
+	}
+}
+
+//ヘッダー出さないページのコンテ
 .secondary-conteinar {
 	padding: 100px 0 30px;
 }
