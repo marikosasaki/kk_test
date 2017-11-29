@@ -139,9 +139,30 @@
 			 &:last-child {
 			 	margin-right: 0;
 			 }
-		 
 		}
 	}	
+}
+
+//採用情報使用　テーブル
+.info-table-lage {
+	width: 80%;
+	margin: 30px auto;
+
+	tr {
+		th {
+			background-color: #efefef;
+			width: 150px;
+			padding: 30px;
+			text-align: left;
+			border-bottom: 1px solid #999999;
+		}
+
+		td {
+			border-bottom: 1px solid #999999;
+			padding: 30px;
+		}
+	}
+
 }
 
 

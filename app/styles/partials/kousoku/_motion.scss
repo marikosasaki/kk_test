@@ -1,14 +1,35 @@
 
 #main {
-	//min-height: 300px;
+	min-height: 300px;
     overflow: auto;
     //position: relative;
 }
 
+@media #{$small-and-down} {
+	.main-inner {
+		height: 300px
+
+    }	
+}
+
+@media #{$medium-and-up} {
+
+	.main-inner {
+		height: 400px
+
+    }
+
+}
+
+@media #{$large-and-up} {
+	.main-inner {
+		//height: 500px
+    }
+
+}
+
 #main img {
-	//top: 0;
-	//left: 0;
-	//position: absolute;
+	width: auto;
 
 }
 

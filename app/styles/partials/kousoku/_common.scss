@@ -54,6 +54,10 @@ body {
 		padding: 20px 0;
 	}
 
+	.container {
+		max-width: 1200px;
+	}
+
 	.bg-reration {
 		background-color: #f7f7f7;
 	}
@@ -391,6 +395,18 @@ body {
 		
 	}
 }
+
+.poiont-massege-conteiner {
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	margin-bottom: 30px;
+}
+
+
 
 //ヘッダー出さないページのコンテ
 .secondary-conteinar {

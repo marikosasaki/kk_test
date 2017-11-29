@@ -1,6 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 	$(function () {
+		$(".modal-trigger").click(function(){
+
+			var modal_hight = $(".open").innerHeight();
+			console.log(modal_hight);
+
+		})
+
+
 		$("#navi a").click(function(){
 			 $("#main img").attr("src" , $(this).attr("href"));
 			//$("#main img").before("<img src='"+$(this).attr("href")+"' width='500px' alt=''>");
