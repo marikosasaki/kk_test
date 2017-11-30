@@ -56,12 +56,12 @@ body {
 
 	a {
 		transition: .8s;
-		
-		&:hover {
-			color: #d50000;
-		}
+		color: #000;
 	}
 
+	a:hover {
+		color: #d50000;
+	}
 	.container {
 		max-width: 1200px;
 	}
@@ -383,7 +383,18 @@ body {
 			transform: translate(-50%, -50%);
 			color: #000000;
 		}
-	}	
+	}
+
+	.slide-message {
+		width: 80%;
+		text-align: center;
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #000000;		
+
+	}
 }
 
 //段落

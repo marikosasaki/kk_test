@@ -1,0 +1,811 @@
+@charset "utf-8";
+/*
+Theme Name: kousoku
+Theme URI: http://docodoor.co.jp/
+Description: Harashin Narus Holdings Group 高速印刷 株式会社
+Author: docodoor
+Author URI: http://docodoor.co.jp/
+
+	docodoor
+	 http://docodoor.co.jp/
+
+	This theme was designed and built by docodoor,
+	whose blog you will find at http://docodoor.co.jp/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+*{margin:0;padding:0;}
+
+
+
+.t01 {
+border-collapse: collapse;
+border-spacing: 0;
+border-collapse:collapse;
+margin: 20px 0;
+width: 580px;
+text-align: left;
+line-height: 1.8em;
+}
+.t01 tr {
+width: auto;
+margin: 10px;
+}
+.t01 th {
+width: auto;
+padding: 0;
+font-weight: normal;
+}
+.t01 td{
+width: 460px;
+padding: 0px 10px 0px 20px;
+}
+.t02 {
+border-collapse: collapse;
+border-spacing: 0;
+margin:20px 0;
+text-align: left;
+border: 1px solid #CCCCCC;
+width: 570px;
+}
+.t02 th,.t02 tr{
+width: auto;
+padding: 8px 5px 8px 10px;
+border: 1px solid #CCCCCC;
+font-weight:normal;
+}
+.t02 td{
+width: 440px;
+border: 1px solid #CCCCCC;
+padding: 8px 3px 8px 10px;
+font-weight:normal;
+}
+.t03 {
+border-collapse: collapse;
+border-spacing: 0;
+margin:20px 0;
+text-align: left;
+border: 1px solid #CCCCCC;
+width: 570px;
+font-size: 11px;
+}
+.t03 thead tr{
+background: #E0ECF8;
+font-size: 15px;
+}
+.t03 thead tr td{
+font-weight: bold;
+}
+.t03 thead tr .green{
+    color: #2cbf13;
+}
+.t03 thead tr .blue{
+    color: #045FB4;
+}
+.t03 thead tr .red{
+    color: #DF0101;
+}
+.t03 th{
+width: 440px;
+padding: 8px 5px 8px 10px;
+border: 1px solid #CCCCCC;
+font-weight:normal;
+background: #f9fbfa;
+}
+.t03 tr{
+width: auto;
+padding: 8px 5px 8px 10px;
+border: 1px solid #CCCCCC;
+font-weight:normal;
+}
+.t03 td{
+width: 440px;
+border: 1px solid #CCCCCC;
+padding: 8px 3px 8px 10px;
+font-weight:normal;
+text-align: center;
+}
+.t03 td span{
+    color: red;
+}
+.t03 td strong{
+    font-weight: bold;
+}
+.tRec {
+border-collapse: collapse;
+border-spacing: 0;
+border-collapse:collapse;
+margin:20px 0;
+text-align: left;
+border: 1px solid #CCCCCC;
+width: 570px;
+}
+.tRec th,.tRec tr{
+width: auto;
+padding: 8px 5px 8px 10px;
+border: 1px solid #CCCCCC;
+font-weight:normal;
+background:#f5f5f5;
+}
+.tRec td{
+width: 440px;
+border: 1px solid #CCCCCC;
+padding: 8px 3px 8px 10px;
+font-weight:normal;
+background:#fff;
+}
+
+.tAr {
+border-collapse: collapse;
+border-spacing: 0;
+border-collapse:collapse;
+margin:20px 0;
+text-align: left;
+border: 1px solid #CCCCCC;
+width: 490px;
+}
+.tAr tr{}
+.tAr th{
+width: 122px;
+padding: 8px 5px 8px 10px;
+border: 1px solid #CCCCCC;
+font-weight:normal;
+background:#f5f5f5;
+}
+.tAr td{
+width: auto;
+border: 1px solid #CCCCCC;
+padding: 8px 3px 8px 10px;
+font-weight:normal;
+background:#fff;
+}
+
+
+.mT5{margin-top:5px !important; }
+.mT10{margin-top:10px !important; }
+.mT15{margin-top:15px !important; }
+.mT20{margin-top:20px !important; }
+.mT30{margin-top:30px !important; }
+.mT40{margin-top:40px !important; }
+
+.mB5{margin-bottom:5px !important; }
+.mB10{margin-bottom:10px !important; }
+.mB15{margin-bottom:15px !important; }
+.mB20{margin-bottom:20px !important; }
+.mB30{margin-bottom:30px !important; }
+.mB40{margin-bottom:40px !important; }
+.mB50{margin-bottom:50px !important; }
+.mB60{margin-bottom:60px !important; }
+.mB80{margin-bottom:80px !important; }
+
+.mL5{margin-left:5px !important; }
+.mL10{margin-left:10px !important; }
+.mL15{margin-left:15px !important; }
+.mL20{margin-left:20px !important; }
+.mL25{margin-left:25px !important; }
+.mL30{margin-left:30px !important; }
+
+.mR5{margin-right:5px !important; }
+.mR10{margin-right:10px !important; }
+.mR15{margin-right:15px !important; }
+.mR20{margin-right:20px !important; }
+.mR25{margin-right:25px !important; }
+.mR30{margin-right:30px !important; }
+.mR40{margin-right:40px !important; }
+
+.fR{float:right !important; }
+.fL{float:left !important; }
+.clear{clear:both;}
+.center{text-align:center !important; }
+.right{text-align:right;display: block;}
+.line_black{border-bottom: 1px solid #000; margin:20px 0;display: block;}
+
+
+/* 全体---------------------*/
+#header, #container, .inner{
+margin: 0 auto;
+width: 920px;
+padding: 0 35px;
+}
+
+
+/* ヘッダ---------------------*/
+#header{
+position:relative;
+height: 90px;
+margin: 0 auto;
+width: 850px;
+}
+#header h1, #header ul{
+position:absolute;
+top:0;
+line-height: 30px;
+font-weight:normal;
+}
+
+/* ロゴの位置 */
+#header h1{top: 20px;}
+
+
+/* ヘッダーナビゲーション---------------------*/
+#header ul{
+width: auto;
+top: 60px;
+right:0;
+height: 14px;
+line-height:14px;
+}
+#header ul li{
+float:left;
+list-style:none;
+display: block;
+margin-left:15px;
+}
+#header ul a{
+display: block;
+height: 14px;
+text-decoration:none;
+}
+
+
+/* グローバルナビゲーション---------------------*/
+ul#gNav{
+margin: 0 auto;
+width: 850px;
+height: 40px;
+}
+ul#gNav li{
+float:left;
+list-style:none;
+width:auto;
+}
+ul#gNav a{
+display: block;
+height: 40px;
+}
+
+
+/* トップページ---------------------*/
+#mainImage{
+width: 830px;
+padding: 5px 35px 0 35px;
+height: 345px;
+margin: 15px auto 10px auto;
+background:#fff url(images/mainImg_bg.jpg) no-repeat center center;
+}
+
+/* slide */
+#gallery{
+/* CSS3 Box Shadow */
+-moz-box-shadow:0 0 3px #AAAAAA;
+-webkit-box-shadow:0 0 3px #AAAAAA;
+box-shadow:0 0 3px #AAAAAA;
+
+/* CSS3 Rounded Corners */
+	
+-moz-border-radius-bottomleft:4px;
+-webkit-border-bottom-left-radius:4px;
+border-bottom-left-radius:4px;
+	
+-moz-border-radius-bottomright:4px;
+-webkit-border-bottom-right-radius:4px;
+border-bottom-right-radius:4px;
+	
+/* The width of the gallery */
+width:830px;
+height:310px;
+overflow:hidden;
+margin: 10px auto;
+}
+
+#slides{
+/* This is the slide area */
+height:310px;
+margin: 0 auto;
+	
+/* jQuery changes the width later on to the sum of the widths of all the slides. */
+width:830px;
+overflow:hidden;
+}
+
+.slide{
+float:left;
+top: 10px;
+}
+.slide a{
+}
+.slide a:hover{
+opacity:0.9;
+filter: alpha(opacity=90);
+-ms-filter: "alpha( opacity=90 )";
+}
+
+#menu{
+/* This is the container for the thumbnails */
+height:16px;
+width:350px;
+margin: 5px 0 0 0px;
+position: absolute;
+z-index: 1;
+}
+#menu ul{
+height:16px;
+}
+#menu li{
+/* Every thumbnail is a li element */
+width:60px;
+float: left;
+display:inline-block;
+list-style:none;
+height:16px;
+overflow:hidden;
+margin-right:5px;
+}
+#menu li.inact:hover{
+/* The inactive state, highlighted on mouse over */
+}
+#menu li.act,li.act:hover{
+/* The active state of the thumb */
+}
+#menu li.act a{
+cursor:default;
+}
+
+
+.box1{
+float: left;
+width: 300px;
+margin: 0 10px 10px 0;
+}
+.news{
+width:640px;
+margin:10px 20px 50px 0;
+}
+.news h4{margin: 10px 0;}
+.news ul{}
+.news li{
+float: left;
+display: block;
+width:600px;
+margin: 10px 0;
+list-style:none;
+text-indent: 5px;
+border-bottom: 1px dashed #888
+}
+.news li a{list-style:none;text-decoration:none;}
+.day{margin-right: 10px;}
+
+
+
+/* コンテンツ---------------------*/
+#container{
+padding:10px 0;
+margin: 0 auto;
+width: 850px;
+}
+#main {
+float: left;
+width: 640px;
+padding-bottom:40px;
+}
+
+#main .item{
+float: right;
+width: 180px;
+margin: 10px 0;
+display: block;
+padding: 0 20px 0px 0;
+}
+#main .txt{
+float: left;
+width: 420px;
+padding: 10px 0px;
+display: block;
+}
+#main .txt2{
+float: left;
+width: 600px;
+padding: 10px 30px 0px 0;
+margin-right: 20px;
+display: block;
+}
+#main .txt2 a{color: #39C;}
+#main .txt2 a:hover{color: #ccc;}
+#main .item2{
+float: right;
+width: auto;
+margin: 10px 0;
+display: block;
+padding: 0 20px 0 0;
+}
+
+/* サイトマップ */
+#main .sitemap{
+float: left;
+width: 280px;
+margin: 20px 0px 40px 20px;
+display: block;
+}
+#main .sitemap ul{}
+#main .sitemap li{
+display: block;
+list-style:none;
+}
+#main .sitemap li a{
+list-style:none;
+text-decoration:none;
+color: #555;
+}
+#main .sitemap li a:hover{color: #39C;}
+
+
+#main p {padding: 0 0 10px;}
+#main .border{
+width: 280px;
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #000;
+}
+.contact{
+float: left;
+width: 640px;
+height: 100px;
+margin: 20px 0;
+}
+.pageTop a{
+display: block;
+margin: 20px 40px 20px auto;
+font-size: 8pt;
+color: #888;
+text-align: right;
+}
+.pageTop a:hover {color: #000;}
+.breadcrumbs {
+color: #666;
+text-align: left;
+font-size: 8pt;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+/* テンプレートpage2用 */
+.txt3{
+float: left;
+width: 290px;
+padding: 20px 0px;
+display: block;
+font-size: 10pt;
+}
+.txt4{
+float: left;
+width: 700px;
+padding: 20px 0px;
+display: block;
+font-size: 10pt;
+}
+.txt5{
+float: right;
+width: 660px;
+padding: 10px 0px;
+display: block;
+font-size: 10pt;
+}
+.item2{
+float: right;
+width: auto;
+margin: 10px 0;
+display: block;
+padding: 10px 5px 20px 0;
+}
+.item3{
+float: left;
+width: auto;
+display: block;
+padding: 10px 0 10px 0;
+}
+
+
+/* LED-UV印刷 */
+.box-led1{
+float: left;
+width: 275px;
+height: 135px;
+line-height: 1.5em;
+margin: 0 15px 5px 0;
+padding: 40px 130px 15px 10px;
+background: url(images/led_05.jpg) no-repeat;
+}
+.box-led2{
+float: left;
+width: 270px;
+height: 135px;
+line-height: 1.5em;
+margin: 0 0 5px 0;
+padding: 40px 130px 15px 20px;
+background: url(images/led_06.jpg) no-repeat;
+}
+.box-led3{
+float: left;
+width: 275px;
+height: 135px;
+line-height: 1.5em;
+margin: 0 15px 5px 0;
+padding: 40px 130px 5px 10px;
+background: url(images/led_07.jpg) no-repeat;
+}
+.box-led4{
+float: left;
+width: 270px;
+height: 135px;
+line-height: 1.5em;
+margin: 0 0 5px 0;
+padding: 40px 130px 5px 15px;
+background: url(images/led_08.jpg) no-repeat;
+}
+.button01{
+margin: 10px 0 5px 280px;
+}
+
+
+/* AR */
+.ar_box{
+float: left;
+width: 295px;
+height: 121px;
+line-height: 20px;
+margin: 10px 0 10px 0;
+padding: 11px 100px 0 20px;
+float: left;
+}
+.ar_bg1{background: url(images/ar_h4_bg1.jpg) no-repeat 0 0;}
+.ar_bg2{background: url(images/ar_h4_bg2.jpg) no-repeat 0 0;}
+.ar_bg3{background: url(images/ar_h4_bg3.jpg) no-repeat 0 0;}
+.ar_bg4{background: url(images/ar_h4_bg4.jpg) no-repeat 0 0;}
+.ar_bg5{background: url(images/ar_h4_bg5.jpg) no-repeat 0 0;}
+.ar_bg6{background: url(images/ar_h4_bg6.jpg) no-repeat 0 0;}
+
+
+/* 最後のbox */
+.last{margin-right:0;}
+
+/* 記事 */
+#date {
+text-align: right;
+padding: 15px 30px 10px 0;
+font-weight:bold;
+color:#858585;
+}
+#next {
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright {
+    padding: 4px 0;
+    margin: 0 0 10px 20px;
+    display: inline;
+}
+img.alignleft {
+    padding: 4px 0;
+    margin: 0 20px 10px 0;
+    display: inline;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+
+
+
+/* 見出し */
+#container h3{
+margin:10px 0 0px 0;
+padding: 0;
+}
+#container h1{
+margin:15px 0 10px 0;
+width: 850px;
+}
+#container h4{
+height: 15px;
+margin: 10px 0 10px 0;
+padding: 2px 0 2px 18px;
+font-size: 11pt;
+color: #333;
+background:url(images/h4.gif) no-repeat left bottom;
+}
+#container h2{
+width: 595px;
+margin: 20px 0 0px 0;
+padding: 0 0 0px 10px;
+font-size: 11pt;
+font-weight: bold;
+color: #888;
+border-left: 5px solid #888;
+border-bottom: 1px solid #888;
+}
+
+
+/* サイドバー---------------------*/
+#sidebar {
+float: right;
+width: 200px;
+padding: 0px 0 40px 10px;
+font-size:10pt;
+}
+#sidebar p{margin-bottom:10px;}
+
+/* サイドナビ 企業情報 */
+ul#comnav{
+margin: 10px auto 10px;
+width: 200px;
+height: 68px;
+float:left;
+background: url(images/sNav_company.png) no-repeat;
+}
+#comnav li{float:left;list-style:none;}
+#comnav a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+height: 34px;
+background: url(images/sNav_company.png) no-repeat;
+}
+
+#comnav1 a { width : 200px ; background-position :0 0 ; }
+#comnav2 a { width : 200px ; background-position :0 -34px ; }
+
+#comnav1 a:hover { width : 200px ; background-position :-200px 0 ; }
+#comnav2 a:hover { width : 200px ; background-position :-200px -34px ; }
+
+
+/* サイドナビ 営業品目 */
+ul#busnav{
+margin: 10px auto 10px;
+width: 200px;
+height: 204px;
+float:left;
+background: url(images/sNav_business.png) no-repeat;
+}
+#busnav li{float:left;list-style:none;}
+#busnav a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+height: 34px;
+background: url(images/sNav_business.png) no-repeat;
+}
+
+#busnav1 a { width : 200px ; background-position :0 0 ; }
+#busnav2 a { width : 200px ; background-position :0 -34px ; }
+#busnav3 a { width : 200px ; background-position :0 -68px ; }
+#busnav4 a { width : 200px ; background-position :0 -102px ; }
+#busnav5 a { width : 200px ; background-position :0 -136px ; }
+#busnav6 a { width : 200px ; background-position :0 -170px ; }
+
+#busnav1 a:hover { width : 200px ; background-position :-200px 0 ; }
+#busnav2 a:hover { width : 200px ; background-position :-200px -34px ; }
+#busnav3 a:hover { width : 200px ; background-position :-200px -68px ; }
+#busnav4 a:hover { width : 200px ; background-position :-200px -102px ; }
+#busnav5 a:hover { width : 200px ; background-position :-200px -136px ; }
+#busnav6 a:hover { width : 200px ; background-position :-200px -170px ; }
+
+
+/* サイドナビ 生産設備 */
+ul#facnav{
+margin: 10px auto 10px;
+width: 200px;
+height: 278px;
+float:left;
+background: url(images/sNav_facilities.png) no-repeat;
+}
+#facnav li{float:left;list-style:none;}
+#facnav a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+height: 34px;
+background: url(images/sNav_facilities.png) no-repeat;
+}
+
+#facnav1 a { width : 200px ; background-position :0 -20px ; margin-top: 20px ; }
+#facnav2 a { width : 200px ; background-position :0 -54px ; }
+#facnav3 a { width : 200px ; background-position :0 -88px ; }
+#facnav4 a { width : 200px ; background-position :0 -122px ; }
+#facnav5 a { width : 200px ; background-position :0 -176px ; margin-top: 20px ; }
+#facnav6 a { width : 200px ; background-position :0 -210px ; }
+#facnav7 a { width : 200px ; background-position :0 -244px ; }
+
+#facnav1 a:hover { width : 200px ; background-position :-200px -20px ; margin-top: 20px ; }
+#facnav2 a:hover { width : 200px ; background-position :-200px -54px ; }
+#facnav3 a:hover { width : 200px ; background-position :-200px -88px ; }
+#facnav4 a:hover { width : 200px ; background-position :-200px -122px ; }
+#facnav5 a:hover { width : 200px ; background-position :-200px -176px ; margin-top: 20px ; }
+#facnav6 a:hover { width : 200px ; background-position :-200px -210px ; }
+#facnav7 a:hover { width : 200px ; background-position :-200px -244px ; }
+
+
+/* サイドナビ 個人情報保護 */
+ul#prinav{
+margin: 10px auto 10px;
+width: 200px;
+height: 170px;
+float:left;
+background: url(images/sNav_privacy.png) no-repeat;
+}
+#prinav li{float:left;list-style:none;}
+#prinav a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+height: 34px;
+background: url(images/sNav_privacy.png) no-repeat;
+}
+
+#prinav1 a { width : 200px ; background-position :0 0 ; }
+#prinav2 a { width : 200px ; background-position :0 -34px ; }
+#prinav3 a { width : 200px ; background-position :0 -68px ; }
+#prinav4 a { width : 200px ; background-position :0 -102px ; }
+#prinav5 a { width : 200px ; background-position :0 -136px ; }
+
+#prinav1 a:hover { width : 200px ; background-position :-200px 0 ; }
+#prinav2 a:hover { width : 200px ; background-position :-200px -34px ; }
+#prinav3 a:hover { width : 200px ; background-position :-200px -68px ; }
+#prinav4 a:hover { width : 200px ; background-position :-200px -102px ; }
+#prinav5 a:hover { width : 200px ; background-position :-200px -136px ; }
+
+
+
+/* フッター---------------------*/
+#footer{
+clear:both;
+padding: 10px 0;
+overflow: hidden;
+background:#727171;
+}
+#footer .box{
+width: 850px;
+margin:0 auto 10px auto;
+}
+#footer ul{
+margin-left: 30px;
+list-style:none;
+display: block;
+}
+#footer ul li{
+float:left;
+padding: 0 10px 10px 0;
+list-style:none;
+display: block;
+}
+#footer ul li a{
+font-size: 9pt;
+color:#fff; 
+text-align: center;
+list-style:none;
+text-decoration:none;
+}
+#footer ul li a:hover{color:#ccc;}
+
+#footer p{
+margin:0;
+font-size: 9pt;
+color:#fff;
+text-align: center;
+}
+address{
+color: #fff;
+font-style: normal;
+text-align: center;
+}
