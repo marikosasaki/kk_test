@@ -54,6 +54,14 @@ body {
 		padding: 20px 0;
 	}
 
+	a {
+		transition: .8s;
+		
+		&:hover {
+			color: #d50000;
+		}
+	}
+
 	.container {
 		max-width: 1200px;
 	}
@@ -186,7 +194,7 @@ body {
 	.container--list__item {
 		margin: 10px;
 		height: 150px;
-		//border: 10px solid #fff;
+		border: 5px solid #fff;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
