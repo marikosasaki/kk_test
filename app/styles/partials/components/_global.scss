@@ -219,7 +219,24 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+
+  @media only screen and (min-width: 0) {
+    height: 250px;
+  }    
+
+  @media only screen and (min-width: $small-screen) {
+    height: 300px;
+  }   
+
+  @media only screen and (min-width: $medium-screen) {
+    height: 500px;
+  }
+
+  @media only screen and (min-width: $large-screen) {
+     height: 500px;
+  }  
+
+ 
 
   .parallax {
     position: absolute;

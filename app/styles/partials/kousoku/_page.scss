@@ -54,6 +54,45 @@
 	}
 }
 
+.line-at-bg2 {
+	position: relative;
+	background: url(/img/line/3.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 435px;
+	width: auto;	
+
+	.scroll_bg3 {
+
+	}
+
+}
+
+.line-cost-table {
+	thead {
+		td {
+			background-color: #E0ECF8;
+		}
+	}
+
+	tbody {
+		th {
+			background-color: #f9fbfa;
+			
+		}
+	}
+
+
+
+	th,td {
+		text-align: center;
+	}
+
+}
+
+
+
 .sitemap-conteiner {
 	//min-height: 500px;
 	display: table;

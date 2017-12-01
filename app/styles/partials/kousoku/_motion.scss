@@ -2,7 +2,7 @@
 #main {
 	min-height: 300px;
     overflow: auto;
-    //position: relative;
+    position: relative;
 }
 
 @media #{$small-and-down} {

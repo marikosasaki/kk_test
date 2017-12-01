@@ -85,10 +85,14 @@
 			</nav>
 		</header>
 
-		<div class="page-title parallax-container">
-			<div class="parallax">
-				<img src="/images/movie/1.jpg" class="responsive-img" alt="">
-			</div>
+		<div class="page-title">
+			<div class="movie parallax">
+				<!-- <img src="/images/index/sample.jpg" alt=""> -->
+				<video id="Player" class="player" autoPlay>
+					<source type="video/mp4" src="/img/movie/hp2.mp4">
+					<img src="/img/movie/1.jpg" class="responsive-img" alt="">
+				</video>
+			</div>			
 			<div class="page-massage">
 				<h2 class="scroll_bg01">販促×映像</h2>
 				<p class="">成果をあげる映像制作。　ライトプラン 1分動画〜</p>
@@ -129,7 +133,7 @@
 				</h3>
 				<div class="parallax-container">
 					<div class="parallax">
-						<img src="/images/movie/2.jpg" class="responsive-img" alt="">
+						<img src="/img/movie/2.jpg" class="responsive-img" alt="">
 					</div>				
 				</div>
 			</div>
@@ -241,17 +245,19 @@
 
     $(document).ready(function(){
       $('.parallax').parallax();
+
     });
     $(".button-collapse").sideNav();
 
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+      });
 
-	  $(document).ready(function(){
-	    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-	    $('.modal').modal();
-	  });
-
-
-	</script>
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
 </body>
 
 

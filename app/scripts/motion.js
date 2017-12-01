@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		var value = $(this).scrollTop(); //スクロールの値を取得
 
         $('.scroll_bg01').css('background-position', '10px ' + parseInt( -value / 50 ) + 'px'); // 1/50のスピード
-        $('.scroll_bg02').css('background-position', '0 ' + parseInt( -value / 3 ) + 'px'); // 1/10のスピード
-        $('.scroll_bg03').css('background-position', '440px ' + parseInt( -value / 2 ) + 'px'); // 1/2のスピード
+        $('.scroll_bg02').css('background-position', '10px ' + parseInt( -value / 10 ) + 'px'); // 1/50のスピード
+        $('.line-at-bg2').css('background-position', '0px ' + parseInt( -value / 60 ) + 'px'); // 1/2のスピード
 
 		if (value > 100) {	
 			TweenMax.to('.motion', 1, {opacity: 1});

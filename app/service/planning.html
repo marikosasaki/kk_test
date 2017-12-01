@@ -41,7 +41,7 @@
 			<nav class="">
 				<div class="container">
 					<div class="nav-wrapper">
-						<a href="index.html" class="brand-logo left"><img src="/img/common/kousoku.png" class="responsive-img" alt="" width="200px"></a>
+						<a href="index.html" class="brand-logo left"><img src="/img/common/kousoku.png" alt="" width="200px"></a>
 
 						<ul class="right hide-on-small-only hide-on-med-only">
 							<li>
@@ -106,32 +106,48 @@
 			</div>
 		</div>
 
-		<section class="bg-reration">
-
-
-/* 			<div class="carousel carousel-slider center" data-indicators="true">
-				<div class="carousel-fixed-item center">
-					<a href="/work/" class="btn-main btn-large waves-effect waves-light">制作実績を一覧へ</a>
-				</div>
-				<div class="carousel-item red white-text" href="#one!">
-					<h2>First Panel</h2>
-					<p class="white-text">This is your first panel</p>
-				</div>
-				<div class="carousel-item amber white-text" href="#two!">
-					<h2>Second Panel</h2>
-					<p class="white-text">This is your second panel</p>
-				</div>
-				<div class="carousel-item green white-text" href="#three!">
-					<h2>Third Panel</h2>
-					<p class="white-text">This is your third panel</p>
-				</div>
-				<div class="carousel-item blue white-text" href="#four!">
-					<h2>Fourth Panel</h2>
-					<p class="white-text">This is your fourth panel</p>
-				</div>
-			</div> */
-
+		<section class="">
 			<div class="container container--flat">
+				<div class="row">
+					<div class="col l3 s6 m6">
+						<a href="/service/ar-2/" class="link-box waves-effect">
+							<div class="card s-small">
+								<div class="card-image waves-effect">
+									<img src="/img/ar/1.jpg">
+								</div>
+								<div class="card-content waves-effect">
+									<span class="card-title">AR</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col l3 s6 m6">
+						<a href="/service/movie/" class="link-box ">
+							<div class="card s-small">
+								<div class="card-image waves-effect">
+									<img src="/img/movie/1.jpg">
+								</div>
+								<div class="card-content waves-effect">
+									<span class="card-title">映像制作</span>
+
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col l3 s6 m6">
+						<a href="/service/line/" class="link-box">
+							<div class="card s-small">
+								<div class="card-image waves-effect">
+									<img src="/img/line/1.png">
+								</div>
+								<div class="card-content waves-effec">
+									<span class="card-title">LINE@販売代理店</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
 				<div class="lead center">
 					<strong>
 						当社では、さまざまな企業様とのお取引の中で培った、経験や知識を元に、
@@ -144,8 +160,6 @@
 			<div class="col center btn-area">
 				<a href="/work/" class="btn-main btn-large waves-effect waves-light">制作実績を一覧へ</a>
 			</div>			
-
-
 		</section>
 
 
@@ -197,12 +211,12 @@
 
     $(document).ready(function(){
       $('.parallax').parallax();
+
       $('.carousel').carousel('next', 1); 
 
-       $('.carousel.carousel-slider').carousel({
-       		fullWidth: true,
-
-       	});
+	$('.carousel.carousel-slider').carousel({
+			fullWidth: true,
+		});
 
 
     });
