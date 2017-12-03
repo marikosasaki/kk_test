@@ -52,7 +52,7 @@ body {
 	section,
 	.section{
 		//margin-bottom: 50px;
-		padding: 20px 0;
+		padding: 15px 0;
 	}
 
 	a {
@@ -106,9 +106,21 @@ body {
 		&.contact-mail {
 			border: 2px solid #000000;
 		}
+
 		&.contact-phone {
 			border-bottom: 2px solid #000000;
 		}
+
+		@media #{$small-and-down} {
+
+		&.contact-phone {
+			text-align: center;
+			border-bottom: 2px solid #000000;
+		}
+
+		}
+
+
 
 		&:first-child {
 			margin: 0 4% 0 0;
@@ -169,11 +181,11 @@ body {
 
 	.container--flat,
 	.container--list{
-		padding: 3% 0;
+		padding: 2% 0;
 	}
 
 	.lead {
-		padding: 6% 0;
+		padding: 2% 0;
 	}
 
 	.table-container {
@@ -405,7 +417,11 @@ body {
 
 	.page-footer {
 		a {
-			color: #ffffff;
+			transition: .8s;
+
+			&:hover {
+				border-bottom: 1px solid #000000; 
+			}
 		}
 	}
 
@@ -413,6 +429,8 @@ body {
 		a {
 			display: block;
 			transition: .2s;
+			max-width: 300px;
+			margin: 0 auto;
 
 			&:hover {
 				transform: translateY(-10px);
@@ -429,7 +447,7 @@ body {
 
 
 	.paragraph-title {
-		text-align: center;
+		//text-align: center;
 		font-weight: bold;
 		margin: 0 0 10px 0;
 	} 
@@ -467,6 +485,21 @@ body {
 	border-bottom: 2px solid #000000;
 	border-top: 2px solid #000000;
 	margin-bottom: 30px;
+}
+
+.flex-style {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+	
+	&:first-child {
+		margin-left: 10px;
+	}
+
+	.img-container {
+		max-width: 300px;
+	}
 }
 
 
