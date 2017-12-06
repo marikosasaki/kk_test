@@ -234,46 +234,8 @@
     overflow: hidden;
   }
 
-//width 30%を削除する
-  @media only screen and (max-width: 600px){
-    .list-wrapper .list-item img  {
-      width: 100%
-    }
-  }
-
-  //サブコピーの調整
-  .subcopy {
-    font-size: 3rem;
-    line-height: 110%;
-    margin: .64rem 0 .512rem;
-    font-weight: normal;    
-  }
-
-  //モーダルの調整
-  .nav-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .carousel-item {
-    max-width: 30%;
-    height: 100px;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
 
 
-
-    img {
-      position: absolute;
-      left: -100%;
-      right: -100%;
-      margin: auto;
-      width: auto;
-      height: 100%;
-    }
-  }
 
 
 // Fixed sideNav hide on smaller

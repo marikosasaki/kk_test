@@ -1,9 +1,4 @@
 
-#main {
-	min-height: 300px;
-    overflow: auto;
-    position: relative;
-}
 
 @media #{$small-and-down} {
 	.main-inner {
@@ -13,7 +8,6 @@
 }
 
 @media #{$medium-and-up} {
-
 	.main-inner {
 		height: 400px
 
@@ -28,9 +22,17 @@
 
 }
 
-#main img {
-	width: auto;
 
+//モーダルの調整
+.nav-inner {
+}
+
+.carousel-item {
+	max-width: 30%;
+	height: 100px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
 }
 
 .link-box {

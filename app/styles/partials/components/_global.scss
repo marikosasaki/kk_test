@@ -225,7 +225,7 @@ video.responsive-video {
   }    
 
   @media only screen and (min-width: $small-screen) {
-    height: 300px;
+    height: 250px;
   }   
 
   @media only screen and (min-width: $medium-screen) {
@@ -250,8 +250,9 @@ video.responsive-video {
       display: none;
       position: absolute;
       left: 50%;
-      bottom: 0;
+      top: 0;
       min-width: 100%;
+      //min-height: auto;
       min-height: 100%;
       transform: translate3d(0,0,0);
       transform: translateX(-50%);
