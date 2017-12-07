@@ -228,7 +228,7 @@ video.responsive-video {
     height: 250px;
   }   
 
-  @media only screen and (min-width: $medium-screen) {
+  @media only screen and (min-width: $medium-and-up) {
     height: 500px;
   }
 
