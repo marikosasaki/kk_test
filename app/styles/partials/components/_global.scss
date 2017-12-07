@@ -235,7 +235,6 @@ video.responsive-video {
   @media only screen and (min-width: $large-screen) {
      height: 500px;
   }  
-
  
 
   .parallax {
@@ -247,15 +246,15 @@ video.responsive-video {
     //z-index: -1;
 
     img {
+
       display: none;
       position: absolute;
       left: 50%;
-      top: 0;
+      bottom: 0;
       min-width: 100%;
-      //min-height: auto;
       min-height: 100%;
       transform: translate3d(0,0,0);
-      transform: translateX(-50%);
+      transform: translateX(-50%);      
     }
 
     video {
