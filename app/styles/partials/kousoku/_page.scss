@@ -70,23 +70,45 @@
 }
 
 .line-cost-table {
+	margin-bottom: 30px;
+	
 	thead {
 		td {
 			background-color: #E0ECF8;
 		}
 	}
-
 	tbody {
 		th {
 			background-color: #f9fbfa;
-			
 		}
 	}
 
+	.title-level1 {
+		border-right: 1px solid #efefef;
+	}
 
+	.top-section {
+		border-bottom: 1px solid #efefef;
+	}
+
+	.top-section {
+		border-bottom: 1px solid #efefef;
+	}
+
+	.middle-section {
+		border-top: 1px solid #efefef;
+	}
+
+	.bottom-section {
+		border-top: 1px solid #efefef;
+	}
 
 	th,td {
 		text-align: center;
+	}
+
+	.line-box {
+		border-bottom: 1px solid #efefef;
 	}
 
 }

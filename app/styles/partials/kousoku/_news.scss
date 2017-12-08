@@ -7,19 +7,27 @@
 
 #main {
     margin: 0 auto;
+    width: max-content;
+    max-width: 650px;
 
     h1,h2 {
-        margin: 0 0 2px 0;
+        margin: 0 0 15px 0;
         padding: 0 0 8px 0;
         font-weight: normal;
         color: #333333;
-        font-size: 18px;
+        text-align: center;
+        font-size: 2rem;
         //border-bottom: 4px solid color("red", "darken-4");
         border-bottom: 2px solid #000000;         
     }
 
-    #date {
+    h3 {
+         font-size: 1.5rem;
+    }
+
+    .date {
         text-align: right;
+        margin-bottom: 30px;
     }
 
     p{
