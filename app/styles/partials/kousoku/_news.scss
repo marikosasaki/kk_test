@@ -7,8 +7,12 @@
 
 #main {
     margin: 0 auto;
-    width: max-content;
-    max-width: 650px;
+    //width: max-content;
+    max-width: 900px;
+
+    img {
+        width: 100%;
+    }
 
     h1,h2 {
         margin: 0 0 15px 0;
