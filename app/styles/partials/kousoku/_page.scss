@@ -37,37 +37,6 @@
 }
 
 
-//line@
-.line-at-bg {
-	background-color: #efefef;
-	position: relative;
-
-	.scroll_bg02 {
-		background: url(/img/line/2.png);
-		background-size: 100% auto;
-		background-repeat: no-repeat;
-		background-position: center;
-		height: 100%;
-		width: auto;
-		transform: rotateX(-12deg);
-		-webkit-transform: rotate(-12deg);  
-	}
-}
-
-.line-at-bg2 {
-	position: relative;
-	background: url(/img/line/3.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 435px;
-	width: auto;	
-
-	.scroll_bg3 {
-
-	}
-
-}
 
 .line-cost-table {
 	margin-bottom: 30px;
