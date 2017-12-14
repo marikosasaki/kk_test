@@ -46,8 +46,12 @@ header {
 	    	}
 	    }
 	}
-
 } 
+
+.font-over-img {
+	color: #fff;
+	text-shadow: 1px 0px 0px #000, 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000;	
+}
 
 
 // Responsive Videos
