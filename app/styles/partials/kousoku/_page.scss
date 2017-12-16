@@ -11,12 +11,13 @@
 
 //ニュースページ固有
 .news-wrap {
-	padding-top: 10%;
+	padding-top: 110px;
 }
 
 .news-list {
 	width: 80%;
 	margin: 0 auto;
+	line-height: 25px;
 
 	.news-list-item {
 		display: flex;

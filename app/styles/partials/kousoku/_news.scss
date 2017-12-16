@@ -6,12 +6,12 @@
 //ニュース末端のみ適応クラス
 
 #main {
-    margin: 0 auto;
+    margin: 0 auto 50px;
     //width: max-content;
     max-width: 900px;
 
     img {
-        width: 100%;
+
     }
 
     h1,h2 {
@@ -31,7 +31,7 @@
 
     .date {
         text-align: right;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     p{
