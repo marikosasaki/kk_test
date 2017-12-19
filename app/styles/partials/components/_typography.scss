@@ -97,6 +97,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;    
 }
 
+.font-adjust {
+  text-shadow: 1px 0px 0px #000000, 0px 1px 0px #000000, -1px 0px 0px #000000, 0px -1px 0px #000000;
+}
+
 // Header Styles
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: $h1-fontsize; line-height: 110%; margin: 0 0 ($h1-fontsize / 3) 0; font-weight: bold;}

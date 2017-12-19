@@ -3,9 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	//ページ内リンク
 
 
-
-
-
 	//動画を画面サイズいっぱいにしたい。
 	hsize = $(window).height();
 	$(".main").css("height", hsize + "px");	

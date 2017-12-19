@@ -69,26 +69,29 @@
 							</li>																				
 						</ul>
 
-						<ul id="slide-out" class="side-nav">
-							<li>
-								<a href="/company/index.html">企業情報</a>
-							</li>
-							<li>
-								<a href="/service/index.html">サービス案内</a>
-							</li>							
-							<li>
-								<a href="/work/index.html">制作事例</a>
-							</li>
-							<li>
-								<a href="/company/index.html">アイプランニング</a>
-							</li>							
-							<li>
-								<a href="/company/index.html">採用情報</a>
-							</li>							
-							<li>
-								<a href="/company/index.html" class="waves-effect waves-light black base center btn">お問い合わせ</a>
-							</li>
-						</ul>
+						<div id="slide-out" class="side-nav" >
+							<div class="button-collapse right menu-icon"><i class="material-icons" class="button-collapse right menu-icon">close</i></div>
+							<ul >
+								<li>
+									<a href="/company/index.html">企業情報</a>
+								</li>
+								<li>
+									<a href="/service/index.html">サービス案内</a>
+								</li>							
+								<li>
+									<a href="/work/index.html">制作事例</a>
+								</li>
+								<li>
+									<a href="/company/index.html">アイプランニング</a>
+								</li>							
+								<li>
+									<a href="/company/index.html">採用情報</a>
+								</li>							
+								<li>
+									<a href="/company/index.html" class="waves-effect waves-light black base center btn">お問い合わせ</a>
+								</li>
+							</ul>
+						</div>
 						 <a href="#" data-activates="slide-out" class="button-collapse right menu-icon"><i class="material-icons">menu</i></a>
 					</div>
 				</div>
@@ -101,7 +104,7 @@
 					<h2>コミュニケーションで地域を創造する</h2>
 					<p class="">aaaaaaaaaaaaaaaaaaaaaaaa</p>
 				</div>
-				<a href="#first-view"><p class="arrow-icon bounce"><i class="material-icons">arrow_downward</i></p></a>
+				<a href="#first-view" id="scrollarrow"><p class="arrow-icon bounce"><i class="material-icons">arrow_downward</i></p></a>
 					
 			</div>
 			<div class="movie parallax">
@@ -436,11 +439,11 @@
 
 
 	$(function(){
-		$('a[href^="#"]').click(function(){
+		$('#scrollarrow').click(function(){
 			var speed = 500;
-			var href= $(this).attr("href");
-			var target = $(href == "#" || href == "" ? 'html' : href);
-			var position = target.offset().top;
+			//var href= $(this).attr("href");
+			//var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = $('#first-view').offset().top;
 			$("html, body").animate({scrollTop:position}, speed, "swing");
 			return false;
 		});
