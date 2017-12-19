@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+	//ページ内リンク
+
+
+
+
+
 	//動画を画面サイズいっぱいにしたい。
 	hsize = $(window).height();
 	$(".main").css("height", hsize + "px");	
@@ -34,12 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
         $('.line-at-bg2').css('background-position', '0px ' + parseInt( -value / 60 ) + 'px'); // 1/2のスピード
 
 		if (value > 100) {	
-			TweenMax.to('.motion', 1, {opacity: 1});
-			$(".motion").css('background-color','#ffffff');
+			$("header").css('background-color','#ffffff');
+			$("header").addClass('fixed');
 		}
 
 		else if (value == 0) {
-			TweenMax.to('.motion', 1, {opacity: 0});
+			//$("header").css('background-color','#ffffff');
+			$("header").removeClass('fixed');
 		}
 
 		$(".effect").each(function(){
@@ -51,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				$("h2 ,.container, i",this).css("opacity","1" );
 
 			} else {
-				$("h2 ,.container i",this).css("opacity","0" );
+				$("h2 ,.container i",this).css("opacity","0");
 			}
 
 		});

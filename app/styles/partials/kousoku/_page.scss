@@ -11,7 +11,13 @@
 
 //ニュースページ固有
 .news-wrap {
-	padding-top: 110px;
+	padding-top: 50px;
+}
+
+.news-back {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .news-list {
@@ -28,46 +34,23 @@
 	.news-list-date {
 		width: 30%;
 		font-weight: bold;
-
 	}	
+	@media #{$small-and-down} {
+
+		.news-list-item {
+			display: block;
+		}
+
+		.news-list-date {
+			width: 100%;
+			font-weight: bold;
+		}
+	}
 }
 
 //会社概要
 .map {
 	margin-bottom: 30px;
-}
-
-
-//line@
-.line-at-bg {
-	background-color: #efefef;
-	position: relative;
-
-	.scroll_bg02 {
-		background: url(/img/line/2.png);
-		background-size: 100% auto;
-		background-repeat: no-repeat;
-		background-position: center;
-		height: 100%;
-		width: auto;
-		transform: rotateX(-12deg);
-		-webkit-transform: rotate(-12deg);  
-	}
-}
-
-.line-at-bg2 {
-	position: relative;
-	background: url(/img/line/3.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 435px;
-	width: auto;	
-
-	.scroll_bg3 {
-
-	}
-
 }
 
 .line-cost-table {
@@ -238,7 +221,9 @@
 		//filter: grayscale(0%);
 	}
 }
-
+.list-wrapper {
+	max-width: 1000px;
+}
 
 @media #{$small-and-down} {
 	.list-wrapper {
@@ -300,7 +285,7 @@
 	.list-wrapper {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 		width: 100%;
 		margin: 0 auto;

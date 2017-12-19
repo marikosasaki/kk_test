@@ -16,16 +16,44 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 header {
 	width: 100%;
 	z-index: 10;
-	position: fixed;
 
 	&.secondary-header {
 		background-color: #ffffff;
 	}
 
 	&.fixed {
-		
+		position: fixed;
+		transition: .2s;
+
+		h1 {
+		    transform: scale(1) rotate3d(1, 0, 0, -360deg);
+		    margin: 0px;
+		    width: 200px;
+		}		
+	}
+
+	h1  {
+	    transform: scale(0.7) rotate3d(1, 0, 0, -0deg);
+	    transition: transform 0.6s ease;
+	     margin: 0px;
+
+	     img {
+	     	transition: transform 0.6s ease;
+	     }
+
+	    &:hover {
+
+	    	img {
+	    		transform: scale(1) rotate3d(1, 0, 0, -360deg);
+	    	}
+	    }
 	}
 } 
+
+.font-over-img {
+	color: #fff;
+	text-shadow: 1px 0px 0px #000, 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000;	
+}
 
 
 // Responsive Videos
@@ -411,7 +439,9 @@ body {
 
 	//
 	.page-title {
+
 		position: relative;
+
 		.page-massage {
 			background: hsla(0, 0%, 100%, .5);
 			padding: 30px;
@@ -424,6 +454,49 @@ body {
 			color: #000000;
 		}
 	}
+
+	.page-bg{
+		padding: 3px 0;
+
+
+		.bg-inner {
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+
+			&.line-bg {
+				background-image: url(/img/line/1.jpg);
+			}
+
+			&.service-bg {
+				background-image: url(/img/page/service.jpg);
+			}
+		}
+	}
+
+	.bg-inner {
+		 @media only screen and (min-width: 0) {
+	    height: 200px;
+	  }    
+
+	  @media only screen and (min-width: $small-screen) {
+	    height: 250px;
+	  }   
+
+	  @media only screen and (min-width: $medium-screen) {
+	    height: 500px;
+	  }
+
+	  @media only screen and (min-width: $large-screen) {
+	     height: 500px;
+	  } 
+	}   
+
+
+
+
+
 
 	.slide-message {
 		width: 80%;

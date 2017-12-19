@@ -38,58 +38,54 @@
 
 <body>
 	<article class="index">
-		<header style="z-index:10;" class="motion fixed">
-			<nav class="">
-				<div class="container">
-					<div class="nav-wrapper">
-						<a href="index.html" class="brand-logo left"><img src="/images/common/kousoku.png" class="responsive-img" alt="" width="30%"></a>
-
-						<ul class="right hide-on-med-and-down">
-							<li>
-								<a href="/company/index.html">企業情報</a>
-							</li>
-							<li>
-								<a href="/service/index.html">サービス案内</a>
-							</li>							
-							<li>
-								<a href="/work/index.html">制作事例</a>
-							</li>
-							<li>
-								<a href="/company/index.html">アイプランニング</a>
-							</li>							
-							<li>
-								<a href="/company/index.html">採用情報</a>
-							</li>							
-							<li>
-								<a href="/company/index.html" class="btn black">お問い合わせ</a>
-							</li>																				
-						</ul>
-
-						<ul id="slide-out" class="side-nav">
-							<li>
-								<a href="/company/index.html">企業情報</a>
-							</li>
-							<li>
-								<a href="/service/index.html">サービス案内</a>
-							</li>							
-							<li>
-								<a href="/work/index.html">制作事例</a>
-							</li>
-							<li>
-								<a href="/company/index.html">アイプランニング</a>
-							</li>							
-							<li>
-								<a href="/company/index.html">採用情報</a>
-							</li>							
-							<li>
-								<a href="/company/index.html" class="waves-effect waves-light black base center btn">お問い合わせ</a>
-							</li>
-						</ul>
-						 <a href="#" data-activates="slide-out" class="button-collapse right menu-icon"><i class="material-icons">menu</i></a>
-					</div>
-				</div>
-			</nav>
-		</header>
+  <header style="z-index:10;" >
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo left">
+            <h1>
+            <img src="/images/common/kousoku.png?v1"
+                 alt=""
+                 width=200px>
+            </h1>
+            </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/company/">企業情報</a></li>
+            <li><a href="/service/">サービス案内</a></li>
+            <li><a href="/work/">制作事例</a></li>
+            <li><a href="/ai-planning/">アイプランニング</a></li>
+            <li><a href="/recruit/">採用情報</a></li>
+            <li><a href="https://www2.kousoku-print.jp/contact/" class="btn black">お問い合わせ</a></li>
+          </ul>
+          <div id="slide-out" class="side-nav">
+            <div class="button-collapse right menu-icon"><i class="material-icons"
+                                                            class="button-collapse right menu-icon">close</i></div>
+            <ul>
+              <li>
+                <a href="/company/">企業情報</a>
+              </li>
+              <li>
+                <a href="/service/">サービス案内</a>
+              </li>
+              <li>
+                <a href="/work/">制作事例</a>
+              </li>
+              <li>
+                <a href="/ai-planning/">アイプランニング</a>
+              </li>
+              <li>
+                <a href="/recruit/">採用情報</a>
+              </li>
+              <li>
+                <a href="https://www2.kousoku-print.jp/contact/" class="waves-effect waves-light black base center btn">お問い合わせ</a>
+              </li>
+            </ul>
+          </div>
+          <a href=# data-activates=slide-out class="button-collapse right menu-icon"><i
+              class="material-icons">menu</i></a></div>
+      </div>
+    </nav>
+  </header>
 
 		<div class="main parallax-container">
 			<div class="main-massage">
@@ -430,6 +426,17 @@
     
     $(".menu-icon").sideNav();
 
+
+	$(function(){
+		$('a[href^="#"]').click(function(){
+			var speed = 500;
+			var href= $(this).attr("href");
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top;
+			$("html, body").animate({scrollTop:position}, speed, "swing");
+			return false;
+		});
+	});
 
 
       $(document).ready(function(){
