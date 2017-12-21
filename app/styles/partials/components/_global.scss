@@ -221,9 +221,8 @@ video.responsive-video {
   overflow: hidden;
   //width: 100vw;
 
-  @media only screen and (min-width: 0) {
-    height: 33.3vw;
-
+  @media only screen and (min-width: 400px) {
+    height: 200px;
   }    
 
   @media only screen and (min-width: $small-screen) {

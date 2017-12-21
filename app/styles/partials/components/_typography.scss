@@ -111,9 +111,9 @@ h5 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($
 h6 { font-size: $h6-fontsize; line-height: 110%; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0;}
 
 @media only screen and (min-width: 0) {
-  h1 { font-size: 12px; line-height: 110%; margin: 0 0 ($h1-fontsize / 3) 0; font-weight: bold;}
-  h2 { font-size: 12px; line-height: 110%; margin: 0 0 ($h2-fontsize / 3) 0; font-weight: bold;}
-  h3 { font-size: 12px; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0; font-weight: bold;}
+  h1 { font-size: 14px; line-height: 110%; margin: 0 0 ($h1-fontsize / 3) 0; font-weight: bold;}
+  h2 { font-size: 14px; line-height: 110%; margin: 0 0 ($h2-fontsize / 3) 0; font-weight: bold;}
+  h3 { font-size: 14px; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0; font-weight: bold;}
 }
 
 @media only screen and (min-width: $small-screen) {
