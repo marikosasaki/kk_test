@@ -15,10 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
 		//y: -100
 	});
 
-	TweenMax.to('.massage-inner ,.page-massage', 2, {
-		opacity: 1,
-		y: -100
-	});
+	if (window.matchMedia('screen and (min-width:600px)').matches) { 
+
+		TweenMax.to('.massage-inner ,.page-massage', 2, {
+			opacity: 1,
+			y: -100
+		});
+	}
 
 	TweenMax.to('.arrow-icon', 3, {
 		opacity: 1,
