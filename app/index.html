@@ -38,8 +38,8 @@
 
 <body>
 	<article class="index">
-
-  <header style="z-index:10;" >
+  
+  <header style="z-index:10;">
     <nav>
       <div class="container">
         <div class="nav-wrapper">
@@ -59,7 +59,7 @@
             <li><a href="https://www2.kousoku-print.jp/contact/" class="btn black">お問い合わせ</a></li>
           </ul>
           <div id="slide-out" class="side-nav">
-            <div class="button-collapse right menu-icon"><i class="material-icons"
+            <div class="button-collapse right menu-icon" data-close><i class="material-icons"
                                                             class="button-collapse right menu-icon">close</i></div>
             <ul>
               <li>
@@ -82,12 +82,81 @@
               </li>
             </ul>
           </div>
-          <a href=# data-activates=slide-out class="button-collapse right menu-icon"><i
-              class="material-icons">menu</i></a></div>
+          <a href=# data-opne data-activates=slide-out class="button-collapse right menu-icon"><i
+              class="material-icons">menu</i></a>
+          </div>
       </div>
     </nav>
-  </header>
+  </header> 
+ <section class="effect">
+    <div class=container>
+      <h2 class=headline_Level1>SERVICE<p class=heading_small>提供サービス</h2>
+      <div class=row>
+        <?php while ($query->have_posts()): $query->the_post(); ?>
+          <?php
+          $thumbnail_id = get_post_thumbnail_id();
+          $eye_img = wp_get_attachment_image_src($thumbnail_id, 'large');
+          $url = types_render_field('url', array('output' => 'raw'));
+          if (!$url) {
+            $url = get_the_permalink();
+          }
+          ?>
 
+          <div class="col l3 s6 m6">
+            <a href="<?php echo $url; ?>" class="link-box">
+              <div class="card small">
+                <div class="card-image waves-effect">
+                   <img data-src="<?php echo $eye_img[0]; ?>" alt="<?php the_title(); ?>" class="lazyload">
+                </div>
+                <div class="card-content waves-effec">
+                  <span class=card-title><?php the_title(); ?></span>
+                  <p><?php echo mb_substr(get_the_content(), 0, 2); ?></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        <?php endwhile; ?>
+      </div>
+   </div>
+      <div class="col center btn-area">
+        <a href="/service/" class="waves-effect waves-light btn-large black base center">SEE ALL SERVICE</a>
+      </div>
+  </section>
+
+   <section class="effect">
+    <div class=container>
+      <h2 class=headline_Level1>SERVICE<p class=heading_small>提供サービス</h2>
+      <div class=row>
+        <?php while ($query->have_posts()): $query->the_post(); ?>
+          <?php
+          $thumbnail_id = get_post_thumbnail_id();
+          $eye_img = wp_get_attachment_image_src($thumbnail_id, 'large');
+          $url = types_render_field('url', array('output' => 'raw'));
+          if (!$url) {
+            $url = get_the_permalink();
+          }
+          ?>
+
+          <div class="col l3 s6 m6">
+            <a href="<?php echo $url; ?>" class="link-box">
+              <div class="card small">
+                <div class="card-image waves-effect">
+                   <img data-src="<?php echo $eye_img[0]; ?>" alt="<?php the_title(); ?>" class="lazyload">
+                </div>
+                <div class="card-content waves-effec">
+                  <span class=card-title><?php the_title(); ?></span>
+                  <p><?php echo mb_substr(get_the_content(), 0, 2); ?></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        <?php endwhile; ?>
+      </div>
+   </div>
+      <div class="col center btn-area">
+        <a href="/service/" class="waves-effect waves-light btn-large black base center">SEE ALL SERVICE</a>
+      </div>
+  </section>
 
 <footer class="page-footer">
   <div class=container>

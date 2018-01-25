@@ -44,7 +44,20 @@ document.addEventListener('DOMContentLoaded', function() {
 			$("header").addClass('fixed');
 		}
 
+		 else if (value < 100) {
+		 	console.log('hoge');
+			$("[data-opne]").on('click', function () {
+				console.log('hoge');
+				$("header").css('position','fixed');
+			})
+			$("[data-close]").on('click', function () {
+				console.log('fuga');
+				$("header").css('position','static');
+			})					
+		}
+
 		else if (value == 0) {
+
 			//$("header").css('background-color','#ffffff');
 			$("header").removeClass('fixed');
 		}
