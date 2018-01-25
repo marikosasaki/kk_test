@@ -8,9 +8,24 @@ kousoku / 8qppA98YCbuD
 [管理者]
 sysadmin / Ur3HbuE5p4Mb
 
+
+
+
 [root]
 34fXkJyK7aPL
 
 http://stage.kousoku-print.jp
 
 sftp://203.86.230.28/var/www/vhosts/kousoku/httpdocs/wp-content/themes/kousoku/styles
+
+
+[]
+sFTP　（テスト環境）
+ホスト:  203.86.230.28
+ユーザー：kousoku 
+パス：8qppA98YCbuD
+ポート：22
+sFTP　（本番環境）
+ホスト：www.kousoku-print.jp
+ユーザー：kousoku-print
+パス：kbp!7fn6 (edited)
