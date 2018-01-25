@@ -11,4 +11,6 @@ sysadmin / Ur3HbuE5p4Mb
 [root]
 34fXkJyK7aPL
 
-http://stage.kousoku-print.jp/
+http://stage.kousoku-print.jp
+
+sftp://203.86.230.28/var/www/vhosts/kousoku/httpdocs/wp-content/themes/kousoku/styles
