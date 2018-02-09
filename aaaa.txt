@@ -9,8 +9,6 @@ kousoku / 8qppA98YCbuD
 sysadmin / Ur3HbuE5p4Mb
 
 
-
-
 [root]
 34fXkJyK7aPL
 
@@ -25,6 +23,7 @@ sFTP　（テスト環境）
 ユーザー：kousoku 
 パス：8qppA98YCbuD
 ポート：22
+
 sFTP　（本番環境）
 ホスト：www.kousoku-print.jp
 ユーザー：kousoku-print
